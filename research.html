@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research — Deasy Laboratory for Cancer Modeling</title>
+  <meta name="description" content="Research programs of the Deasy Lab: the Mathematical Oncology Initiative, ECHO treatment-planning optimization, proton and particle radiobiology, and radiobiological digital twins." />
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:ital,opsz@0,6..72;1,6..72&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a class="brand" href="index.html" aria-label="Deasy Lab for Cancer Modeling — home">
+        <img class="brand__logo" src="assets/img/logo-mark.png" alt="" aria-hidden="true" />
+        <span class="brand__text"><strong>Deasy Lab</strong><small>Cancer Modeling</small></span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="team.html">Team</a>
+        <a href="publications.html">Publications</a>
+        <a href="join.html" class="nav__cta">Join / Contact</a>
+      </nav>
+      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu" hidden>
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="team.html">Team</a>
+      <a href="publications.html">Publications</a>
+      <a href="join.html">Join / Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="pagehero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container pagehero__inner">
+        <p class="eyebrow">Research</p>
+        <h1>Mathematics as a leverage point for cancer care</h1>
+        <p>Four connected programs, one through-line: innovative mathematical models that turn
+           patient and disease variability into more precise, less toxic treatment.</p>
+      </div>
+    </section>
+
+    <!-- PROGRAM 1 -->
+    <section class="section" id="math-oncology">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Program 01 · Mathematical Oncology Initiative</p>
+          <h2>Geometry and optimal transport for the structure of cancer</h2>
+        </div>
+        <div class="prose">
+          <p>
+            Multimodal cancer datasets — genomics, computational pathology, radiomics — are
+            high-dimensional and noisy, and conventional correlation-based analyses poorly
+            capture the geometric structure needed to define clinically meaningful cancer
+            subtypes. The Mathematical Oncology Initiative applies advanced, innovative
+            mathematics to this problem, adapting <strong>optimal mass transport (OMT)</strong>
+            and graph-based methods to cluster samples, integrate multi-omic networks, and surface
+            therapeutic targets.
+          </p>
+          <p>
+            The initiative has a deliberate second goal: to mentor and train talented fellows and
+            junior faculty in these methods. It is supported by the Breast Cancer Research
+            Foundation and the Simons Foundation.
+          </p>
+        </div>
+        <div class="cards cards--3" style="margin-top:28px">
+          <article class="card"><h3>Patient subtyping</h3><p>OMT / Wasserstein-distance clustering to define subtypes across breast, ovarian, sarcoma, melanoma, and lung cancers.</p></article>
+          <article class="card"><h3>Network geometry</h3><p>Curvature and geometric analysis of gene-interaction networks to find fragile points and candidate drug targets.</p></article>
+          <article class="card"><h3>Target discovery</h3><p>Hypothesis generation — e.g., pregnancy-specific glycoproteins as candidate lung-cancer drug targets.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROGRAM 2 -->
+    <section class="section section--tint" id="echo">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Program 02 · ECHO</p>
+          <h2>Automated, clinically optimal treatment planning</h2>
+        </div>
+        <div class="prose">
+          <p>
+            Intensity-modulated radiotherapy planning is a high-dimensional optimization problem
+            (more than 10,000 variables) that trades tumor coverage against sparing many normal
+            tissues. Conventional weighted-sum methods give planners poor, unintuitive control
+            over the resulting trade-offs. <strong>ECHO (Expedited Constrained Hierarchical
+            Optimization)</strong> solves the most clinically critical objectives first, then
+            admits lower-priority objectives as constraints that preserve what has already been
+            achieved — yielding explicit, reproducible, clinically deliverable plans.
+          </p>
+          <p>
+            ECHO is now used to help plan roughly <strong>23% of all patients treated at MSK</strong>
+            and was recognized with 2021 INFORMS Franz Edelman Laureate honors for impact in
+            applied analytics. It was refined and implemented clinically with optimization expert
+            Masoud Zarepisheh, PhD.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROGRAM 3 -->
+    <section class="section" id="proton">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Program 03 · Proton &amp; particle radiobiology</p>
+          <h2>Modeling response across radiation modalities</h2>
+        </div>
+        <div class="prose">
+          <p>
+            Proton and particle therapies deposit dose with a physics profile very different from
+            conventional photons, which changes how tumors and healthy tissues respond. The lab
+            builds mechanistic models of how dose, timing, and tumor biology combine to determine
+            response and toxicity across modalities; our tumor-control models reproduce key
+            clinical observations under both photon and carbon-ion irradiation, giving a
+            quantitative basis for comparing modalities and personalizing prescriptions. This is a
+            long thread — the lab's very first NIH award funded a computer-simulation system for
+            proton radiotherapy.
+          </p>
+          <p class="note">
+            <strong>Draft — needs your input.</strong> This program section is written from general
+            context (the tumor-control model's applicability across modalities, and the early proton
+            simulation grant). Please supply 2–3 sentences on the current proton radiobiology
+            program's specific aims, key collaborators, and active funding so this can be made
+            concrete and accurate.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROGRAM 4 -->
+    <section class="section section--tint" id="digital-twins">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Program 04 · Digital twins</p>
+          <h2>A simulatable model of each patient's tumor</h2>
+        </div>
+        <div class="prose">
+          <p>
+            A "digital twin" is a computational model of an individual patient's tumor that can be
+            simulated forward in time. Building on a parsimonious, mechanistic "energy-budget"
+            model of tumor control developed with Jeho Jeong, the lab combines multimodality
+            imaging (FDG-PET and MRI) with tumor biology to forecast how a given tumor will respond
+            to radiation — and to flag likely non-responders early, while treatment can still be
+            adapted. Related efforts synthesize hypoxia information from routine PET and forecast
+            normal-tissue toxicity at the level of individual image voxels.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOOLS / METHODS -->
+    <section class="section" id="tools">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Methods &amp; open tools</p>
+          <h2>A multimodal toolkit to probe cancer and treatment response</h2>
+          <p class="section__lead">The lab develops reusable methods and software — from optimal transport and network geometry to mechanistic radiobiology and open-source imaging platforms.</p>
+        </div>
+        <div class="cards cards--3">
+          <article class="tool">
+            <h3>CERR / pyCERR</h3>
+            <p>Open-source platform for imaging, dose, and radiomics analysis; now native Python.</p>
+            <div class="tool__meta"><span>MATLAB / Python</span><span>Open source</span></div>
+            <a class="linkout" href="https://github.com/cerr/CERR" target="_blank" rel="noopener">View repository →</a>
+          </article>
+          <article class="tool">
+            <h3>NetFlow</h3>
+            <p>Framework for topological representations of high-dimensional biomedical data.</p>
+            <div class="tool__meta"><span>Methods</span><span>Preprint 2025</span></div>
+            <a class="linkout" href="https://doi.org/10.1101/2025.10.24.683878" target="_blank" rel="noopener">Read the preprint →</a>
+          </article>
+          <article class="tool">
+            <h3>Dynamic network curvature</h3>
+            <p>Geometry that measures how robust or fragile parts of a gene network are, revealing candidate targets.</p>
+            <div class="tool__meta"><span>Methods</span><span>Sci Rep 2024</span></div>
+            <a class="linkout" href="https://doi.org/10.1038/s41598-023-49930-4" target="_blank" rel="noopener">Read the paper →</a>
+          </article>
+          <article class="tool">
+            <h3>Jeho TCP model</h3>
+            <p>A parsimonious "energy-budget" model of tumor control, extended into radiobiological digital twins.</p>
+            <div class="tool__meta"><span>Radiobiology</span><span>needs base citation</span></div>
+            <a class="linkout" href="https://doi.org/10.1088/1361-6560/add9de" target="_blank" rel="noopener">Digital-twin extension →</a>
+          </article>
+          <article class="tool">
+            <h3>urOMT</h3>
+            <p>Optimal-mass-transport method to quantify flow and transport in imaging and networks.</p>
+            <div class="tool__meta"><span>Methods</span><span>definition to confirm</span></div>
+            <a class="linkout" href="research.html#tools">Details to add →</a>
+          </article>
+          <article class="tool">
+            <h3>CALM &amp; vspace</h3>
+            <p>Additional lab-developed methods (CALM, from Anish Simhal; vspace).</p>
+            <div class="tool__meta"><span>Methods</span><span>descriptions to add</span></div>
+            <a class="linkout" href="research.html#tools">Details to add →</a>
+          </article>
+        </div>
+        <p class="note">
+          <strong>Needs your input.</strong> To describe these accurately without guessing, please
+          send one line each (and a reference/link) for: <strong>CALM</strong> (what it stands for,
+          from Anish Simhal), <strong>vspace</strong>, <strong>urOMT</strong> (confirm it is
+          "unbalanced regularized optimal mass transport"), and the base citation for the
+          <strong>Jeho Jeong energy-budget TCP model</strong>. You also mentioned a
+          <strong>pathology analysis tool</strong> — name + one line + link if you want it featured.
+        </p>
+      </div>
+    </section>
+
+    <!-- MILESTONES -->
+    <section class="section section--tint" id="milestones">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Milestones</p>
+          <h2>Selected milestones</h2>
+          <p class="section__lead"><em>Draft — please confirm dates and add papers, releases, talks, and awards you want featured.</em></p>
+        </div>
+        <ol class="timeline">
+          <li class="tl" data-type="grant"><div class="tl__dot"></div><div class="tl__body">
+            <span class="tl__date">2024</span><span class="tl__kind">Consortium</span>
+            <h3>VALIDATE consortium formed</h3>
+            <p>~25 institutions, to directly validate published toxicity-prediction models using patient-specific data.</p></div></li>
+          <li class="tl" data-type="grant"><div class="tl__dot"></div><div class="tl__body">
+            <span class="tl__date">2022</span><span class="tl__kind">Grant</span>
+            <h3>ROBIN U54 center launched</h3>
+            <p>NIH ImmunoRad center on tissue and immune responses to irradiation in rectal cancer (U54CA274291).</p></div></li>
+          <li class="tl" data-type="talk"><div class="tl__dot"></div><div class="tl__body">
+            <span class="tl__date">2021</span><span class="tl__kind">Award</span>
+            <h3>INFORMS Franz Edelman Laureate</h3>
+            <p>Recognition for ECHO's real-world impact in applied analytics.</p></div></li>
+          <li class="tl" data-type="grant"><div class="tl__dot"></div><div class="tl__body">
+            <span class="tl__date">2017</span><span class="tl__kind">Grant</span>
+            <h3>Mathematical Oncology Initiative begins</h3>
+            <p>Continuous Breast Cancer Research Foundation support for mathematical methods in cancer.</p></div></li>
+          <li class="tl" data-type="paper"><div class="tl__dot"></div><div class="tl__body">
+            <span class="tl__date">2010</span><span class="tl__kind">Milestone</span>
+            <h3>Chair of Medical Physics at MSK</h3>
+            <p>Joins Memorial Sloan Kettering; holder of the Enid A. Haupt Endowed Chair in Medical Physics.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- GRANTS -->
+    <section class="section" id="funding">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Grants &amp; funding</p>
+          <h2>Selected research funding</h2>
+          <p class="section__lead">The lab has been continuously funded by federal and foundation sources. <em>Award numbers from ORCID; roles per the certified biosketch (PI or multiple-PI on seven major NIH projects — R01s and a U54). Please confirm which to display.</em></p>
+        </div>
+        <div class="grants">
+          <article class="grant"><span class="grant__years">2022–2027</span><div><h3>Radiation Oncology-Biology Integration Network (ROBIN)</h3><p>National Cancer Institute · U54CA274291 · Role: multiple-PI · Tissue &amp; immune response to irradiation in rectal cancer</p></div></article>
+          <article class="grant"><span class="grant__years">2017–2024</span><div><h3>Mathematical Oncology Initiative</h3><p>Breast Cancer Research Foundation · BCRF-17-193 (continuous since 2017) · Role: PI (with Larry Norton)</p></div></article>
+          <article class="grant"><span class="grant__years">2016–2021</span><div><h3>Dose-distribution radiomics to predict morbidity risk in radiotherapy</h3><p>National Cancer Institute · R01CA198121 · Role: PI</p></div></article>
+          <article class="grant"><span class="grant__years">2007–2013</span><div><h3>Management of breathing effects in radiotherapy planning</h3><p>National Cancer Institute · R01CA118200 · Role: PI</p></div></article>
+          <article class="grant"><span class="grant__years">1999–2012</span><div><h3>Normal-tissue complication modeling for radiotherapy</h3><p>National Cancer Institute · R01CA085181 · Role: PI</p></div></article>
+          <article class="grant"><span class="grant__years">2002–2007</span><div><h3>Denoising on Monte Carlo dose distributions</h3><p>National Cancer Institute · R01CA090445 · Role: PI</p></div></article>
+          <article class="grant"><span class="grant__years">1992–1994</span><div><h3>Computer simulation system for proton radiotherapy</h3><p>National Cancer Institute · F32CA062463 · Postdoctoral fellowship</p></div></article>
+        </div>
+        <p class="note"><strong>Also on file (from ORCID):</strong> R29CA085181 (Intensity-Modulated Radiotherapy — Computational Studies, 1999–2004) and a Geoffrey Beene Foundation award for a pre-clinical microirradiator (2013), plus Simons Foundation support for the mathematical oncology work. Tell me which to include and how to order them.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__logo"><img src="assets/img/logo.png" alt="Deasy Lab for Cancer Modeling" /></span>
+        <div>
+          <strong>Deasy Laboratory for Cancer Modeling</strong>
+          <p>Department of Medical Physics, Memorial Sloan Kettering Cancer Center<br />New York, NY · In affiliation with Weill Cornell Medicine</p>
+        </div>
+      </div>
+      <div class="footer__links">
+        <h4>Contact</h4>
+        <p><a href="mailto:REPLACE-with-lab-email@mskcc.org">REPLACE-with-lab-email@mskcc.org</a></p>
+        <p><a href="https://orcid.org/0000-0002-9437-266X" target="_blank" rel="noopener">ORCID</a> · <a href="https://github.com/cerr/CERR" target="_blank" rel="noopener">GitHub (CERR)</a></p>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <div class="container">
+        <span>© <span id="year"></span> Deasy Laboratory for Cancer Modeling.</span>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Publications — Deasy Laboratory for Cancer Modeling</title>
+  <meta name="description" content="Searchable library of publications from the Deasy Laboratory for Cancer Modeling, each with a plain-language summary and a link." />
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:ital,opsz@0,6..72;1,6..72&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a class="brand" href="index.html" aria-label="Deasy Lab for Cancer Modeling — home">
+        <img class="brand__logo" src="assets/img/logo-mark.png" alt="" aria-hidden="true" />
+        <span class="brand__text"><strong>Deasy Lab</strong><small>Cancer Modeling</small></span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="team.html">Team</a>
+        <a href="publications.html">Publications</a>
+        <a href="join.html" class="nav__cta">Join / Contact</a>
+      </nav>
+      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu" hidden>
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="team.html">Team</a>
+      <a href="publications.html">Publications</a>
+      <a href="join.html">Join / Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="pagehero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container pagehero__inner">
+        <p class="eyebrow">Publications</p>
+        <h1>Publications</h1>
+        <p>The lab's publications, newest first. Click any title to open the PDF. Search by
+           title, author, year, or type.</p>
+      </div>
+    </section>
+
+    <section class="section" id="publications">
+      <div class="container">
+        <p class="note" style="max-width:840px">
+          <strong>Auto-updated weekly.</strong> This list is generated from the lab's
+          <a href="https://drive.google.com/drive/folders/1DhHKMaoxOYPA0zeTVsLZF6NENsqO9Pju" target="_blank" rel="noopener">Google&nbsp;Drive publications folder</a>
+          and refreshed every Monday. Add a PDF to that folder and it appears here after the next update.
+        </p>
+
+        <!-- Search + controls -->
+        <div class="pub-controls">
+          <div class="search">
+            <svg class="search__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.3-4.3M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            <input id="pubSearch" type="search" placeholder="Search papers — try a topic, author, or keyword…" autocomplete="off" aria-label="Search publications" />
+            <button id="pubClear" class="search__clear" aria-label="Clear search" hidden>&times;</button>
+          </div>
+          <div class="pub-controls__row">
+            <label class="select"><span>Type</span><select id="filterType"><option value="">All</option></select></label>
+            <label class="select"><span>Year</span><select id="filterYear"><option value="">All</option></select></label>
+            <label class="select"><span>Sort</span>
+              <select id="sortBy">
+                <option value="year-desc">Newest first</option>
+                <option value="year-asc">Oldest first</option>
+                <option value="title-asc">Title A–Z</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <div id="topicChips" class="chips" aria-label="Filter by topic"></div>
+
+        <div class="pub-meta">
+          <span id="pubCount" aria-live="polite">Loading publications…</span>
+          <button id="resetFilters" class="linkbtn" hidden>Reset filters</button>
+        </div>
+
+        <div id="pubList" class="pub-list"></div>
+        <div id="pubEmpty" class="pub-empty" hidden>
+          <p>No papers match your search.</p>
+          <button class="btn btn--ghost" id="emptyReset">Clear filters</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__logo"><img src="assets/img/logo.png" alt="Deasy Lab for Cancer Modeling" /></span>
+        <div><strong>Deasy Laboratory for Cancer Modeling</strong>
+          <p>Department of Medical Physics, Memorial Sloan Kettering Cancer Center<br />New York, NY · In affiliation with Weill Cornell Medicine</p></div>
+      </div>
+      <div class="footer__links">
+        <h4>Contact</h4>
+        <p><a href="mailto:REPLACE-with-lab-email@mskcc.org">REPLACE-with-lab-email@mskcc.org</a></p>
+        <p><a href="https://orcid.org/0000-0002-9437-266X" target="_blank" rel="noopener">ORCID</a> · <a href="https://github.com/cerr/CERR" target="_blank" rel="noopener">GitHub (CERR)</a></p>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <div class="container"><span>© <span id="year"></span> Deasy Laboratory for Cancer Modeling.</span><a href="#top">Back to top ↑</a></div>
+    </div>
+  </footer>
+
+  <!-- data/papers.js provides window.PAPERS_DATA so this page also works when opened
+       directly from disk (file://). data/papers.json remains the canonical source used
+       when served over HTTP. Keep them in sync (npm-free: see README). -->
+  <script src="data/papers.js" defer></script>
+  <script src="assets/js/publications.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

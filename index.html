@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deasy Laboratory for Cancer Modeling</title>
+  <meta name="description" content="The Deasy Laboratory for Cancer Modeling develops mathematical, computational, and informatics tools and applies them to cancer research, diagnosis, and treatment at Memorial Sloan Kettering Cancer Center." />
+
+  <meta property="og:title" content="Deasy Laboratory for Cancer Modeling" />
+  <meta property="og:description" content="Mathematical, computational, and informatics tools for cancer research, diagnosis, and treatment — Memorial Sloan Kettering Cancer Center." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:ital,opsz@0,6..72;1,6..72&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a class="brand" href="index.html" aria-label="Deasy Lab for Cancer Modeling — home">
+        <img class="brand__logo" src="assets/img/logo-mark.png" alt="" aria-hidden="true" />
+        <span class="brand__text">
+          <strong>Deasy Lab</strong>
+          <small>Cancer Modeling</small>
+        </span>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="team.html">Team</a>
+        <a href="publications.html">Publications</a>
+        <a href="join.html" class="nav__cta">Join / Contact</a>
+      </nav>
+
+      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu" hidden>
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="team.html">Team</a>
+      <a href="publications.html">Publications</a>
+      <a href="join.html">Join / Contact</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero hero--split" id="home">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="eyebrow">Memorial Sloan Kettering · Weill Cornell Medicine</p>
+          <h1 class="hero__title">Deasy Laboratory for<br /><span class="grad">Cancer Modeling</span></h1>
+          <p class="hero__lead">
+            We develop mathematical, computational, and informatics tools — and apply
+            them to hard problems in cancer research, diagnosis, and treatment.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="research.html">Explore our research</a>
+            <a class="btn btn--ondark" href="publications.html">Browse publications</a>
+          </div>
+          <div class="hero__stats">
+            <!-- CONFIRM public figures before publishing -->
+            <div class="stat"><span class="stat__num" data-count="340" data-suffix="+">0</span><span class="stat__label">Peer-reviewed papers</span></div>
+            <div class="stat"><span class="stat__num" data-count="60" data-suffix="+">0</span><span class="stat__label">Trainees mentored</span></div>
+            <div class="stat"><span class="stat__num" data-count="20000" data-suffix="+">0</span><span class="stat__label">Patients treated (ECHO)</span></div>
+            <div class="stat"><span class="stat__num" data-count="7">0</span><span class="stat__label">Major NIH awards led</span></div>
+          </div>
+        </div>
+
+        <div class="hero__media">
+          <figure class="videocard">
+            <video data-hero autoplay muted loop playsinline poster="assets/video/p53-poster.png">
+              <source src="assets/video/p53-loop.webm" type="video/webm" />
+              <source src="assets/video/p53-loop.mp4" type="video/mp4" />
+            </video>
+            <figcaption class="videocard__cap">
+              <strong>Single-cell p53–p21 dynamics after radiation</strong>
+              <span>Cell-to-cell variability in the p53 response over time — the kind of signal our models are built to read.
+              Adapted from Tran et&nbsp;al., <a href="https://doi.org/10.1038/s41418-022-01069-x" target="_blank" rel="noopener"><em>Cell Death &amp; Differentiation</em> (2023)</a>.</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MISSION / WHY IT MATTERS ============ -->
+    <section class="section" id="mission">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Why our work matters</p>
+          <h2>Turning cancer's variability into better treatment</h2>
+          <p class="section__lead">
+            Cancer varies — from patient to patient, tumor to tumor, and cell to cell. The
+            Deasy Lab treats that variability as information: we build models that read tumor
+            biology from routinely acquired images, genomes, and clinical data, and turn it
+            into decisions that make treatment more precise and less toxic. The aim is not
+            modeling for its own sake, but tools that reach the clinic and change how patients
+            are cared for.
+          </p>
+        </div>
+
+        <div class="cards cards--3">
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">◆</div>
+            <h3>Read biology from images</h3>
+            <p>Extract tumor biology — hypoxia, response, risk — from scans patients already receive, using AI and quantitative imaging.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">◈</div>
+            <h3>Forecast each patient's course</h3>
+            <p>Mechanistic "digital-twin" models simulate an individual tumor forward in time to anticipate response and adapt treatment.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">▣</div>
+            <h3>Personalize dose &amp; spare tissue</h3>
+            <p>Population-scale spatial and genomic modeling to personalize radiation dose and protect healthy organs.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESEARCH PROGRAMS ============ -->
+    <section class="section section--tint" id="research">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Research programs</p>
+          <h2>Four connected lines of work</h2>
+          <p class="section__lead">
+            The through-line across all of them: innovative mathematics used to understand
+            patient and disease variability — and to turn it into a leverage point for cancer care.
+          </p>
+        </div>
+
+        <div class="programs">
+          <article class="program">
+            <span class="program__num" aria-hidden="true">01</span>
+            <p class="program__kicker">Mathematical Oncology Initiative</p>
+            <h3>Geometry &amp; optimal transport for the structure of cancer</h3>
+            <p class="program__tag">Breast Cancer Research Foundation · Simons Foundation</p>
+            <p>Geometry- and topology-based methods to subtype patients, integrate multi-omic networks, and surface therapeutic targets — and to train the next generation who build them.</p>
+            <div class="program__tools">
+              <span class="tooltag">optimal transport</span><span class="tooltag">network curvature</span><span class="tooltag">NetFlow</span>
+            </div>
+          </article>
+
+          <article class="program">
+            <span class="program__num" aria-hidden="true">02</span>
+            <p class="program__kicker">ECHO</p>
+            <h3>Automated, clinically optimal treatment planning</h3>
+            <p class="program__tag">2021 INFORMS Franz Edelman Laureate</p>
+            <p>A prioritized optimization that turns the hand-tuned trade-off between tumor coverage and organ sparing into a reproducible, mathematically optimal plan — now used to help plan roughly 23% of patients treated at MSK.</p>
+          </article>
+
+          <article class="program">
+            <span class="program__num" aria-hidden="true">03</span>
+            <p class="program__kicker">Proton &amp; particle radiobiology</p>
+            <h3>Modeling response across radiation modalities</h3>
+            <p class="program__tag">A thread since the lab's first NIH award</p>
+            <p>Mechanistic models of how dose, timing, and tumor biology combine to determine response and toxicity when the physics differs from conventional photons — reproducing clinical observations across photon and carbon-ion therapy.</p>
+          </article>
+
+          <article class="program">
+            <span class="program__num" aria-hidden="true">04</span>
+            <p class="program__kicker">Digital twins</p>
+            <h3>A simulatable model of each patient's tumor</h3>
+            <p class="program__tag">Multimodality imaging + tumor biology</p>
+            <p>Combining FDG-PET and MRI with a mechanistic tumor-control model to forecast response and flag likely non-responders early — while treatment can still be adapted.</p>
+          </article>
+        </div>
+        <div class="section__more">
+          <a class="btn btn--ghost" href="research.html">See research in depth →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURED ============ -->
+    <section class="section" id="featured">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Featured</p>
+          <h2>A tool in wide use, and a discovery from computation</h2>
+        </div>
+
+        <article class="feature">
+          <div class="feature__media" role="img" aria-label="Open-source software platform">
+            <div class="feature__glyph">CERR&nbsp;/&nbsp;pyCERR<br /><span style="font-size:15px;font-family:var(--font-sans);font-weight:500;">open-source imaging &amp; radiotherapy research</span></div>
+          </div>
+          <div class="feature__body">
+            <span class="feature__badge">Software</span>
+            <h3>CERR / pyCERR</h3>
+            <p>
+              An open-source platform, created in the lab, for relating medical images to
+              radiotherapy dose and outcomes — registration, dose calculation, and quantitative
+              ("radiomic") image analysis. It has grown past 250,000 lines of code, underpinned
+              70+ of the lab's studies, and been cited over 800 times, and is now re-implemented
+              as pyCERR, a native Python version with a graphical interface. Development is led by
+              Aditya Apte, PhD.
+            </p>
+            <p class="ref">Apte et al., <em>Medical Physics</em> (2018), PMC6597320.</p>
+          </div>
+        </article>
+
+        <article class="feature feature--flip">
+          <div class="feature__media" role="img" aria-label="Computationally identified breast cancer subtype">
+            <div class="feature__glyph">A hidden<br />high-risk subtype<br /><span style="font-size:15px;font-family:var(--font-sans);font-weight:500;">found by optimal transport</span></div>
+          </div>
+          <div class="feature__body">
+            <span class="feature__badge">Discovery</span>
+            <h3>A high-risk breast-cancer subtype found by computation</h3>
+            <p>
+              Using optimal-transport-based clustering of molecular data, the lab isolated a
+              poor-prognosis, hypoxia-enriched subgroup of breast cancers and characterized its
+              biology — showing that geometry-based methods can define clinically meaningful
+              subtypes that conventional analyses miss.
+            </p>
+            <p class="ref">Oh et al., <em>npj Breast Cancer</em> (2025), doi:10.1038/s41523-025-00725-y.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ RECENT HIGHLIGHTS ============ -->
+    <section class="section section--tint" id="recent">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Recent work</p>
+          <h2>Selected recent publications</h2>
+          <p class="section__lead">A few highlights — the full, searchable library has every paper with a plain-language summary.</p>
+        </div>
+        <div class="cards cards--3">
+          <article class="highlight">
+            <span class="highlight__tag">Imaging AI</span>
+            <h3>Tumor hypoxia from a routine PET scan</h3>
+            <p>An AI model estimates a head-and-neck tumor's oxygen-starved volume directly from routine FDG-PET — no specialized hypoxia scan required.</p>
+            <span class="highlight__venue">Physics and Imaging in Radiation Oncology, 2025</span>
+          </article>
+          <article class="highlight">
+            <span class="highlight__tag">Language models</span>
+            <h3>Predicting progression from clinical text</h3>
+            <p>A large language model trained on oncology records extracts signals of cancer progression from free-text reports at scale.</p>
+            <span class="highlight__venue">npj Digital Medicine, 2025</span>
+          </article>
+          <article class="highlight">
+            <span class="highlight__tag">Spatial modeling</span>
+            <h3>A multi-institutional brain-metastasis atlas</h3>
+            <p>Pooled imaging maps where brain metastases arise, informing precise detection and function-sparing radiotherapy.</p>
+            <span class="highlight__venue">Nature Communications, 2025</span>
+          </article>
+        </div>
+        <div class="section__more">
+          <a class="btn btn--ghost" href="publications.html">Open the publications library →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TEAM TEASER ============ -->
+    <section class="section" id="team">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">The lab</p>
+          <h2>A team at the interface of mathematics and medicine</h2>
+          <p class="section__lead">Led by Joseph O. Deasy, PhD, Chair of Medical Physics at MSK, the lab brings together mathematicians, physicists, and computational scientists.</p>
+        </div>
+        <div class="people people--lead">
+          <!-- Placeholder members — see team.html; confirm names, roles, photos -->
+          <figure class="person">
+            <div class="person__avatar" data-initials="JD"></div>
+            <figcaption><strong>Joseph O. Deasy, PhD</strong><span>Principal Investigator</span></figcaption>
+          </figure>
+          <figure class="person">
+            <div class="person__avatar" data-initials="JO"></div>
+            <figcaption><strong>Jung Hun Oh, PhD</strong><span>Senior Scientist</span><em>role to confirm</em></figcaption>
+          </figure>
+          <figure class="person">
+            <div class="person__avatar" data-initials="AA"></div>
+            <figcaption><strong>Aditya Apte, PhD</strong><span>CERR / pyCERR lead</span><em>role to confirm</em></figcaption>
+          </figure>
+        </div>
+        <div class="section__more">
+          <a class="btn btn--ghost" href="team.html">Meet the full team →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="section section--tight">
+      <div class="container">
+        <div class="cta">
+          <div class="hero__bg" aria-hidden="true"></div>
+          <div class="cta__inner">
+            <p class="eyebrow">Join us · Collaborate</p>
+            <h2>We're recruiting — and we welcome collaborations</h2>
+            <p>
+              We welcome postdoctoral fellows, graduate students, and clinical fellows from
+              mathematics, physics, computer science, engineering, statistics, and medicine —
+              and research collaborations across imaging, genomics, and radiotherapy.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="join.html">Join or collaborate</a>
+              <a class="btn btn--ondark" href="mailto:REPLACE-with-lab-email@mskcc.org">Email the lab</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer" id="contact">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__logo"><img src="assets/img/logo.png" alt="Deasy Lab for Cancer Modeling" /></span>
+        <div>
+          <strong>Deasy Laboratory for Cancer Modeling</strong>
+          <p>Department of Medical Physics, Memorial Sloan Kettering Cancer Center<br />New York, NY · In affiliation with Weill Cornell Medicine</p>
+        </div>
+      </div>
+      <div class="footer__links">
+        <h4>Contact</h4>
+        <!-- EDIT contact details -->
+        <p><a href="mailto:REPLACE-with-lab-email@mskcc.org">REPLACE-with-lab-email@mskcc.org</a></p>
+        <p><a href="https://orcid.org/0000-0002-9437-266X" target="_blank" rel="noopener">ORCID</a> · <a href="https://github.com/cerr/CERR" target="_blank" rel="noopener">GitHub (CERR)</a></p>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <div class="container">
+        <span>© <span id="year"></span> Deasy Laboratory for Cancer Modeling.</span>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
