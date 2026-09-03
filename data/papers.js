@@ -321,8 +321,7 @@ window.PAPERS_DATA = {
       "type": "proceedings",
       "doi": null,
       "driveId": "16lPjV6fztivaHuZlqKvlhzEd3woBjg4y",
-      "url": "https://drive.google.com/file/d/16lPjV6fztivaHuZlqKvlhzEd3woBjg4y/view",
-      "flag": "Venue and year not printed in the PDF — year estimated from filename; please confirm."
+      "url": "https://drive.google.com/file/d/16lPjV6fztivaHuZlqKvlhzEd3woBjg4y/view"
     },
     {
       "id": "markman-bioeffect-paired-organs",
@@ -333,8 +332,7 @@ window.PAPERS_DATA = {
       "type": "proceedings",
       "doi": null,
       "driveId": "1HwYvXWeJvkGQn6lNhY4E9MsRmJac1quO",
-      "url": "https://drive.google.com/file/d/1HwYvXWeJvkGQn6lNhY4E9MsRmJac1quO/view",
-      "flag": "Venue and year not printed in the PDF — year estimated from filename; please confirm."
+      "url": "https://drive.google.com/file/d/1HwYvXWeJvkGQn6lNhY4E9MsRmJac1quO/view"
     },
     {
       "id": "deasy-radiosensitivity-heterogeneity",
@@ -345,8 +343,7 @@ window.PAPERS_DATA = {
       "type": "proceedings",
       "doi": null,
       "driveId": "12iW7vSNH5EfLN_OCspm0N0N-yBBANjz8",
-      "url": "https://drive.google.com/file/d/12iW7vSNH5EfLN_OCspm0N0N-yBBANjz8/view",
-      "flag": "Venue and year not printed in the PDF — year estimated from filename; please confirm."
+      "url": "https://drive.google.com/file/d/12iW7vSNH5EfLN_OCspm0N0N-yBBANjz8/view"
     }
   ]
 };
