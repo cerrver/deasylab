@@ -338,6 +338,12 @@ h1, h2, h3, h4 { color: var(--ink); line-height: 1.15; font-weight: 700; }
 .person figcaption span { font-size: 14px; color: var(--muted); }
 .person figcaption em { display:block; font-size:12.5px; color: var(--muted); font-style:italic; margin-top:2px; }
 
+/* ---------- team group photo ---------- */
+.teamphoto { margin: 0; }
+.teamphoto img { width: 100%; border-radius: var(--radius); box-shadow: var(--shadow); display: block; }
+.teamphoto figcaption { margin-top: 12px; font-size: 14.5px; color: var(--ink); font-weight: 600; }
+.teamphoto figcaption span { color: var(--muted); font-weight: 400; font-style: italic; }
+
 /* ---------- grants ---------- */
 .grants { display: grid; gap: 14px; }
 .grant { display: flex; gap: 22px; align-items: flex-start; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 26px; box-shadow: var(--shadow-sm); }
