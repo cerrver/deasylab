@@ -1,0 +1,143 @@
+{
+  "_note": "URLs the weekly task has already evaluated. 'added' = in the feed (or was, if later deleted by the lab); 'excluded' = judged below threshold. The task must not re-add any URL listed here.",
+  "seen": [
+    {
+      "url": "https://www.mskcc.org/announcements/msks-dp4all-initiative-advances-global-health-equity-goals-by-bringing-digital-pathology-innovation-to-low-resource-settings",
+      "menteeId": "saad-nadeem",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://doi.org/10.1172/jci.insight.206714",
+      "menteeId": "kaiming-xu",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://doi.org/10.1002/mp.70616",
+      "menteeId": "issam-el-naqa",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.radonc.2026.111712",
+      "menteeId": "jeho-jeong",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ijrobp.2026.05.050",
+      "menteeId": "nitin-ohri",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://montefioreeinsteinnow.org/update/2026-apr-13/singular-award-exceptional-care-montefiore-einstein-comprehensive-cancer-centers-lung-cancer-team",
+      "menteeId": "nitin-ohri",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.radonc.2026.111486",
+      "menteeId": "lisanne-v-van-dijk",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://ae.gatech.edu/news/2026/02/yongxin-chen-awarded-ifacs-manfred-thoma-medal",
+      "menteeId": "yongxin-chen",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://ovarian.org.uk/news/ai-grant-announcement/",
+      "menteeId": "mireia-crispin-ortuzar",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://www.hanarthfonds.nl/nl/gehonoreerde-aanvragen/2025-call/lisanne-van-dijk-2025",
+      "menteeId": "lisanne-v-van-dijk",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://www.pathologynews.com/industry-news/conversation-with-prof-saad-nadeem-memorial-sloan-kettering/",
+      "menteeId": "saad-nadeem",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://doi.org/10.1038/s43018-025-01060-8",
+      "menteeId": "mireia-crispin-ortuzar",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://math.unc.edu/math-new/professor-caroline-moosmuller-wins-junior-principal-investigator-award-from-2025-ascina-awards/",
+      "menteeId": "caroline-moosm-ller",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://www.nki.nl/news-events/news/radiation-oncologist-zeno-gouw-studies-primer-shot-radiotherapy-a-smarter-way-to-treat-with-radiation",
+      "menteeId": "zeno-gouw",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://www.ucl.ac.uk/engineering/news/2025/sep/dr-jamie-dean-receives-medical-research-council-career-development-award",
+      "menteeId": "jamie-dean",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://www.thegreenjournal.com/article/S0167-8140(25)04648-1/abstract",
+      "menteeId": "maria-thor",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41408-026-01486-y",
+      "menteeId": "anish-simhal",
+      "status": "excluded",
+      "reason": "co-author; Blood Cancer Journal not in venue list",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41408-026-01486-y",
+      "menteeId": "jung-hun-oh",
+      "status": "excluded",
+      "reason": "co-author; Blood Cancer Journal not in venue list",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.phro.2025.100844",
+      "menteeId": "maria-thor",
+      "status": "excluded",
+      "reason": "Phys Imaging Radiat Oncol not in venue list",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42160057/",
+      "menteeId": "gita-suneja",
+      "status": "excluded",
+      "reason": "co-author; abstract not retrieved — pending PI review",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41802269/",
+      "menteeId": "gita-suneja",
+      "status": "excluded",
+      "reason": "Clin Infect Dis not in venue list; abstract not retrieved — pending PI review",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://doi.org/10.1007/s11306-026-02453-1",
+      "menteeId": "elfried-salanon",
+      "status": "excluded",
+      "reason": "Metabolomics not in venue list",
+      "date": "2026-09-10"
+    }
+  ]
+}

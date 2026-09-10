@@ -9,6 +9,7 @@ designed to be served from **GitHub Pages** at **https://cerrver.github.io/deasy
 - `research.html` — the four research programs, methods & tools, milestones, funding
 - `team.html` — principal investigator, faculty & scientists, trainees, collaborators
 - `publications.html` — publications library (reverse-chronological, clickable, searchable)
+- `mentee-news.html` — Mentee News feed (high-profile papers / media / awards from current and former trainees, with each person's current institution) + the mentee roster
 - `join.html` — recruitment, collaboration, teaching, contact
 
 ## Publications: how the list is built
@@ -28,6 +29,28 @@ title links to the PDF in Drive.
 A scheduled task re-indexes the Drive folder every **Monday** and rewrites `data/papers.json`
 and `data/papers.js`, then notifies you. Your job each Monday is only to **review and push**
 (see below). New PDFs added to the Drive folder appear on the site after the next update.
+
+## Mentee News: how the feed is built
+
+- Roster: `data/mentees.json` — one record per current/former mentee (from J. Deasy's CV, Nov 2025).
+  `institution` / `position` are the **current, verified** values shown on the site; `cvPosition` is
+  what the CV said; `institutionSource` links the evidence; `verify: true` shows a "to confirm" badge;
+  `include: false` hides a person from the site (used for people whose current institution could not be established).
+- Feed: `data/mentee-news.json` — one record per item (`type` = paper | media | award; `url` required;
+  `summary` = 2–3 plain-language sentences; `flag` shows a "verify" badge).
+- Local-view mirrors `data/mentees.js` and `data/mentee-news.js`: regenerate after any edit with
+  `python3 gen-mentee-js.py`.
+- The home page shows the three newest items (`#menteeNewsLatest`) and a banner linking to the feed.
+
+### Weekly auto-update
+A second scheduled task runs every **Monday** (after the publications task): for each mentee in the
+roster it searches for new items in the last 8 days — papers in top journals (Nature / Science / Cell /
+Lancet / NEJM / JAMA families and leading field journals), press coverage, awards, grants,
+appointments — and re-checks each person's current institution. Verified additions are appended to
+`data/mentee-news.json`, roster changes are written to `data/mentees.json`, the `.js` mirrors are
+regenerated, and you get a notification listing what changed. As with publications: **review, then push**.
+To remove an item, delete its record from `data/mentee-news.json` (the task will not re-add a URL it
+has already seen — seen URLs are listed in `data/mentee-news-seen.json`).
 
 ## Deploy to GitHub Pages (one time)
 
@@ -54,7 +77,7 @@ This folder is already a git repository with an initial commit.
 ```bash
 cd <this folder>
 git add -A
-git commit -m "Weekly publications update"
+git commit -m "Weekly publications + mentee news update"
 git push
 ```
 

@@ -36,6 +36,7 @@
         <a href="research.html">Research</a>
         <a href="team.html">Team</a>
         <a href="publications.html">Publications</a>
+        <a href="mentee-news.html">Mentee News</a>
         <a href="join.html" class="nav__cta">Join / Contact</a>
       </nav>
 
@@ -48,6 +49,7 @@
       <a href="research.html">Research</a>
       <a href="team.html">Team</a>
       <a href="publications.html">Publications</a>
+      <a href="mentee-news.html">Mentee News</a>
       <a href="join.html">Join / Contact</a>
     </div>
   </header>
@@ -68,6 +70,7 @@
           <div class="hero__actions">
             <a class="btn btn--primary" href="research.html">Explore our research</a>
             <a class="btn btn--ondark" href="publications.html">Browse publications</a>
+            <a class="btn btn--ondark" href="mentee-news.html">Mentee news →</a>
           </div>
           <div class="hero__stats">
             <div class="stat"><span class="stat__num" data-count="340" data-suffix="+">0</span><span class="stat__label">Peer-reviewed papers</span></div>
@@ -109,6 +112,23 @@
           </p>
         </div>
 
+      </div>
+    </section>
+
+    <!-- ============ MENTEE NEWS (auto-fed from data/mentee-news.json) ============ -->
+    <section class="section section--tint" id="mentee-news">
+      <div class="container">
+        <div class="newsbanner">
+          <div class="newsbanner__text">
+            <span class="newsbanner__dot" aria-hidden="true"></span>
+            <div>
+              <strong>Mentee News — updated weekly</strong>
+              <span class="sub">High-profile papers, media, and awards from the lab's current and former trainees, with where each of them is now.</span>
+            </div>
+          </div>
+          <a class="btn btn--primary" href="mentee-news.html">Open the Mentee News feed →</a>
+        </div>
+        <div id="menteeNewsLatest" class="cards cards--3" data-count="3" aria-live="polite"></div>
       </div>
     </section>
 
@@ -312,6 +332,10 @@
     </div>
   </footer>
 
+  <!-- Mentee News teaser: the data/*.js mirrors let it render from disk; JSON is used over HTTP -->
+  <script src="data/mentees.js" defer></script>
+  <script src="data/mentee-news.js" defer></script>
+  <script src="assets/js/mentee-news.js" defer></script>
   <script src="assets/js/main.js" defer></script>
 </body>
 </html>

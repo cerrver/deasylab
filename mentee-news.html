@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Publications — Deasy Laboratory for Cancer Modeling</title>
-  <meta name="description" content="Searchable library of publications from the Deasy Laboratory for Cancer Modeling, each with a plain-language summary and a link." />
+  <title>Mentee News — Deasy Laboratory for Cancer Modeling</title>
+  <meta name="description" content="High-profile publications, media coverage, and awards from current and former trainees of the Deasy Laboratory for Cancer Modeling — updated weekly, with each mentee's current institution." />
   <link rel="icon" type="image/png" href="assets/img/favicon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -43,50 +43,73 @@
     <section class="pagehero">
       <div class="hero__bg" aria-hidden="true"></div>
       <div class="container pagehero__inner">
-        <p class="eyebrow">Publications</p>
-        <h1>Publications</h1>
-        <p>The lab's publications, newest first. Click any title to open the PDF. Search by
-           title, author, year, or type.</p>
+        <p class="eyebrow">Mentee News</p>
+        <h1>Where our trainees go, and what they do next</h1>
+        <p>High-profile papers, media coverage, and awards from current and former members of the
+           lab — each with the mentee's current institution and a plain-language summary.
+           A weekly check adds new items; every entry links to its source.</p>
       </div>
     </section>
 
-    <section class="section" id="publications">
+    <section class="section" id="feed">
       <div class="container">
-        <!-- Search + controls -->
         <div class="pub-controls">
           <div class="search">
             <svg class="search__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.3-4.3M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-            <input id="pubSearch" type="search" placeholder="Search papers — try a topic, author, or keyword…" autocomplete="off" aria-label="Search publications" />
-            <button id="pubClear" class="search__clear" aria-label="Clear search" hidden>&times;</button>
+            <input id="newsSearch" type="search" placeholder="Search — a name, institution, journal, or topic…" autocomplete="off" aria-label="Search mentee news" />
+            <button id="newsClear" class="search__clear" aria-label="Clear search" hidden>&times;</button>
           </div>
           <div class="pub-controls__row">
+            <label class="select"><span>Mentee</span><select id="filterMentee"><option value="">All</option></select></label>
             <label class="select"><span>Type</span><select id="filterType"><option value="">All</option></select></label>
-            <label class="select"><span>Year</span><select id="filterYear"><option value="">All</option></select></label>
             <label class="select"><span>Sort</span>
               <select id="sortBy">
-                <option value="year-desc">Newest first</option>
-                <option value="year-asc">Oldest first</option>
-                <option value="title-asc">Title A–Z</option>
+                <option value="date-desc">Newest first</option>
+                <option value="date-asc">Oldest first</option>
+                <option value="mentee">By mentee</option>
               </select>
             </label>
           </div>
         </div>
 
-        <div id="topicChips" class="chips" aria-label="Filter by topic"></div>
-
         <div class="pub-meta">
-          <span id="pubCount" aria-live="polite">Loading publications…</span>
+          <span><span id="newsCount" aria-live="polite">Loading…</span> <span id="newsUpdated" class="news__updated"></span></span>
           <button id="resetFilters" class="linkbtn" hidden>Reset filters</button>
         </div>
 
-        <div id="pubList" class="pub-list"></div>
-        <div id="pubEmpty" class="pub-empty" hidden>
-          <p>No papers match your search.</p>
+        <div id="newsList" class="news-list"></div>
+        <div id="newsEmpty" class="pub-empty" hidden>
+          <p>No items match your search.</p>
           <button class="btn btn--ghost" id="emptyReset">Clear filters</button>
         </div>
+
+        <p class="news__how">
+          <strong>How this feed is built.</strong> Once a week an automated check searches for new
+          items about each mentee in the roster below: papers in leading journals (the Nature,
+          Science, Cell, Lancet, NEJM and JAMA families, and the field's top journals), press and
+          media coverage, and major awards, grants, or appointments. Each candidate must resolve to a
+          direct link before it is added, and the lab reviews the additions before they are published.
+          Items marked <span class="badge badge--sample">verify</span> carry a detail that is still being confirmed.
+        </p>
       </div>
     </section>
 
+    <section class="section section--tint" id="mentees">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">The roster</p>
+          <h2>Current and former mentees</h2>
+          <p class="section__lead">
+            Trainees and fellows mentored by Joseph O. Deasy across Washington University in
+            St. Louis and Memorial Sloan Kettering, with each person's current institution.
+            Names in blue have items in the feed — click one to filter. Affiliations are checked
+            against official pages during the weekly update; those still awaiting confirmation are
+            marked <span class="badge badge--sample">to confirm</span>.
+          </p>
+        </div>
+        <div id="menteeDirectory" class="directory"></div>
+      </div>
+    </section>
   </main>
 
   <footer class="footer" id="contact">
@@ -107,11 +130,11 @@
     </div>
   </footer>
 
-  <!-- data/papers.js provides window.PAPERS_DATA so this page also works when opened
-       directly from disk (file://). data/papers.json remains the canonical source used
-       when served over HTTP. Keep them in sync (npm-free: see README). -->
-  <script src="data/papers.js" defer></script>
-  <script src="assets/js/publications.js" defer></script>
+  <!-- data/*.js mirrors let this page work from disk (file://); the .json files are the
+       canonical sources used over HTTP. Regenerate mirrors with: python3 gen-mentee-js.py -->
+  <script src="data/mentees.js" defer></script>
+  <script src="data/mentee-news.js" defer></script>
+  <script src="assets/js/mentee-news.js" defer></script>
   <script src="assets/js/main.js" defer></script>
 </body>
 </html>
