@@ -377,6 +377,9 @@ h1, h2, h3, h4 { color: var(--ink); line-height: 1.15; font-weight: 700; }
 .footer__bar .container { display: flex; justify-content: space-between; align-items: center; padding-block: 18px; font-size: 13.5px; color: #9fa3c8; }
 
 /* ---------- mentee news ---------- */
+  .pagehero .pagehero__preamble { font-family: var(--font-serif); font-size: clamp(20px, 2.4vw, 26px); line-height: 1.4; color: #fff; margin-top: 18px; max-width: 760px; }
+  .pagehero .pagehero__byline { margin-top: 8px; font-size: 15px; color: #b7bfe0; letter-spacing: .02em; }
+  .pagehero .pagehero__sub { margin-top: 18px; font-size: 16.5px; color: #d9dcf2; max-width: 720px; }
 .news-list { display: grid; gap: 16px; }
 .news { background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: var(--radius); padding: 22px 26px; box-shadow: var(--shadow-sm); transition: .2s; }
 .news:hover { box-shadow: var(--shadow); border-color: #d4d3f5; border-left-color: var(--accent); }

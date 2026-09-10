@@ -7,9 +7,9 @@ window.MENTEES_DATA = {
       "id": "wei-zhao",
       "name": "Wei Zhao",
       "degree": "PhD",
-      "status": "current",
+      "status": "past",
       "role": "MSK Medical Physics resident",
-      "period": "2021–",
+      "period": "2021–2025",
       "project": "Tumor response modeling",
       "cvPosition": "Medical Physics resident, MSK",
       "institution": "Memorial Sloan Kettering Cancer Center",
@@ -20,7 +20,7 @@ window.MENTEES_DATA = {
       "nameNote": null,
       "include": true,
       "verify": true,
-      "researchNotes": "MSK residency alumni page lists Wei Zhao, PhD as 'Graduated 2025' with no current position; the MSK Veeraraghavan Lab members page (https://www.mskcc.org/research-areas/labs/members/wei-zhao) still lists Wei Zhao, PhD, suggesting they remain at MSK, but the post-residency title could not be confirmed (MSK Synapse profile returned 403). Very common name; no 2025-2026 Zhao/Deasy paper found in Crossref."
+      "researchNotes": "MSK residency alumni page lists Wei Zhao, PhD as 'Graduated 2025' with no current position; the MSK Veeraraghavan Lab members page (https://www.mskcc.org/research-areas/labs/members/wei-zhao) still lists Wei Zhao, PhD, suggesting they remain at MSK, but the post-residency title could not be confirmed (MSK Synapse profile returned 403). Very common name; no 2025-2026 Zhao/Deasy paper found in Crossref. Reclassified as former mentee per J. Deasy (2026-09-10)."
     },
     {
       "id": "anish-simhal",
@@ -45,9 +45,9 @@ window.MENTEES_DATA = {
       "id": "kaiming-xu",
       "name": "Kaiming Xu",
       "degree": "PhD",
-      "status": "current",
+      "status": "past",
       "role": "Graduate student, Stony Brook",
-      "period": "2021–",
+      "period": "2021–2025",
       "project": "Systems biology / image analysis",
       "cvPosition": "Graduate student, Stony Brook University",
       "institution": "Yale School of Medicine",
@@ -58,7 +58,7 @@ window.MENTEES_DATA = {
       "nameNote": null,
       "include": true,
       "verify": true,
-      "researchNotes": "Was a Stony Brook AMS PhD student in Allen Tannenbaum's lab (ResearchGate profile: https://www.researchgate.net/profile/Kaiming-Xu-2); his Aug 2026 JCI Insight first-author paper lists his affiliation as Dept of Anesthesiology, Yale School of Medicine, and a LinkedIn search snippet shows 'Kaiming Xu - Yale University'. Exact job title not found. Also co-authored an npj Breast Cancer paper with Deasy (Jan 2025, outside window)."
+      "researchNotes": "Was a Stony Brook AMS PhD student in Allen Tannenbaum's lab (ResearchGate profile: https://www.researchgate.net/profile/Kaiming-Xu-2); his Aug 2026 JCI Insight first-author paper lists his affiliation as Dept of Anesthesiology, Yale School of Medicine, and a LinkedIn search snippet shows 'Kaiming Xu - Yale University'. Exact job title not found. Also co-authored an npj Breast Cancer paper with Deasy (Jan 2025, outside window). Reclassified as former mentee per J. Deasy (2026-09-10)."
     },
     {
       "id": "lopamudra-nayak",
@@ -83,9 +83,9 @@ window.MENTEES_DATA = {
       "id": "corey-weistuch",
       "name": "Corey Weistuch",
       "degree": "PhD",
-      "status": "current",
+      "status": "past",
       "role": "Postdoctoral fellow",
-      "period": "2020–",
+      "period": "2020–2025",
       "project": "Systems biology",
       "cvPosition": "Postdoctoral fellow, MSK",
       "institution": "Memorial Sloan Kettering Cancer Center",
@@ -96,7 +96,7 @@ window.MENTEES_DATA = {
       "nameNote": null,
       "include": true,
       "verify": false,
-      "researchNotes": "Now tenure-track faculty at MSK with his own lab page (https://www.mskcc.org/research-areas/research-teams/corey-weistuch-lab); CV still lists postdoc. Sept 2025-Sept 2026 output found on PubMed is a Research Square preprint (Kocher CD ... Weistuch C, senior author, 'Adaptive and sequential cancer therapies emerge from treatment schedule optimization', May 2026), an IEEE Trans Netw Sci Eng paper (Apr 2026) and a bioRxiv liposarcoma atlas preprint (Mar 2026) - none in the qualifying venue list, so no items reported."
+      "researchNotes": "Now tenure-track faculty at MSK with his own lab page (https://www.mskcc.org/research-areas/research-teams/corey-weistuch-lab); CV still lists postdoc. Sept 2025-Sept 2026 output found on PubMed is a Research Square preprint (Kocher CD ... Weistuch C, senior author, 'Adaptive and sequential cancer therapies emerge from treatment schedule optimization', May 2026), an IEEE Trans Netw Sci Eng paper (Apr 2026) and a bioRxiv liposarcoma atlas preprint (Mar 2026) - none in the qualifying venue list, so no items reported. Reclassified as former mentee per J. Deasy (2026-09-10)."
     },
     {
       "id": "xinan-chen",
