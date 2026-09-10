@@ -14,6 +14,13 @@
 
   var NEWS_URL = "data/mentee-news.json";
   var ROSTER_URL = "data/mentees.json";
+  var WINDOW_MONTHS = 24;           // default view: items dated within the last 24 months (overridable by news.windowMonths)
+
+  function cutoffISO(months) {
+    var d = new Date(); d.setMonth(d.getMonth() - months);
+    return d.toISOString().slice(0, 10);
+  }
+  function inWindow(it, cutoff) { return String(it.date || "") >= cutoff.slice(0, String(it.date || "").length || 10); }
 
   var TYPE_LABEL = { paper: "Paper", media: "In the media", award: "Award / grant" };
   var ROLE_LABEL = {
@@ -115,7 +122,7 @@
   }
 
   /* ---------- full page ---------- */
-  var els, state, allItems, roster;
+  var els, state, allItems, roster, cutoff, windowMonths;
   function initPage(items, byId, rosterData, news) {
     allItems = items; roster = rosterData;
     els = {
@@ -126,7 +133,20 @@
       reset: document.getElementById("resetFilters"), emptyReset: document.getElementById("emptyReset"),
       updated: document.getElementById("newsUpdated"), dir: document.getElementById("menteeDirectory")
     };
-    state = { q: "", mentee: "", type: "", sort: "date-desc" };
+    state = { q: "", mentee: "", type: "", sort: "date-desc", older: false };
+    windowMonths = parseInt(news.windowMonths, 10) || WINDOW_MONTHS;
+    cutoff = cutoffISO(windowMonths);
+    els.older = document.getElementById("showOlder");
+    if (els.older) {
+      var nOld = items.filter(function (it) { return !inWindow(it, cutoff); }).length;
+      els.older.hidden = nOld === 0;
+      els.older.textContent = "Show " + nOld + " older item" + (nOld === 1 ? "" : "s");
+      els.older.addEventListener("click", function () {
+        state.older = !state.older;
+        els.older.textContent = state.older ? "Hide older items" : "Show " + nOld + " older item" + (nOld === 1 ? "" : "s");
+        render(byId);
+      });
+    }
 
     // mentee dropdown: only people who have items
     var withItems = {};
@@ -153,7 +173,7 @@
     els.type.addEventListener("change", function () { state.type = els.type.value; render(byId); });
     els.sort.addEventListener("change", function () { state.sort = els.sort.value; render(byId); });
     var resetAll = function () {
-      state = { q: "", mentee: "", type: "", sort: "date-desc" };
+      state = { q: "", mentee: "", type: "", sort: "date-desc", older: state.older };
       els.search.value = ""; els.clear.hidden = true; els.mentee.value = ""; els.type.value = ""; els.sort.value = "date-desc";
       render(byId);
     };
@@ -169,6 +189,7 @@
   }
 
   function matches(it, byId) {
+    if (!state.older && !state.q && !state.mentee && !inWindow(it, cutoff)) return false;
     if (state.mentee && it.menteeId !== state.mentee) return false;
     if (state.type && it.type !== state.type) return false;
     if (state.q) {
@@ -189,7 +210,8 @@
     });
     var has = state.q || state.mentee || state.type;
     els.reset.hidden = !has;
-    els.count.textContent = list.length + (list.length === 1 ? " item" : " items") + (has ? " match your filters" : " in the feed");
+    els.count.textContent = list.length + (list.length === 1 ? " item" : " items") +
+      (has ? " match your filters" : (state.older ? " in the feed" : " from the last " + windowMonths + " months"));
     if (!list.length) { els.list.innerHTML = ""; els.empty.hidden = false; return; }
     els.empty.hidden = true;
     els.list.innerHTML = list.map(function (it) { return card(it, byId[it.menteeId], false); }).join("");

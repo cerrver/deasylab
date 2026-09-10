@@ -138,6 +138,156 @@
       "status": "excluded",
       "reason": "Metabolomics not in venue list",
       "date": "2026-09-10"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41467-024-55259-x",
+      "menteeId": "issam-el-naqa",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ijrobp.2025.01.005",
+      "menteeId": "nitin-ohri",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://doi.org/10.1001/jamaoncol.2024.5403",
+      "menteeId": "nitin-ohri",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41523-025-00725-y",
+      "menteeId": "jung-hun-oh",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://doi.org/10.1002/mp.18037",
+      "menteeId": "vicki-taasti",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.radonc.2025.110953",
+      "menteeId": "vicki-taasti",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41467-025-58436-8",
+      "menteeId": "mireia-crispin-ortuzar",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.radonc.2025.110746",
+      "menteeId": "lisanne-v-van-dijk",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.radonc.2024.110702",
+      "menteeId": "rene-winter",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://doi.org/10.1200/OA.24.00014",
+      "menteeId": "gita-suneja",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://healthcare.utah.edu/huntsmancancerinstitute/press-releases/2025/02/short-course-radiation-therapy-effective-endometrial-cancer-patients",
+      "menteeId": "gita-suneja",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://www.astro.org/news-and-publications/astronews/2025/fall-annual-meeting-guide/feature/2025-class-of-fellows",
+      "menteeId": "gita-suneja",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://www.astro.org/news-and-publications/astronews/2026/annual-meeting-guide/society-news/electionsresults",
+      "menteeId": "gita-suneja",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://www.newswise.com/articles/radiation-oncology-leaders-named-2026-fellows-of-the-american-society-for-radiation-oncology-astro",
+      "menteeId": "issam-el-naqa",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://www.moffitt.org/newsroom/news-releases/moffitt-study-shows-ai-boosts-efficacy-of-cancer-treatment-but-doctors-remain-key/",
+      "menteeId": "issam-el-naqa",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://www.astro.org/research/scientific-challenges",
+      "menteeId": "nitin-ohri",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://www.cam.ac.uk/stories/cambridge-festival-speaker-spotlight-mireia-crispin",
+      "menteeId": "mireia-crispin-ortuzar",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://www.earlycancer.cam.ac.uk/news/european-interdisciplinary-society-ai-cancer-research-esac-launches",
+      "menteeId": "mireia-crispin-ortuzar",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://www.mskcc.org/research-areas/labs/saad-nadeem",
+      "menteeId": "saad-nadeem",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://www.pathpresenter.com/pathpresenter-partners-with-leading-global-cancer-center-to-integrate-ai-module-for-oncology-research/",
+      "menteeId": "saad-nadeem",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://www.mskcc.org/news-releases/msk-awards-and-appointments-june-2025",
+      "menteeId": "corey-weistuch",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://oncodaily.com/voices/zeno-gouw-350812",
+      "menteeId": "zeno-gouw",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://thepmcf.ca/media-supporter-stories/latest-news/2024/2024-gerald-kirsh-awards/",
+      "menteeId": "andrew-hope",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://www.mskcc.org/news/pregnancy-related-proteins-in-tumors-linked-to-worse-survival-in-female-lung-cancer-patients",
+      "menteeId": "jung-hun-oh",
+      "status": "added",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://www.hanarthfonds.nl/en-2024-call",
+      "menteeId": "lisanne-v-van-dijk",
+      "status": "added",
+      "date": "2026-09-10"
     }
   ]
 }

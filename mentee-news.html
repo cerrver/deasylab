@@ -46,8 +46,8 @@
         <p class="eyebrow">Mentee News</p>
         <h1>Where our trainees go, and what they do next</h1>
         <p>High-profile papers, media coverage, and awards from current and former members of the
-           lab — each with the mentee's current institution and a plain-language summary.
-           A weekly check adds new items; every entry links to its source.</p>
+           lab over the last two years, newest first — each with the mentee's current institution
+           and a plain-language summary. A weekly check adds new items; every entry links to its source.</p>
       </div>
     </section>
 
@@ -74,7 +74,8 @@
 
         <div class="pub-meta">
           <span><span id="newsCount" aria-live="polite">Loading…</span> <span id="newsUpdated" class="news__updated"></span></span>
-          <button id="resetFilters" class="linkbtn" hidden>Reset filters</button>
+          <span><button id="resetFilters" class="linkbtn" hidden>Reset filters</button>
+          <button id="showOlder" class="linkbtn" hidden>Show older items</button></span>
         </div>
 
         <div id="newsList" class="news-list"></div>
@@ -84,7 +85,8 @@
         </div>
 
         <p class="news__how">
-          <strong>How this feed is built.</strong> Once a week an automated check searches for new
+          <strong>How this feed is built.</strong> The feed shows items from the last 24 months, newest first
+          (older items stay available via "Show older items"). Once a week an automated check searches for new
           items about each mentee in the roster below: papers in leading journals (the Nature,
           Science, Cell, Lancet, NEJM and JAMA families, and the field's top journals), press and
           media coverage, and major awards, grants, or appointments. Each candidate must resolve to a

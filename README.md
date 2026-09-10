@@ -40,6 +40,7 @@ and `data/papers.js`, then notifies you. Your job each Monday is only to **revie
   `summary` = 2–3 plain-language sentences; `flag` shows a "verify" badge).
 - Local-view mirrors `data/mentees.js` and `data/mentee-news.js`: regenerate after any edit with
   `python3 gen-mentee-js.py`.
+- The feed page shows items from the last **24 months** by default (`windowMonths` in mentee-news.json), newest first; older items are kept in the file and revealed with "Show older items".
 - The home page shows the three newest items (`#menteeNewsLatest`) and a banner linking to the feed.
 
 ### Weekly auto-update
