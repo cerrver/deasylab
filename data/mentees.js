@@ -71,13 +71,13 @@ window.MENTEES_DATA = {
       "cvPosition": "Postdoctoral fellow, MSK",
       "institution": "Memorial Sloan Kettering Cancer Center",
       "position": "Research Fellow, Medical Physics",
-      "institutionSource": "https://www.zoominfo.com/p/Lopamudra-Nayak/3745669066",
+      "institutionSource": "https://amportal.astro.org/lopamudra-nayak-phd-1353",
       "institutionVerified": "2026-09-10",
       "homepage": null,
       "nameNote": null,
       "include": true,
-      "verify": true,
-      "researchNotes": "Only secondary evidence found (ZoomInfo lists 'Research Fellow, Memorial Sloan Kettering Cancer Center', mskcc.org email). Not listed on the Deasy Lab page or Medical Physics faculty page; Google Scholar profile exists but could not be opened and several other 'Lopamudra Nayak' scholars exist (common name). No 2025-2026 first/last-author papers found under this name in the digital-twin literature; the 2025 PMB digital-twin paper (Aliotta et al.) does not list her."
+      "verify": false,
+      "researchNotes": "ASTRO 2026 speaker listing (Sept 2026) and Google Scholar ('Researcher @ MSKCC') confirm current MSK affiliation; title from ZoomInfo."
     },
     {
       "id": "corey-weistuch",
@@ -119,7 +119,7 @@ window.MENTEES_DATA = {
     },
     {
       "id": "constantin-zakarian",
-      "name": "Constantin Zakarian",
+      "name": "Konstantin Zakarian",
       "degree": "PhD",
       "status": "past",
       "role": "MSK Medical Physics resident",
@@ -128,13 +128,13 @@ window.MENTEES_DATA = {
       "cvPosition": "Physicist, Sun Nuclear",
       "institution": "Sun Nuclear",
       "position": "Physicist",
-      "institutionSource": null,
-      "institutionVerified": null,
+      "institutionSource": "https://www.researchgate.net/scientific-contributions/K-Zakarian-30692305",
+      "institutionVerified": "2026-09-10",
       "homepage": null,
-      "nameNote": null,
+      "nameNote": "CV spelling: Constantin Zakarian",
       "include": true,
       "verify": true,
-      "researchNotes": "No current web presence found under this name (searches for name + Sun Nuclear / medical physics / LinkedIn returned nothing relevant). Only trace is the 2004 Med Phys wavelet beamlet-compression paper with Deasy (Zakarian C, Deasy JO). Could not confirm the Sun Nuclear position."
+      "researchNotes": "Publishes as K./Konstantin Zakarian (Zakarian & Deasy papers); ResearchGate contributions page lists a Sun Nuclear, Inc. affiliation, consistent with the CV. No current dated page found."
     },
     {
       "id": "jerry-markman",
@@ -145,15 +145,15 @@ window.MENTEES_DATA = {
       "period": "2001–2002",
       "project": "Treatment planning",
       "cvPosition": "Assistant Teaching Professor",
-      "institution": null,
-      "position": null,
-      "institutionSource": null,
-      "institutionVerified": null,
+      "institution": "Montana State University",
+      "position": "Associate Teaching Professor, Department of Mathematical Sciences",
+      "institutionSource": "https://math.montana.edu/directory/faculty/jerry-markman.html",
+      "institutionVerified": "2026-09-10",
       "homepage": null,
       "nameNote": null,
-      "include": false,
-      "verify": true,
-      "researchNotes": "Multiple web searches (name + physics/medical physics/teaching professor/LinkedIn, and with Deasy/Low/WUSTL) returned no page for this person; results were dominated by unrelated Markmans (Maurie, Jon). The CV position 'Assistant Teaching Professor' could not be verified and no institution was found. Recommend the PI supply an institution to allow a targeted check."
+      "include": true,
+      "verify": false,
+      "researchNotes": "Official MSU faculty page (B.S. WashU 1993). Publishes as Jerry Markman, D.Sc., in the 1999–2002 WashU Med Phys papers, so the CV's 'BS' understates his degree."
     },
     {
       "id": "angel-blanco",
@@ -164,15 +164,15 @@ window.MENTEES_DATA = {
       "period": "2001–2002",
       "project": "Toxicity modeling",
       "cvPosition": "Director, Radiation Oncology",
-      "institution": "Oncology Consultants, Houston, TX",
-      "position": "Radiation Oncologist",
-      "institutionSource": "https://www.oncologyconsultants.com/angel-blanco-md",
+      "institution": "Memorial Hermann Health System / Oncology Consultants, Houston, TX",
+      "position": "Radiation Oncologist; Director, Radiation Oncology",
+      "institutionSource": "https://memorialhermann.org/doctors/radiation-oncologists/angel-blanco-md",
       "institutionVerified": "2026-09-10",
       "homepage": null,
       "nameNote": null,
       "include": true,
-      "verify": true,
-      "researchNotes": "Identity confirmed: Doximity (https://www.doximity.com/pub/angel-blanco-md?show_more=true) lists Radiation Oncology residency at Washington University 2000-2004. Current practice pages (Oncology Consultants; WellMed directory) list him as a radiation oncologist with Oncology Consultants PA, with NPI/Doximity practice address in Corpus Christi, TX. A LinkedIn search snippet still reads 'Director, Radiation Oncology at Memorial [Hermann]' and UTHealth Neurosciences lists him as a radiation oncologist in Neurosurgery - these may be outdated; the 'Director' title could not be verified on a dated official page. No qualifying items found in the last 12 months (Doximity shows 2026 co-authored radiosurgery/AVM items but venue and role could not be verified)."
+      "verify": false,
+      "researchNotes": "Memorial Hermann provider page (residency at Mallinckrodt/WashU); LinkedIn headline 'Director, Radiation Oncology at Memorial Hermann Health System'; also UTHealth McGovern faculty listing."
     },
     {
       "id": "issam-el-naqa",
@@ -233,7 +233,7 @@ window.MENTEES_DATA = {
     },
     {
       "id": "james-alaly",
-      "name": "James Alaly",
+      "name": "James R. Alaly",
       "degree": "MD",
       "status": "past",
       "role": "Postdoctoral researcher",
@@ -245,10 +245,10 @@ window.MENTEES_DATA = {
       "institutionSource": "https://www.shannonhealth.com/providers/james-alaly-md/",
       "institutionVerified": "2026-09-10",
       "homepage": null,
-      "nameNote": null,
+      "nameNote": "CV spelling: James Alaly",
       "include": true,
-      "verify": true,
-      "researchNotes": "Only one James (R.) Alaly, MD, radiologist exists online: Shannon Medical Center, San Angelo, TX; MD University of Missouri, residency Scott & White (Temple, TX), ABR-certified in diagnostic radiology. Consistent with CV 'Radiologist' and a Missouri/WUSTL-era timeline, but no page explicitly links him to the WUSTL postdoc period, so confidence is medium."
+      "verify": false,
+      "researchNotes": "Shannon Medical Center provider page; middle initial R matches the 2006 WashU co-author 'James R. Alaly'."
     },
     {
       "id": "patricia-lindsay",
@@ -286,7 +286,7 @@ window.MENTEES_DATA = {
       "nameNote": null,
       "include": false,
       "verify": true,
-      "researchNotes": "Only historical record found: 'V. Clark' WUSTL Radiation Oncology / Computer Science publications with Deasy 2005-2009 (https://www.researchgate.net/scientific-contributions/V-Clark-2005458909). Common name; the Vanessa Clarks found online (Univ. of Newcastle asthma researcher, Our Lady of the Lake Univ. dean) are different people. No current position could be verified."
+      "researchNotes": "Only historical records (WashU BS CS 2004; 2005 AAPM Young Investigator winner; 2005–2009 papers with Deasy). No current profile found under this name (possible surname change). Hidden until an institution is known."
     },
     {
       "id": "ellen-huang",
@@ -374,14 +374,14 @@ window.MENTEES_DATA = {
       "project": "Tumor response simulation",
       "cvPosition": "Assistant Attending Physicist, MSK",
       "institution": "Memorial Sloan Kettering Cancer Center",
-      "position": "Assistant Attending Physicist, Medical Physics",
-      "institutionSource": "https://www.researchgate.net/profile/Jeho-Jeong",
+      "position": "Associate Attending Physicist, Medical Physics",
+      "institutionSource": "https://www.zoominfo.com/p/Jeho-Jeong/-2049996575",
       "institutionVerified": "2026-09-10",
       "homepage": null,
       "nameNote": null,
       "include": true,
-      "verify": true,
-      "researchNotes": "MSK affiliation is confirmed by his July 2026 Radiotherapy and Oncology first-author paper (MSK Medical Physics). Exact rank is uncertain: ResearchGate lists 'Assistant attending physicist' (matches CV) while a ZoomInfo listing (https://www.zoominfo.com/p/Jeho-Jeong/-2049996575) says 'Associate Attending Physicist'; no mskcc.org profile page was found. PI should confirm whether he has been promoted. Also co-author (3rd) on Fu A, Gouw Z, Jeong J, Deasy JO, Phys Imaging Radiat Oncol, May 2026 (doi 10.1016/j.phro.2026.101003) - not listed (venue/role)."
+      "verify": false,
+      "researchNotes": "AAPM 2026 meeting listing and LinkedIn headline both give 'Associate Attending Physicist' (MSK residency-alumni page still says Assistant — stale)."
     },
     {
       "id": "daniel-wattson",
@@ -432,13 +432,13 @@ window.MENTEES_DATA = {
       "cvPosition": "Machine Learning Engineer, Williams Sonoma",
       "institution": "Apple",
       "position": "Staff Machine Learning Engineer (Generative AI)",
-      "institutionSource": "https://theorg.com/org/apple/org-chart/paras-tiwari",
+      "institutionSource": "https://www.linkedin.com/in/parastiwari/",
       "institutionVerified": "2026-09-10",
       "homepage": null,
       "nameNote": null,
       "include": true,
-      "verify": true,
-      "researchNotes": "The Org lists 'Sr. Machine Learning Engineer (Generative AI) at Apple'; LinkedIn search snippet (https://www.linkedin.com/in/parastiwari/) shows 'Paras Tiwari, PhD - Staff Machine Learning Engineer'. Disambiguation: a me.sh/Clay profile for the same person confirms a WUSTL PhD in Computer Science (machine learning dissertation) and an intermediate role as Senior ML Engineer at iHerb. No longer at Williams Sonoma. No qualifying papers/news found."
+      "verify": false,
+      "researchNotes": "LinkedIn headline 'Staff Machine Learning Engineer @ Apple | PhD in Computer Science, Washington University in St. Louis'; Google Scholar profile lists WashU."
     },
     {
       "id": "yao-xie",
@@ -449,34 +449,34 @@ window.MENTEES_DATA = {
       "period": "2011–2013",
       "project": "Treatment planning",
       "cvPosition": "AI Consultant",
-      "institution": null,
-      "position": null,
-      "institutionSource": null,
-      "institutionVerified": null,
+      "institution": "Premier Strategy Consulting LLC, St. Louis",
+      "position": "Co-Founder & CEO",
+      "institutionSource": "https://www.uis.edu/math/colloquium",
+      "institutionVerified": "2026-09-10",
       "homepage": null,
       "nameNote": null,
-      "include": false,
-      "verify": true,
-      "researchNotes": "Identity confirmed only historically: WUSTL Mathematics PhD 2014, dissertation 'Applications of Nonlinear Optimization' (advisor M. Wickerhauser; Joseph O. Deasy on committee; IMRT multi-objective dose optimization) - https://openscholarship.wustl.edu/art_sci_etds/369/. Very common name (the prominent Georgia Tech professor Yao Xie is a different person, Stanford PhD). No verifiable current employer or 'AI Consultant' listing could be linked to this WUSTL alumnus; no items in window."
+      "include": true,
+      "verify": false,
+      "researchNotes": "UIS colloquium bio: Co-Founder & CEO of Premier Strategy Consulting; PhD in mathematics, Washington University in St. Louis. Also BBB profile ('Yao Xie PhD, Founder') and 2024–2025 papers with that affiliation. Consistent with the CV's 'AI Consultant'."
     },
     {
       "id": "areli-zuniga",
-      "name": "Areli Zuniga",
+      "name": "Areli Zuñiga",
       "degree": "PhD",
       "status": "past",
       "role": "Graduate student, University of Wisconsin",
       "period": "2009–2012",
       "project": "Outcomes modeling",
       "cvPosition": "Medical Physicist, Santiago, Chile",
-      "institution": null,
-      "position": null,
-      "institutionSource": null,
-      "institutionVerified": null,
+      "institution": "Clínica Dávila, Santiago, Chile",
+      "position": "Medical Physicist (PhD, Física Médica); Radiation Protection Officer",
+      "institutionSource": "https://www.zoominfo.com/p/Areli-Zu%C3%B1iga",
+      "institutionVerified": "2026-09-10",
       "homepage": null,
-      "nameNote": null,
-      "include": false,
+      "nameNote": "CV spelling: Areli Zuniga",
+      "include": true,
       "verify": true,
-      "researchNotes": "Only hit is the (old) MSK Deasy Lab member page describing her as a UW-Madison PhD candidate, Fulbright scholar from Chile with a Heidelberg MSc (https://www.mskcc.org/research-areas/labs/members/areli-zuniga). No current Chilean clinical-physics affiliation could be found; the Areli Zuniga LinkedIn/Instagram hits are different people."
+      "researchNotes": "LinkedIn headline 'PhD Física médica — Clínica Dávila / Pontificia Universidad Católica de Chile'; ZoomInfo lists 'Oficial de Protección Radiológica 1a Categoría at Clínica Dávila'. UW-Madison alumni directory confirms PhD 2015 (Generalized Tumor Dose). No official clinic page found — secondary sources only."
     },
     {
       "id": "jung-hun-oh",
@@ -507,14 +507,14 @@ window.MENTEES_DATA = {
       "project": "Outcomes modeling",
       "cvPosition": "Director of Data Science, Clarium Health",
       "institution": "Clarium Health",
-      "position": "Head of Data Science",
-      "institutionSource": "https://www.zoominfo.com/p/Andrew-Fontanella/2457208062",
+      "position": "Director / Head of Data Science",
+      "institutionSource": "https://www.linkedin.com/in/andrew-fontanella/",
       "institutionVerified": "2026-09-10",
       "homepage": null,
       "nameNote": null,
       "include": true,
-      "verify": true,
-      "researchNotes": "Identity confirmed via ZoomInfo profile listing 'Medical Physics Chief Resident & Research Scholar at Memorial Sloan Kettering 2013-2017' and Duke PhD. ZoomInfo says Head of Data Science at Clarium since 2020; RocketReach/Datanyze say Director of Data Science; LinkedIn (https://www.linkedin.com/in/afontanella/) shows Clarium Health but could not be opened. Secondary sources only. No qualifying items found."
+      "verify": false,
+      "researchNotes": "LinkedIn headline 'Director of Data Science — Clarium Health'; Duke PhD; MSK research scholar 2013–2017 (Google Scholar)."
     },
     {
       "id": "maria-thor",
@@ -602,14 +602,14 @@ window.MENTEES_DATA = {
       "project": "Systems biology / drug prediction",
       "cvPosition": "Associate Director, Data Science, AstraZeneca",
       "institution": "AstraZeneca",
-      "position": "Associate Director, Data Science",
-      "institutionSource": "https://www.linkedin.com/in/maryam-pouryahya/",
+      "position": "Director, Machine Learning & AI, BioPharmaceuticals R&D",
+      "institutionSource": "https://orcid.org/0000-0001-6203-5325",
       "institutionVerified": "2026-09-10",
       "homepage": null,
       "nameNote": null,
       "include": true,
-      "verify": true,
-      "researchNotes": "Search snippets show her LinkedIn ('Maryam Pouryahya - AstraZeneca') and a RocketReach listing with 'Associate Director, Data Science' (https://rocketreach.co/maryam-pouryahya-email_243345029); her 2025-2026 antibody-developability machine-learning papers in mAbs (doi 10.1080/19420862.2025.2562997; 10.1080/19420862.2026.2694124) carry an AstraZeneca affiliation per ResearchGate. Official page could not be opened, hence medium. mAbs is not among the target venues, so no paper items are listed."
+      "verify": false,
+      "researchNotes": "ORCID employment: AstraZeneca, Bethesda MD — Director of Machine Learning & AI; Google Scholar and a 2026 Brief Bioinform paper agree. Promoted since the CV (Associate Director)."
     },
     {
       "id": "vicki-taasti",
@@ -660,13 +660,13 @@ window.MENTEES_DATA = {
       "cvPosition": "Data Scientist, MSK",
       "institution": "Memorial Sloan Kettering Cancer Center",
       "position": "Senior Research Scientist, Medical Physics (Nadeem Lab)",
-      "institutionSource": "https://nadeemlab.org/",
+      "institutionSource": "https://www.mskcc.org/research-areas/labs/saad-nadeem/members/james-mathews",
       "institutionVerified": "2026-09-10",
       "homepage": null,
       "nameNote": "CV spelling: James Matthews",
       "include": true,
-      "verify": true,
-      "researchNotes": "Spelling on the CV ('Matthews') appears wrong: MSK Synapse (https://synapse.mskcc.org/synapse/people/19213) and his personal site list 'James C. Mathews', PhD in Mathematics from Stony Brook (2017), former Deasy Lab postdoc, previously a scientific data engineer at the Allen Institute. Title conflict: Synapse lists 'Data Scientist II, Medical Physics' while the Nadeem Lab site lists 'Senior Research Scientist' - the lab site is likely more current. Do not confuse with the Duke emergency-medicine 'James C. Mathews, DO'. No 2025-2026 PubMed papers found under Mathews JC with MSK affiliation."
+      "verify": false,
+      "researchNotes": "Official MSK Nadeem Lab member page: Senior Research Scientist."
     },
     {
       "id": "saad-nadeem",
@@ -792,14 +792,14 @@ window.MENTEES_DATA = {
       "project": "Cellular modeling",
       "cvPosition": "Data Scientist, Citibank",
       "institution": "Fidelity Investments",
-      "position": null,
+      "position": "AI/ML (title not published)",
       "institutionSource": "https://www.linkedin.com/in/phongatran/",
       "institutionVerified": "2026-09-10",
       "homepage": null,
       "nameNote": null,
       "include": true,
       "verify": true,
-      "researchNotes": "Identity is solid: his personal site (https://phongatran.github.io/) lists Northeastern ChemE PhD (2020), MSK postdoc in predictive informatics (2021) with Deasy as co-author, and 'AI/ML Model Validator, Assistant Vice President, Citibank' from Feb 2022. However the LinkedIn search-result headline for the same handle (phongatran) now reads 'Fidelity Investments', suggesting a move; the LinkedIn page itself could not be opened to confirm title. No publications or news found for Sep 2025-Sep 2026."
+      "researchNotes": "LinkedIn headline 'Phong Tran, Ph.D. — Fidelity Investments' (profile mentions MSK). Personal site still lists Citibank AVP (2022). Title not confirmed."
     },
     {
       "id": "rena-elkin",
@@ -811,14 +811,14 @@ window.MENTEES_DATA = {
       "project": "Systems biology / image analysis",
       "cvPosition": "Assistant Attending Computer Scientist, MSK",
       "institution": "Memorial Sloan Kettering Cancer Center",
-      "position": "Assistant Attending Computer Scientist, Medical Physics",
-      "institutionSource": "https://doi.org/10.1158/1538-7445.am2026-5520",
+      "position": "Assistant Attending Computer Scientist, Service for Predictive Informatics, Medical Physics",
+      "institutionSource": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13128017/",
       "institutionVerified": "2026-09-10",
       "homepage": null,
       "nameNote": null,
       "include": true,
-      "verify": true,
-      "researchNotes": "Still at MSK: first author of an AACR 2026 abstract (Cancer Res 2026, 'Multi-modal integration in the NetFlow framework', last author Deasy) and co-author of a JCO 2026 ASCO abstract with Oh/Deasy. No public MSK profile page found to confirm the exact title. Only non-abstract 2025-26 first-author output is the bioRxiv preprint 'NetFlow: A Framework to Explore Topological Representations of High-Dimensional Biomedical Data' (Oct 2025, doi 10.1101/2025.10.24.683878), not yet peer-reviewed so not listed as an item."
+      "verify": false,
+      "researchNotes": "2026 PMC author bio: 'Assistant Attending Computer Scientist in the Service for Predictive Informatics'; MSK Synapse: 'Medical Physics; Assistant Attending'."
     },
     {
       "id": "zeno-gouw",
@@ -886,19 +886,19 @@ window.MENTEES_DATA = {
       "period": "2020–2023",
       "project": "Systems biology modeling",
       "cvPosition": "Postdoctoral Fellow, Brigham and Women's Hospital",
-      "institution": "Brigham and Women's Hospital",
-      "position": "Postdoctoral Fellow, Department of Pathology",
-      "institutionSource": "https://www.researchgate.net/search/researcher?q=Jiening%20Zhu",
+      "institution": "Memorial Sloan Kettering Cancer Center",
+      "position": "Postdoctoral Fellow (research phase), Medical Imaging Physics Residency",
+      "institutionSource": "https://www.mskcc.org/hcp-education-training/residencies/residency-medical-imaging-physics/residents-fellows",
       "institutionVerified": "2026-09-10",
       "homepage": null,
       "nameNote": null,
       "include": true,
-      "verify": true,
-      "researchNotes": "ResearchGate's researcher listing shows a Jiening Zhu at Brigham and Women's Hospital, Department of Pathology, whose latest work is the Deasy-group paper 'Radiomic clustering using graph network techniques coupled with unbalanced optimal transport' (Oh JH, Apte A, Veeraraghavan H, Zhu J, Shukla-Dave A, Deasy JO; Comput Struct Biotechnol J, 2025-10-31, PMID 41357300) - this disambiguates from other Jiening Zhus (a psychology researcher at U. Maine and a cardiology/nephrology researcher in China). No official BWH/Harvard page found and Google Scholar/ORCID were blocked, so the title is unverified. The CSBJ paper is not in the qualifying venue list, so no items reported."
+      "verify": false,
+      "researchNotes": "MSK Medical Imaging Physics Residency page lists Jiening Zhu 2025–2027 (research-phase postdoctoral fellow); LinkedIn: Brigham & Women's postdoc Sep 2023–Sep 2025, now MSK. Moved since the CV."
     },
     {
       "id": "elfried-salanon",
-      "name": "Elfried Salanon",
+      "name": "Beeliada Elfried Salanon",
       "degree": "",
       "status": "past",
       "role": "Visiting graduate student, INRAE",
@@ -906,14 +906,14 @@ window.MENTEES_DATA = {
       "project": "Statistical modeling",
       "cvPosition": "None yet",
       "institution": "INRAE / Université Clermont Auvergne",
-      "position": "PhD, 2025",
+      "position": "PhD (2025)",
       "institutionSource": "https://digitbio.hub.inrae.fr/rubriques-verticales2/nos-actions/theses/these-d-elfried-salanon-2022-2025",
       "institutionVerified": "2026-09-10",
       "homepage": null,
-      "nameNote": null,
+      "nameNote": "CV spelling: Elfried Salanon",
       "include": true,
       "verify": true,
-      "researchNotes": "Full name appears as 'Beeliada (M.) Elfried Salanon' on LinkedIn/ResearchGate; publishes as 'Elfried Salanon'. INRAE thesis page (supervisors Julien Boccard, Univ. of Geneva, and Estelle Pujos-Guillot, INRAE) lists a 2024 bioRxiv preprint with Shukla-Dave and Deasy, confirming the MSK link. Thesis on multi-cohort integration for metabolic-syndrome phenotypes is listed as defended in 2025; a July 2026 paper still gives INRAE/UCA affiliation. The one item below (Metabolomics, first author) is outside the named high-profile venue list but is the Metabolomics Society's journal - PI may drop it. Also a Dec 2025 paper 'A cooperative learning framework for the integration of metabolomic data from multiple cohorts and common phenotype identification' in Comput Struct Biotechnol J (doi 10.1016/j.csbj.2025.12.020, PMID 41568099) - authorship position could not be verified."
+      "researchNotes": "Google Scholar and ResearchGate list INRAE ('Faculty Member'); thesis ended 2025 (CRAN dispersionIndicators README). Current post-PhD role not confirmed on an official page."
     }
   ]
 };
