@@ -3,6 +3,10 @@
 A static, multi-page site (no framework, no build step) for the Deasy Lab,
 designed to be served from **GitHub Pages** at **https://cerrver.github.io/deasylab**.
 
+**Taking over maintenance?** Read `HANDOFF.md` first — it is the full operational handoff
+(page map, data schemas, fixed wording, publishing workflow, scheduled tasks, open items, change
+log) and is refreshed weekly by a scheduled task.
+
 ## Pages
 
 - `index.html` — home: mission, p53 hero video, Mentee News teaser, research programs, **Tools for Cancer Research** (cards + SVG art in `assets/img/tools/`; ViSpace card still carries a REPLACE-VISPACE note), featured discovery, recent highlights, team teaser, recruitment CTA
@@ -53,6 +57,12 @@ appointments — and re-checks each person's current institution. Verified addit
 regenerated, and you get a notification listing what changed. As with publications: **review, then push**.
 To remove an item, delete its record from `data/mentee-news.json` (the task will not re-add a URL it
 has already seen — seen URLs are listed in `data/mentee-news-seen.json`).
+
+## Handoff document: weekly refresh
+
+A third Monday task compares `HANDOFF.md` against the git history since the commit named at its
+top, revises any section that the week's commits made stale, and appends to its change log. Like
+the other tasks it never commits — you push the updated file with the weekly update.
 
 ## Deploy to GitHub Pages (one time)
 
