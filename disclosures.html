@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Publications — Deasy Laboratory for Cancer Modeling</title>
-  <meta name="description" content="Searchable library of publications from the Deasy Laboratory for Cancer Modeling, each with a plain-language summary and a link." />
+  <title>Disclosures — Deasy Laboratory for Cancer Modeling</title>
+  <meta name="description" content="Financial disclosure statement for Joseph O. Deasy and the Deasy Laboratory for Cancer Modeling." />
   <link rel="icon" type="image/png" href="assets/img/favicon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -43,53 +43,28 @@
     <section class="pagehero">
       <div class="hero__bg" aria-hidden="true"></div>
       <div class="container pagehero__inner">
-        <p class="eyebrow">Publications</p>
-        <h1>Publications</h1>
-        <p>The lab's publications, newest first. Click any title to open the PDF. Search by
-           title, author, year, or type.</p>
+        <p class="eyebrow">Disclosures</p>
+        <h1>Financial disclosure statement</h1>
+        <p>Interests that a reader of our work may wish to know about.</p>
       </div>
     </section>
 
-    <section class="section" id="publications">
+    <section class="section" id="disclosure">
       <div class="container">
-        <!-- Search + controls -->
-        <div class="pub-controls">
-          <div class="search">
-            <svg class="search__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.3-4.3M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-            <input id="pubSearch" type="search" placeholder="Search papers — try a topic, author, or keyword…" autocomplete="off" aria-label="Search publications" />
-            <button id="pubClear" class="search__clear" aria-label="Clear search" hidden>&times;</button>
-          </div>
-          <div class="pub-controls__row">
-            <label class="select"><span>Type</span><select id="filterType"><option value="">All</option></select></label>
-            <label class="select"><span>Year</span><select id="filterYear"><option value="">All</option></select></label>
-            <label class="select"><span>Sort</span>
-              <select id="sortBy">
-                <option value="year-desc">Newest first</option>
-                <option value="year-asc">Oldest first</option>
-                <option value="title-asc">Title A–Z</option>
-              </select>
-            </label>
-          </div>
+        <div class="disclosure">
+          <h3>Joseph O. Deasy, PhD</h3>
+          <p>Joseph O. Deasy has intellectual property interests in technology licensed to RaySearch, Lumonus, and TCG Digital.
+             <span class="disclosure__date">Last updated: September 11, 2026.</span></p>
         </div>
-
-        <div id="topicChips" class="chips" aria-label="Filter by topic"></div>
-
-        <div class="pub-meta">
-          <span id="pubCount" aria-live="polite">Loading publications…</span>
-          <button id="resetFilters" class="linkbtn" hidden>Reset filters</button>
-        </div>
-
-        <div id="pubList" class="pub-list"></div>
-        <div id="pubEmpty" class="pub-empty" hidden>
-          <p>No papers match your search.</p>
-          <button class="btn btn--ghost" id="emptyReset">Clear filters</button>
-        </div>
+        <p class="grants__note">
+          Research funding for the laboratory is listed on the <a href="team.html#funding">Team page</a>.
+          Questions about this statement may be directed to <a href="mailto:deasyj@mskcc.org">deasyj@mskcc.org</a>.
+        </p>
       </div>
     </section>
-
   </main>
 
-  <footer class="footer" id="contact">
+  <footer class="footer">
     <div class="container footer__inner">
       <div class="footer__brand">
         <span class="footer__logo"><img src="assets/img/logo.png" alt="Deasy Lab for Cancer Modeling" /></span>
@@ -107,11 +82,6 @@
     </div>
   </footer>
 
-  <!-- data/papers.js provides window.PAPERS_DATA so this page also works when opened
-       directly from disk (file://). data/papers.json remains the canonical source used
-       when served over HTTP. Keep them in sync (npm-free: see README). -->
-  <script src="data/papers.js" defer></script>
-  <script src="assets/js/publications.js" defer></script>
   <script src="assets/js/main.js" defer></script>
 </body>
 </html>

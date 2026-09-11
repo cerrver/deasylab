@@ -376,6 +376,19 @@ h1, h2, h3, h4 { color: var(--ink); line-height: 1.15; font-weight: 700; }
 .footer__bar { border-top: 1px solid rgba(255,255,255,.12); }
 .footer__bar .container { display: flex; justify-content: space-between; align-items: center; padding-block: 18px; font-size: 13.5px; color: #9fa3c8; }
 
+/* ---------- funding & disclosure ---------- */
+.grants__group { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--accent-600); margin: 26px 0 12px; }
+.grants__group:first-of-type { margin-top: 0; }
+.grant h3 .grant__status { display: inline-block; vertical-align: middle; margin-left: 8px; font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); background: #eeeef6; padding: 2px 8px; border-radius: 999px; }
+.grant h3 .grant__status--active { color: #065f46; background: #d1fae5; }
+.grants__note { margin-top: 22px; font-size: 14.5px; color: var(--muted); max-width: 820px; }
+.disclosure { margin-top: 34px; background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--blue-600); border-radius: var(--radius); padding: 22px 26px; box-shadow: var(--shadow-sm); max-width: 820px; }
+.disclosure h3 { font-size: 16px; margin-bottom: 8px; }
+.disclosure p { font-size: 15.5px; color: var(--body); }
+.disclosure__date { display: block; margin-top: 6px; font-size: 13.5px; color: var(--muted); }
+.disclosure .linkout { display: inline-block; margin-top: 10px; }
+.section__more .btn + .btn { margin-left: 10px; }
+
 /* ---------- mentee news ---------- */
   .pagehero .pagehero__preamble { font-family: var(--font-serif); font-size: clamp(20px, 2.4vw, 26px); line-height: 1.4; color: #fff; margin-top: 18px; max-width: 760px; }
   .pagehero .pagehero__byline { margin-top: 8px; font-size: 15px; color: #b7bfe0; letter-spacing: .02em; }

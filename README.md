@@ -7,7 +7,8 @@ designed to be served from **GitHub Pages** at **https://cerrver.github.io/deasy
 
 - `index.html` — home: mission, p53 hero video, research programs, featured work, recent highlights, team teaser, recruitment CTA
 - `research.html` — the four research programs, methods & tools, milestones, funding
-- `team.html` — principal investigator, faculty & scientists, trainees, collaborators
+- `team.html` — principal investigator, key faculty collaborators, postdoctoral fellows, **Funding** (active/completed grants + financial disclosure)
+- `disclosures.html` — financial disclosure statement (update the "Last updated" date when it changes; linked from every footer)
 - `publications.html` — publications library (reverse-chronological, clickable, searchable)
 - `mentee-news.html` — Mentee News feed (high-profile papers / media / awards from current and former trainees, with each person's current institution) + the mentee roster
 - `join.html` — recruitment, collaboration, teaching, contact
