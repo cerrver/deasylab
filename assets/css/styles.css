@@ -344,6 +344,29 @@ h1, h2, h3, h4 { color: var(--ink); line-height: 1.15; font-weight: 700; }
 .teamphoto figcaption { margin-top: 12px; font-size: 14.5px; color: var(--ink); font-weight: 600; }
 .teamphoto figcaption span { color: var(--muted); font-weight: 400; font-style: italic; }
 
+/* ---------- team photo name labels ---------- */
+.teamphoto__frame { position: relative; container-type: inline-size; }
+.teamphoto__labels { list-style: none; margin: 0; padding: 0; position: absolute; inset: 0; pointer-events: none; }
+.teamphoto__label {
+  position: absolute; left: calc(var(--x) * 1%); top: calc(var(--y) * 1%);
+  transform: translate(-50%, -50%);
+  background: rgba(255,255,255,.94); color: var(--ink); border: 1px solid rgba(255,255,255,.9);
+  border-radius: 7px; padding: 4px 9px; box-shadow: 0 2px 8px rgba(15,23,42,.28);
+  font-size: 12px; line-height: 1.2; text-align: center; white-space: nowrap; backdrop-filter: blur(2px);
+}
+.teamphoto__label strong { display: block; font-weight: 600; }
+.teamphoto__label span { display: block; font-size: .85em; color: var(--muted); }
+@container (min-width: 0px) { .teamphoto__label { font-size: clamp(8.5px, 1.15cqw, 13px); padding: .3em .7em; border-radius: .55em; } }
+.teamphoto .teamphoto__cap { margin-top: 12px; font-size: 13.5px; color: var(--muted); font-weight: 400; line-height: 1.5; }
+@media (max-width: 640px) {
+  .teamphoto__labels { display: none; }
+}
+@media (min-width: 641px) {
+  .teamphoto__cap { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .teamphoto { position: relative; }
+}
+
+
 /* ---------- grants ---------- */
 .grants { display: grid; gap: 14px; }
 .grant { display: flex; gap: 22px; align-items: flex-start; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 26px; box-shadow: var(--shadow-sm); }

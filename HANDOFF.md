@@ -141,6 +141,13 @@ canonical source, so a stale mirror shows stale data when opened from disk but n
   ("Fundamentals of Radiation and Immunity") are listed per year inside `<details class="talks">`
   and link to `https://www.immunorobin.org/curriculum/fundamentals-of-radiation-and-immunity/{year}`;
   the source site does not expose stable per-talk URLs. Add a new year by copying a `<details>` block.
+- **Team photo labels** (index.html and team.html): the photo is wrapped in `.teamphoto__frame`
+  with a `<ul class="teamphoto__labels">` of white name boxes positioned by CSS variables
+  (`--x`, `--y` = percent of the image width/height, chest height). Left to right: Joseph Deasy
+  (PI), Daniel Grange, Francisco Calderon (undergraduate), Anish Simhal, Himangi Srivastava,
+  Lopamudra Nayak, Leyla Ebrahimpour (postdocs), Aditya Apte, Jung Hun Oh (faculty). To move a
+  label, change its `--x`/`--y`; edit the list identically in both pages. Below 640 px the boxes
+  are hidden and a "Left to right: …" caption is shown instead; the alt text carries the same list.
 - **p53 hero video** is adapted from Tran AP et al., Cell Death & Differentiation 30:660–672
   (2023), doi 10.1038/s41418-022-01069-x; reuse permission has not been confirmed.
 - Editorial placeholders are marked `REPLACE-…` in the HTML or by dashed "note" boxes; search for
@@ -232,6 +239,7 @@ must be recreated, its prompt should carry: repo path on the PC, the schemas abo
 
 Newest first. One line per delivered change set; the weekly refresh task appends from `git log`.
 
+- 2026-09-11 · (pending commit) · Team photo on Home and Team: white name/role labels at chest height for all nine people, caption fallback on phones.
 - 2026-09-11 · `1de86f8` · Home: "Tools for Cancer Research" section (six cards, SVG art);
   Research: NIH ROBIN section with 2023–2025 didactic talk lists; Team: PI titles card, three new
   key faculty collaborators, MSK Medical Physics links in all footers.
