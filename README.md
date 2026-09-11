@@ -5,8 +5,8 @@ designed to be served from **GitHub Pages** at **https://cerrver.github.io/deasy
 
 ## Pages
 
-- `index.html` — home: mission, p53 hero video, research programs, featured work, recent highlights, team teaser, recruitment CTA
-- `research.html` — the four research programs, methods & tools, milestones, funding
+- `index.html` — home: mission, p53 hero video, Mentee News teaser, research programs, **Tools for Cancer Research** (cards + SVG art in `assets/img/tools/`; ViSpace card still carries a REPLACE-VISPACE note), featured discovery, recent highlights, team teaser, recruitment CTA
+- `research.html` — the four research programs, methods & tools, **NIH ROBIN consortium + didactic talk lists** (titles copied from immunorobin.org; each year links to the video page), milestones, funding teaser
 - `team.html` — principal investigator, key faculty collaborators, postdoctoral fellows, **Funding** (active/completed grants + financial disclosure)
 - `disclosures.html` — financial disclosure statement (update the "Last updated" date when it changes; linked from every footer)
 - `publications.html` — publications library (reverse-chronological, clickable, searchable)

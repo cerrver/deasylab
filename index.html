@@ -186,33 +186,132 @@
       </div>
     </section>
 
-    <!-- ============ FEATURED ============ -->
-    <section class="section" id="featured">
+    <!-- ============ TOOLS FOR CANCER RESEARCH ============ -->
+    <section class="section" id="tools">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Tools for cancer research</p>
+          <h2>Software we build, use, and share</h2>
+          <p class="section__lead">
+            Open platforms and methods from the lab — for images and dose, for the geometry of
+            omics data, for AI segmentation in the clinic, and for keeping a research program organized.
+          </p>
+        </div>
+
+        <div class="tools">
+          <article class="toolcard toolcard--featured">
+            <a class="toolcard__media" href="https://cerrver.github.io/focusnexus/" target="_blank" rel="noopener"><img src="assets/img/tools/focusnexus.svg" alt="FocusNexus: task cards organized by role with a highlighted next action" loading="lazy" /></a>
+            <div class="toolcard__body">
+              <span class="toolcard__badge">Highlighted · Getting things done</span>
+              <h3>FocusNexus</h3>
+              <p>
+                A lightweight, browser-based tool for managing projects and getting things done. FocusNexus
+                organizes projects and tasks by role — Chair, Science, Mentor, Personal — so the next action
+                in each part of your life is always in view. Runs entirely in the browser, imports and exports
+                its full state as JSON, and is free for personal and non-commercial use.
+              </p>
+              <div class="tool__meta"><span>Web app</span><span>CC BY-NC-SA 4.0</span><span>Teams &amp; roles</span></div>
+              <div class="toolcard__links">
+                <a class="btn btn--primary" href="https://cerrver.github.io/focusnexus/" target="_blank" rel="noopener">Open FocusNexus →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="toolcard">
+            <a class="toolcard__media" href="https://github.com/cerr/pyCERR" target="_blank" rel="noopener"><img src="assets/img/tools/cerr.svg" alt="CERR / pyCERR: a CT slice with dose colorwash, contours and a dose-volume histogram" loading="lazy" /></a>
+            <div class="toolcard__body">
+              <h3>CERR / pyCERR</h3>
+              <p>
+                The lab's open-source platform for relating medical images to radiotherapy dose and outcomes —
+                registration, dose calculation, contouring, and quantitative ("radiomic") image analysis. CERR
+                has underpinned 70+ of the lab's studies and been cited over 800 times; pyCERR is its native
+                Python successor, with a graphical viewer and AI-pipeline utilities. Development is led by Aditya Apte, PhD.
+              </p>
+              <div class="tool__meta"><span>Python</span><span>MATLAB</span><span>Open source</span></div>
+              <div class="toolcard__links">
+                <a class="linkout" href="https://github.com/cerr/pyCERR" target="_blank" rel="noopener">pyCERR on GitHub →</a>
+                <a class="linkout" href="https://github.com/cerr/CERR" target="_blank" rel="noopener">CERR (MATLAB) →</a>
+              </div>
+              <p class="ref">Apte et al., <em>Medical Physics</em> (2018), PMC6597320.</p>
+            </div>
+          </article>
+
+          <article class="toolcard">
+            <a class="toolcard__media" href="https://github.com/cerr/model_installer" target="_blank" rel="noopener"><img src="assets/img/tools/autoseg.svg" alt="AI auto-segmentation: organs outlined in color on a torso cross-section beside a neural-network motif" loading="lazy" /></a>
+            <div class="toolcard__body">
+              <h3>AI auto-segmentation models</h3>
+              <p>
+                Deep-learning models for segmenting tumors and organs at risk on CT and MRI — heart and cardiac
+                substructures, lung, head-and-neck, prostate, rectum, pancreas, and whole-body models — published
+                with pyCERR and installable with one command via the CERR model installer. Models of this kind are
+                in routine clinical use for radiotherapy planning at MSK.
+              </p>
+              <div class="tool__meta"><span>CT &amp; MRI</span><span>12 published models</span><span>pyCERR</span></div>
+              <div class="toolcard__links">
+                <a class="linkout" href="https://github.com/cerr/model_installer" target="_blank" rel="noopener">Model installer &amp; model list →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="toolcard">
+            <a class="toolcard__media" href="https://github.com/aksimhal/ORC-Omics" target="_blank" rel="noopener"><img src="assets/img/tools/orco.svg" alt="ORCO: a gene network whose edges are colored by Ollivier-Ricci curvature" loading="lazy" /></a>
+            <div class="toolcard__body">
+              <h3>ORCO</h3>
+              <p>
+                Ollivier-Ricci Curvature-Omics: an open-source Python package that lays omics data over gene- or
+                protein-interaction networks and measures the curvature of each interaction — a geometric readout of
+                how robust or fragile a biological system is, which can surface hidden therapeutic targets and
+                regulatory modules. Install with <code>pip install orcomics</code>.
+              </p>
+              <div class="tool__meta"><span>Python</span><span>Network geometry</span><span>Bioinformatics 2025</span></div>
+              <div class="toolcard__links">
+                <a class="linkout" href="https://github.com/aksimhal/ORC-Omics" target="_blank" rel="noopener">ORC-Omics on GitHub →</a>
+                <a class="linkout" href="https://doi.org/10.1093/bioinformatics/btaf093" target="_blank" rel="noopener">Read the paper →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="toolcard">
+            <a class="toolcard__media" href="https://areelkin.github.io/netflow" target="_blank" rel="noopener"><img src="assets/img/tools/netflow.svg" alt="NetFlow: high-dimensional samples flowing into an interpretable branching graph" loading="lazy" /></a>
+            <div class="toolcard__body">
+              <h3>NetFlow</h3>
+              <p>
+                A framework for exploring topological representations of high-dimensional biomedical data.
+                NetFlow turns a cohort of samples into an interpretable graph of sample relatedness — built on
+                optimal transport, diffusion, and topological data analysis — to support precision oncology and
+                hypothesis generation, with Jupyter tutorials that reproduce the multiple-myeloma analysis from the paper.
+              </p>
+              <div class="tool__meta"><span>Python</span><span>Topology · OMT</span><span>Preprint 2025</span></div>
+              <div class="toolcard__links">
+                <a class="linkout" href="https://areelkin.github.io/netflow" target="_blank" rel="noopener">Documentation →</a>
+                <a class="linkout" href="https://github.com/areElkin/netflow" target="_blank" rel="noopener">GitHub →</a>
+                <a class="linkout" href="https://doi.org/10.1101/2025.10.24.683878" target="_blank" rel="noopener">Preprint →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="toolcard">
+            <span class="toolcard__media"><img src="assets/img/tools/vispace.svg" alt="ViSpace: clusters of points in an interactive visualization space" loading="lazy" /></span>
+            <div class="toolcard__body">
+              <h3>ViSpace</h3>
+              <p>
+                An interactive visualization space for exploring high-dimensional cancer data.
+              </p>
+              <div class="note"><strong>To complete:</strong> add a one-paragraph description and a link for ViSpace (repository, paper, or app URL). REPLACE-VISPACE</div>
+              <div class="tool__meta"><span>Visualization</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURED DISCOVERY ============ -->
+    <section class="section section--tint" id="featured">
       <div class="container">
         <div class="section__head">
           <p class="eyebrow">Featured</p>
-          <h2>A tool in wide use, and a discovery from computation</h2>
+          <h2>A discovery from computation</h2>
         </div>
-
-        <article class="feature">
-          <div class="feature__media" role="img" aria-label="Open-source software platform">
-            <div class="feature__glyph">CERR&nbsp;/&nbsp;pyCERR<br /><span style="font-size:15px;font-family:var(--font-sans);font-weight:500;">open-source imaging &amp; radiotherapy research</span></div>
-          </div>
-          <div class="feature__body">
-            <span class="feature__badge">Software</span>
-            <h3>CERR / pyCERR</h3>
-            <p>
-              An open-source platform, created in the lab, for relating medical images to
-              radiotherapy dose and outcomes — registration, dose calculation, and quantitative
-              ("radiomic") image analysis. It has grown past 250,000 lines of code, underpinned
-              70+ of the lab's studies, and been cited over 800 times, and is now re-implemented
-              as pyCERR, a native Python version with a graphical interface. Development is led by
-              Aditya Apte, PhD.
-            </p>
-            <p class="ref">Apte et al., <em>Medical Physics</em> (2018), PMC6597320.</p>
-          </div>
-        </article>
-
         <article class="feature feature--flip">
           <div class="feature__media" role="img" aria-label="Computationally identified breast cancer subtype">
             <div class="feature__glyph">A hidden<br />high-risk subtype<br /><span style="font-size:15px;font-family:var(--font-sans);font-weight:500;">found by optimal transport</span></div>
@@ -233,7 +332,7 @@
     </section>
 
     <!-- ============ RECENT HIGHLIGHTS ============ -->
-    <section class="section section--tint" id="recent">
+    <section class="section" id="recent">
       <div class="container">
         <div class="section__head">
           <p class="eyebrow">Recent work</p>
@@ -322,6 +421,7 @@
         <!-- EDIT contact details -->
         <p><a href="mailto:deasyj@mskcc.org">deasyj@mskcc.org</a></p>
         <p><a href="https://orcid.org/0000-0002-9437-266X" target="_blank" rel="noopener">ORCID</a> · <a href="https://github.com/cerr/CERR" target="_blank" rel="noopener">GitHub (CERR)</a> · <a href="disclosures.html">Disclosures</a></p>
+        <p><a href="https://www.mskcc.org/departments/medical-physics" target="_blank" rel="noopener">MSK Department of Medical Physics</a></p>
       </div>
     </div>
     <div class="footer__bar">
