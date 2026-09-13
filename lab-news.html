@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lab News — Deasy Laboratory for Cancer Modeling</title>
+  <meta name="description" content="Every publication, preprint, and news item from the last two years involving Joseph O. Deasy or a current trainee of the Deasy Laboratory for Cancer Modeling — updated weekly." />
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:ital,opsz@0,6..72;1,6..72&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a class="brand" href="index.html" aria-label="Deasy Lab for Cancer Modeling — home">
+        <img class="brand__logo" src="assets/img/logo-mark.png" alt="" aria-hidden="true" />
+        <span class="brand__text"><strong>Deasy Lab</strong><small>Cancer Modeling</small></span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="team.html">Team</a>
+        <a href="publications.html">Publications</a>
+        <a href="lab-news.html">Lab News</a>
+      <a href="mentee-news.html">Mentee News</a>
+        <a href="join.html" class="nav__cta">Join / Contact</a>
+      </nav>
+      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu" hidden>
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="team.html">Team</a>
+      <a href="publications.html">Publications</a>
+      <a href="lab-news.html">Lab News</a>
+      <a href="mentee-news.html">Mentee News</a>
+      <a href="join.html">Join / Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="pagehero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container pagehero__inner">
+        <p class="eyebrow">Lab News</p>
+        <h1>What the lab is publishing and where it is in the news</h1>
+        <p class="pagehero__preamble">Every paper, preprint, and news story from the last two years that carries the name of
+           a current lab member — from a first-author paper by a postdoc to an interview with the PI.</p>
+        <p class="pagehero__sub">Newest first, each with the lab members involved, their role on the work, and a plain-language
+           summary. A weekly check adds new items; every entry links to its source. Looking for the full record?
+           See the <a href="publications.html">complete publication archive</a>, or the
+           <a href="mentee-news.html">Mentee News</a> feed for former trainees.</p>
+      </div>
+    </section>
+
+    <section class="section" id="feed">
+      <div class="container">
+        <div class="pub-controls">
+          <div class="search">
+            <svg class="search__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.3-4.3M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            <input id="labNewsSearch" type="search" placeholder="Search — a name, journal, or topic…" autocomplete="off" aria-label="Search lab news" />
+            <button id="labNewsClear" class="search__clear" aria-label="Clear search" hidden>&times;</button>
+          </div>
+          <div class="pub-controls__row">
+            <label class="select"><span>Lab member</span><select id="filterPerson"><option value="">All</option></select></label>
+            <label class="select"><span>Type</span><select id="filterType"><option value="">All</option></select></label>
+            <label class="select"><span>Sort</span>
+              <select id="sortBy">
+                <option value="date-desc">Newest first</option>
+                <option value="date-asc">Oldest first</option>
+                <option value="venue">By journal / outlet</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <div class="pub-meta">
+          <span><span id="labNewsCount" aria-live="polite">Loading…</span> <span id="labNewsUpdated" class="news__updated"></span></span>
+          <span><button id="resetFilters" class="linkbtn" hidden>Reset filters</button>
+          <button id="showOlder" class="linkbtn" hidden>Show older items</button></span>
+        </div>
+
+        <div id="labNewsList" class="news-list"></div>
+        <div id="labNewsEmpty" class="pub-empty" hidden>
+          <p>No items match your search.</p>
+          <button class="btn btn--ghost" id="emptyReset">Clear filters</button>
+        </div>
+
+        <p class="news__how">
+          <strong>How this feed is built.</strong> The feed shows items from the last 24 months, newest first
+          (older items stay available via "Show older items"). Once a week an automated check looks for new
+          items that include the PI or a current lab trainee: peer-reviewed papers in any journal, preprints,
+          press and media coverage, and awards, grants, or appointments. Faculty collaborators are not tracked
+          here, and items from a trainee's earlier positions are included only when they carry the trainee's name.
+          Each candidate must resolve to a direct link before it is added, and the lab reviews the additions before
+          they are published. Items marked <span class="badge badge--sample">verify</span> carry a detail that is
+          still being confirmed. This feed is separate from the
+          <a href="publications.html">complete publication archive</a>.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section--tint" id="members">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Who is covered</p>
+          <h2>The PI and current lab trainees</h2>
+          <p class="section__lead">
+            Click a name to filter the feed to that person's items. Faculty collaborators are listed on the
+            <a href="team.html#faculty">Team page</a> but are not part of this feed; former trainees appear in
+            <a href="mentee-news.html">Mentee News</a>.
+          </p>
+        </div>
+        <div id="labMembers" class="members"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__logo"><img src="assets/img/logo.png" alt="Deasy Lab for Cancer Modeling" /></span>
+        <div><strong>Deasy Laboratory for Cancer Modeling</strong>
+          <p>Department of Medical Physics, Memorial Sloan Kettering Cancer Center<br />New York, NY · In affiliation with Weill Cornell Medicine</p></div>
+      </div>
+      <div class="footer__links">
+        <h4>Contact</h4>
+        <p><a href="mailto:deasyj@mskcc.org">deasyj@mskcc.org</a></p>
+        <p><a href="https://orcid.org/0000-0002-9437-266X" target="_blank" rel="noopener">ORCID</a> · <a href="https://github.com/cerr/CERR" target="_blank" rel="noopener">GitHub (CERR)</a> · <a href="disclosures.html">Disclosures</a></p>
+        <p><a href="https://www.mskcc.org/departments/medical-physics" target="_blank" rel="noopener">MSK Department of Medical Physics</a></p>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <div class="container"><span>© <span id="year"></span> Deasy Laboratory for Cancer Modeling.</span><a href="#top">Back to top ↑</a></div>
+    </div>
+  </footer>
+
+  <!-- data/*.js mirrors let this page work from disk (file://); the .json files are the
+       canonical sources used over HTTP. Regenerate mirrors with: python3 gen-lab-js.py -->
+  <script src="data/lab-members.js" defer></script>
+  <script src="data/lab-news.js" defer></script>
+  <script src="assets/js/lab-news.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

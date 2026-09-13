@@ -1,0 +1,161 @@
+{
+  "_note": "Roster for the Deasy Lab 'Lab News' feed: the PI and CURRENT lab trainees only (postdoctoral fellows, residents/fellows and students working in the lab). Faculty collaborators are deliberately not listed. searchNames are the author-name forms to query in Europe PMC / Crossref. include=false hides the person and stops the weekly search.",
+  "updated": "2026-09-13",
+  "members": [
+    {
+      "id": "deasy",
+      "name": "Joseph O. Deasy",
+      "degree": "PhD, FAAPM",
+      "role": "Principal investigator",
+      "isPI": true,
+      "status": "current",
+      "period": null,
+      "institution": "Memorial Sloan Kettering Cancer Center",
+      "position": "Chair, Department of Medical Physics",
+      "searchNames": [
+        "Deasy JO"
+      ],
+      "include": true,
+      "verify": false,
+      "notes": null
+    },
+    {
+      "id": "simhal",
+      "name": "Anish Simhal",
+      "degree": "PhD",
+      "role": "Postdoctoral fellow",
+      "isPI": false,
+      "status": "current",
+      "period": "2021–",
+      "institution": "Memorial Sloan Kettering Cancer Center",
+      "position": "Postdoctoral fellow, Medical Physics",
+      "searchNames": [
+        "Simhal AK",
+        "Simhal A"
+      ],
+      "include": true,
+      "verify": false,
+      "notes": "Also in the mentee roster (id anish-simhal)."
+    },
+    {
+      "id": "nayak",
+      "name": "Lopamudra Nayak",
+      "degree": "PhD",
+      "role": "Postdoctoral fellow",
+      "isPI": false,
+      "status": "current",
+      "period": "2023–",
+      "institution": "Memorial Sloan Kettering Cancer Center",
+      "position": "Research fellow, Medical Physics",
+      "searchNames": [
+        "Nayak L"
+      ],
+      "include": true,
+      "verify": false,
+      "notes": "Common name: 'Nayak L' in Europe PMC is usually Lakshmi Nayak (neuro-oncology, Dana-Farber) — require an MSK Medical Physics affiliation or a Deasy co-authorship. Also in the mentee roster (id lopamudra-nayak)."
+    },
+    {
+      "id": "ebrahimpour",
+      "name": "Leyla Seyed Ebrahimpour",
+      "degree": "PhD",
+      "role": "Postdoctoral fellow",
+      "isPI": false,
+      "status": "current",
+      "period": null,
+      "institution": "Memorial Sloan Kettering Cancer Center",
+      "position": "Postdoctoral fellow, Medical Physics",
+      "searchNames": [
+        "Ebrahimpour L",
+        "Seyed Ebrahimpour L"
+      ],
+      "include": true,
+      "verify": true,
+      "notes": "Papers found under 'Ebrahimpour L' are from Université Laval (Manem / Després group, radiomics) and are assumed to be the same person before joining the lab — to confirm."
+    },
+    {
+      "id": "srivastava",
+      "name": "Himangi Srivastava",
+      "degree": "PhD",
+      "role": "Postdoctoral fellow",
+      "isPI": false,
+      "status": "current",
+      "period": null,
+      "institution": "Memorial Sloan Kettering Cancer Center",
+      "position": "Postdoctoral fellow, Medical Physics",
+      "searchNames": [
+        "Srivastava H"
+      ],
+      "include": true,
+      "verify": false,
+      "notes": "No indexed publications with an MSK affiliation found for Sept 2024 – Sept 2026 (common surname; earlier-career papers not searched)."
+    },
+    {
+      "id": "grange",
+      "name": "Daniel Grange",
+      "degree": "PhD",
+      "role": "Postdoctoral fellow",
+      "isPI": false,
+      "status": "current",
+      "period": null,
+      "institution": "Memorial Sloan Kettering Cancer Center",
+      "position": "Postdoctoral fellow, Medical Physics",
+      "searchNames": [
+        "Grange D"
+      ],
+      "include": true,
+      "verify": false,
+      "notes": "Common name: 'Grange DK' (Dorothy K. Grange, medical genetics, WashU) is a different person — require a Deasy/Weistuch/Georgiou co-authorship or MSK affiliation."
+    },
+    {
+      "id": "askarifirouzjaei",
+      "name": "Hadi Askarifirouzjaei",
+      "degree": "PhD",
+      "role": "Postdoctoral fellow",
+      "isPI": false,
+      "status": "current",
+      "period": null,
+      "institution": "Memorial Sloan Kettering Cancer Center",
+      "position": "Postdoctoral fellow, Medical Physics",
+      "searchNames": [
+        "Askarifirouzjaei H"
+      ],
+      "include": true,
+      "verify": false,
+      "notes": null
+    },
+    {
+      "id": "chen-xinan",
+      "name": "Xinan Chen",
+      "degree": "PhD",
+      "role": "Former research fellow, now therapeutic medical physics resident",
+      "isPI": false,
+      "status": "current",
+      "period": "2023–",
+      "institution": "Memorial Sloan Kettering Cancer Center",
+      "position": "Therapeutic Medical Physics Resident",
+      "searchNames": [
+        "Chen X"
+      ],
+      "include": true,
+      "verify": true,
+      "notes": "Listed as a current mentee in the mentee roster (id xinan-chen); moved from the lab to the MSK residency in 2025 — confirm whether she should stay in the Lab News roster. Very common name: require an MSK Medical Physics affiliation, a Deasy co-authorship, or the Stony Brook / Tannenbaum optimal-mass-transport lineage."
+    },
+    {
+      "id": "calderon",
+      "name": "Francisco Calderon",
+      "degree": null,
+      "role": "Undergraduate researcher",
+      "isPI": false,
+      "status": "current",
+      "period": null,
+      "institution": "Memorial Sloan Kettering Cancer Center",
+      "position": "Undergraduate researcher",
+      "searchNames": [
+        "Calderon F"
+      ],
+      "include": true,
+      "verify": true,
+      "notes": "Spelling taken from the team photo caption ('Fancisco' as typed); no publications found."
+    }
+  ]
+}

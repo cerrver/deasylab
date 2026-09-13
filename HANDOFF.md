@@ -4,7 +4,7 @@
 **Repo:** https://github.com/cerrver/deasylab (branch `main`, GitHub Pages "deploy from branch", root folder)
 **Local working copy:** `…\Documents\Claude\Projects\Web site design and deployment\deasylab\` on Joseph's Windows PC
 **Owner / final say on content:** Joseph O. Deasy (deasyj@mskcc.org)
-**Handoff document last updated:** 2026-09-11 (at commit `1de86f8`)
+**Handoff document last updated:** 2026-09-13 (at commit `b29b454`; Lab News changes pending commit)
 
 This document is the single place a new maintainer (a person or another Claude Project) needs to
 read to take over the site. It is kept current by a weekly scheduled task (see §9) and should be
@@ -17,7 +17,7 @@ short public-facing version; this file is the operational one.
 
 A static, multi-page HTML/CSS/JS site with **no framework and no build step**. Every page is a
 complete HTML file that loads one shared stylesheet (`assets/css/styles.css`) and one shared script
-(`assets/js/main.js`). Two pages (Publications, Mentee News) are data-driven: they render lists from
+(`assets/js/main.js`). Three pages (Publications, Lab News, Mentee News) are data-driven: they render lists from
 JSON files in `data/`, each of which has a `.js` mirror so the page also works when opened from disk
 (`file://`), where browsers block `fetch()` of local JSON.
 
@@ -30,39 +30,45 @@ tints, radii, shadows. Brand assets: `assets/img/logo.png` (full logo, explorer 
 
 | File | Purpose | Notable section ids |
 |---|---|---|
-| `index.html` | Home | `#home` hero (p53 video, stats, "Mentee news →" button), `#mission`, `#mentee-news` (banner + 3 newest items via `#menteeNewsLatest`), `#research` (four programs), `#tools` **Tools for Cancer Research** (six `.toolcard`s), `#featured` (npj Breast Cancer discovery), `#recent` highlights, `#team` teaser, recruitment CTA |
+| `index.html` | Home | `#home` hero (p53 video, stats, "Lab & mentee news →" button → `#news`), `#mission`, `#news` **news hub** — two side-by-side columns: `#lab-news` (banner + 3 newest items via `#labNewsLatest`) and `#mentee-news` (banner + 3 newest via `#menteeNewsLatest`); stacks to one column below 940 px, `#research` (four programs), `#tools` **Tools for Cancer Research** (six `.toolcard`s), `#featured` (npj Breast Cancer discovery), `#recent` highlights, `#team` teaser, recruitment CTA |
 | `research.html` | Research programs | `#echo`, `#digital-twins`, `#math-oncology`, `#proton`, `#tools` (short lead → `index.html#tools`), `#robin` (NIH ROBIN consortium + didactic talk lists), `#milestones`, `#funding` (teaser → `team.html#funding`) |
 | `team.html` | People + funding | `#pi` (PI card with six titles, email, MSK Medical Physics link, ORCID), `#faculty` **Key Faculty Collaborators**, `#fellows` Postdoctoral Fellows, `#funding` (Active / Completed grants), `#disclosure` |
 | `publications.html` | Searchable publications library | rendered by `assets/js/publications.js` from `data/papers.js`/`.json` |
+| `lab-news.html` | Lab News feed + covered people | `#feed`, `#members`; rendered by `assets/js/lab-news.js` from `data/lab-news.js`/`.json` + `data/lab-members.js`/`.json`; deep link `?person=<memberId>` |
 | `mentee-news.html` | Mentee News feed + roster | `#feed`, `#mentees`; rendered by `assets/js/mentee-news.js` |
 | `disclosures.html` | Financial disclosure statement | carries a "Last updated: <date>" line — change it when the statement changes |
 | `join.html` | Recruiting, collaboration, teaching, contact | `#join`, `#collaborate`, `#teaching`, `#contact` |
 
-Every page has the same header nav (Home · Research · Team · Publications · Mentee News · Join /
-Contact, plus a mobile menu `#mobileMenu`) and the same footer (email, ORCID, GitHub (CERR),
+Every page has the same header nav (Home · Research · Team · Publications · Lab News · Mentee News ·
+Join / Contact, plus a mobile menu `#mobileMenu`) and the same footer (email, ORCID, GitHub (CERR),
 Disclosures, MSK Department of Medical Physics link, "Back to top"). **When you add a page or nav
-link, edit the header and footer in all seven HTML files** — there is no include mechanism.
+link, edit the header and footer in all eight HTML files** — there is no include mechanism.
 
 ## 3. Directory layout
 
 ```
 deasylab/
-├── index.html research.html team.html publications.html mentee-news.html disclosures.html join.html
+├── index.html research.html team.html publications.html lab-news.html mentee-news.html disclosures.html join.html
 ├── README.md            short public readme (deploy + weekly push)
 ├── HANDOFF.md           this file
 ├── gen-papers-js.py     data/papers.json  -> data/papers.js
 ├── gen-mentee-js.py     data/mentees.json -> data/mentees.js ; data/mentee-news.json -> data/mentee-news.js
+├── gen-lab-js.py        data/lab-members.json -> data/lab-members.js ; data/lab-news.json -> data/lab-news.js
 ├── assets/
 │   ├── css/styles.css   single stylesheet (sections marked with /* ---------- name ---------- */ comments)
 │   ├── js/main.js       mobile nav, active-link highlight, stat counters, avatar images, footer year, reduced-motion video
 │   ├── js/publications.js
+│   ├── js/lab-news.js
 │   ├── js/mentee-news.js
 │   └── img/             logo.png, logo-mark.png, favicon.png, lab-team.jpg, tools/*.svg (six tool illustrations)
 └── data/
     ├── papers.json / papers.js
     ├── mentees.json / mentees.js
     ├── mentee-news.json / mentee-news.js
-    └── mentee-news-seen.json
+    ├── mentee-news-seen.json
+    ├── lab-members.json / lab-members.js
+    ├── lab-news.json / lab-news.js
+    └── lab-news-seen.json
 ```
 
 ## 4. Data files and schemas
@@ -99,10 +105,35 @@ older items" button for the rest. The home page shows the three newest.
 `{"seen":[{url, menteeId, status: added|excluded, reason, date}]}`. The weekly task never re-adds
 a URL listed here, so deleting an item from the feed is permanent unless you also remove it here.
 
-### 4.5 Regenerating the `.js` mirrors
+### 4.5 `data/lab-members.json` — Lab News roster
+Top level: `_note`, `updated`, `members[]`. Each: `id`, `name`, `degree`, `role`, `isPI` (bool),
+`status` (current), `period`, `institution`, `position`, `searchNames[]` (author-name forms to query,
+e.g. "Deasy JO"), `include` (false → hidden and not searched), `verify` (true → "to confirm" badge),
+`notes` (name-disambiguation rules — read them before searching a common surname). The roster is the
+PI plus **current lab trainees only** (postdocs, the lab's resident/fellow, students); faculty
+collaborators are deliberately excluded. Membership changes are made by hand, never by the task.
+
+### 4.6 `data/lab-news.json` — Lab News feed
+Top level: `_note`, `updated`, `window`, `windowMonths` (24), `items[]`. Each item: `id`
+(`paper-<doi slug>` or `media-…`/`award-…`), `type` (paper | media | award), `title`, `date`
+(YYYY-MM-DD or YYYY-MM), `venue` (journal abbreviation; preprints carry "(preprint)" and render as
+"Preprint"), `url` (required; DOI URL for papers), `doi`, `authorsShort` (first 3 … last), `people[]`
+= `[{id: <memberId>, role}]` with role ∈ first author | last/senior author | corresponding author |
+co-author | subject | quoted | recipient, `summary` (2–3 plain-language sentences from the abstract),
+`added`, `flag` (null or note → "verify" badge), `source` (e.g. `europepmc:<id>`). Inclusion rule:
+**every** publication or preprint in any venue, and any press/award item, that names the PI or an
+included trainee. Items from a trainee's earlier position are included but flagged. Never delete
+items by automation. Backfilled 2026-09-13 with 45 items (43 papers/preprints, 2 media).
+
+### 4.7 `data/lab-news-seen.json` — memory of evaluated URLs
+`{"seen":[{url, people[], status: added|excluded, reason, date}]}`. Same rule as the mentee file:
+the weekly task never re-adds a listed URL, so a deleted item stays deleted unless its row is removed here.
+
+### 4.8 Regenerating the `.js` mirrors
 After any manual edit of a JSON file run, from the repo root:
-`python3 gen-mentee-js.py` (mentees + news) and/or `python3 gen-papers-js.py` (papers).
-The mirrors are `window.MENTEES_DATA = …;`, `window.MENTEE_NEWS_DATA = …;`,
+`python3 gen-mentee-js.py` (mentees + news), `python3 gen-lab-js.py` (lab members + lab news) and/or
+`python3 gen-papers-js.py` (papers). The mirrors are `window.MENTEES_DATA = …;`,
+`window.MENTEE_NEWS_DATA = …;`, `window.LAB_MEMBERS_DATA = …;`, `window.LAB_NEWS_DATA = …;`,
 `window.PAPERS_DATA = …;`. Pages load the `.js` mirror first and use JSON over HTTP as the
 canonical source, so a stale mirror shows stale data when opened from disk but not on GitHub Pages.
 
@@ -119,6 +150,11 @@ canonical source, so a stale mirror shows stale data when opened from disk but n
 - **Mentee News preamble** (hero, verbatim): "I have been privileged to work with many brilliant
   and hard-working mentees. Here we highlight papers and media notices from the last two years."
   signed "— Joseph O. Deasy".
+- **Lab News preamble** (hero, lab-news.html): "Every paper, preprint, and news story from the last two
+  years that carries the name of a current lab member — from a first-author paper by a postdoc to an
+  interview with the PI." Home-page banner: "Lab News — updated weekly · Every paper, preprint, and
+  news story from the last two years involving the PI or a current lab trainee." (wording drafted by
+  the maintainer 2026-09-13, not dictated by Joseph — may be edited freely).
 - **Funding intro** (verbatim): "The Deasy Laboratory for Cancer Modeling has been supported by
   Varian/Siemens, The Breast Cancer Research Foundation, Cycle for Survival, Enid A. Haupt,
   Richard and Clara Weyergraf-Serra, and multiple NIH grants, including:" followed by Active and
@@ -213,13 +249,23 @@ Device-side rules learned the hard way:
 |---|---|---|---|
 | Deasy Lab — weekly publications re-index | Mon 13:00 (`0 13 * * 1`) | Lists the Drive folder, adds/removes `papers.json` entries, regenerates `papers.js` | Notification + working-tree changes |
 | Deasy Lab — weekly Mentee News update | Mon 13:30 (`30 13 * * 1`) | Searches the last 8 days (60-day catch-up) per mentee, appends feed items, updates roster affiliations, regenerates mirrors, logs every URL in `mentee-news-seen.json` | Notification + working-tree changes |
+| Deasy Lab — weekly Lab News update | Mon 13:45 (`45 13 * * 1`) | For the PI and each included member of `lab-members.json`: Europe PMC (Crossref fallback) for any paper/preprint in the last 8 days (60-day catch-up), web search for media/awards, plain-language summaries from abstracts; appends to `lab-news.json`, logs every URL in `lab-news-seen.json`, regenerates mirrors with `gen-lab-js.py` | Notification + working-tree changes |
 | Deasy Lab — weekly handoff document refresh | Mon 14:15 (`15 14 * * 1`) | Reads `git log`/`diff` since the commit named at the top of this file and revises HANDOFF.md (page map, schemas, conventions, task table, change log) | Notification only if something changed; updated HANDOFF.md left in working tree |
 
 Each task's full prompt is stored with the task itself (Claude app → scheduled tasks). If a task
 must be recreated, its prompt should carry: repo path on the PC, the schemas above, the
 `--no-optional-locks` rule, the three-line push commands, and "never commit or push".
 
-## 10. Open items (as of 2026-09-11)
+## 10. Open items (as of 2026-09-13)
+
+- Lab News roster (`data/lab-members.json`): confirm Leyla Seyed Ebrahimpour's Université Laval papers
+  are hers (6 items flagged), whether Xinan Chen (now a therapeutic medical physics resident) should stay
+  in the roster, Francisco Calderon's name spelling, and whether Anish Simhal's non-lab items (Stanford
+  synapse preprint, Hemasphere) belong in the feed. No indexed items were found for Himangi Srivastava,
+  Lopamudra Nayak, or Francisco Calderon.
+- Lab News: the ESTRO newsletter interview carries a month-only date (issue date not shown on the
+  page); 13 items carry "verify" flags in total. The weekly Lab News task must be approved for device
+  binding in the app's scheduled-task list (same as the handoff task).
 
 - ViSpace: no public page or repository found; card shows a dashed "REPLACE-VISPACE" note. Needs a
   description and link from Joseph.
@@ -239,7 +285,15 @@ must be recreated, its prompt should carry: repo path on the PC, the schemas abo
 
 Newest first. One line per delivered change set; the weekly refresh task appends from `git log`.
 
-- 2026-09-11 · (pending commit) · Team photo on Home and Team: white name/role labels at chest height for all nine people, caption fallback on phones.
+- 2026-09-13 · (pending commit) · **Lab News**: new `lab-news.html` feed page (search / filter by lab
+  member / type / sort, "Show older items", covered-people strip), `assets/js/lab-news.js`,
+  `data/lab-members.json`, `data/lab-news.json` (45 backfilled items, Sept 2024 – Sept 2026),
+  `data/lab-news-seen.json`, `gen-lab-js.py`; home page `#mentee-news` section replaced by a
+  two-column `#news` hub (Lab News card beside Mentee News card); "Lab News" added to the header and
+  mobile nav of all eight pages; hero button now "Lab & mentee news →" (→ `#news`); new weekly task
+  "Deasy Lab — weekly Lab News update" (Mon 13:45 UTC); README + HANDOFF updated.
+
+- 2026-09-11 · `b29b454` · Team photo on Home and Team: white name/role labels at chest height for all nine people, caption fallback on phones.
 - 2026-09-11 · `1de86f8` · Home: "Tools for Cancer Research" section (six cards, SVG art);
   Research: NIH ROBIN section with 2023–2025 didactic talk lists; Team: PI titles card, three new
   key faculty collaborators, MSK Medical Physics links in all footers.

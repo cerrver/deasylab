@@ -9,11 +9,12 @@ log) and is refreshed weekly by a scheduled task.
 
 ## Pages
 
-- `index.html` — home: mission, p53 hero video, Mentee News teaser, research programs, **Tools for Cancer Research** (cards + SVG art in `assets/img/tools/`; ViSpace card still carries a REPLACE-VISPACE note), featured discovery, recent highlights, team teaser, recruitment CTA
+- `index.html` — home: mission, p53 hero video, **news hub** (Lab News card beside the Mentee News card, three newest items each), research programs, **Tools for Cancer Research** (cards + SVG art in `assets/img/tools/`; ViSpace card still carries a REPLACE-VISPACE note), featured discovery, recent highlights, team teaser, recruitment CTA
 - `research.html` — the four research programs, methods & tools, **NIH ROBIN consortium + didactic talk lists** (titles copied from immunorobin.org; each year links to the video page), milestones, funding teaser
 - `team.html` — principal investigator, key faculty collaborators, postdoctoral fellows, **Funding** (active/completed grants + financial disclosure)
 - `disclosures.html` — financial disclosure statement (update the "Last updated" date when it changes; linked from every footer)
 - `publications.html` — publications library (reverse-chronological, clickable, searchable)
+- `lab-news.html` — Lab News feed (every paper, preprint, and news item from the last two years involving the PI or a current lab trainee) + the covered-people strip
 - `mentee-news.html` — Mentee News feed (high-profile papers / media / awards from current and former trainees, with each person's current institution) + the mentee roster
 - `join.html` — recruitment, collaboration, teaching, contact
 
@@ -58,9 +59,35 @@ regenerated, and you get a notification listing what changed. As with publicatio
 To remove an item, delete its record from `data/mentee-news.json` (the task will not re-add a URL it
 has already seen — seen URLs are listed in `data/mentee-news-seen.json`).
 
+## Lab News: how the feed is built
+
+Separate from the publication archive and from Mentee News. It lists **every** publication (journal
+papers and preprints, any venue) and every news item from the last two years that carries the name
+of Joseph O. Deasy or a **current lab trainee** — faculty collaborators are deliberately not tracked.
+
+- Roster: `data/lab-members.json` — the PI plus current trainees (`searchNames` = author-name forms
+  to query; `include: false` hides a person and stops their weekly search; `verify: true` shows a
+  "to confirm" badge; `notes` holds name-disambiguation rules).
+- Feed: `data/lab-news.json` — same shape as the mentee feed, but each item carries a `people` list
+  (`[{id, role}]`, roles: first author | last/senior author | corresponding author | co-author |
+  subject | quoted | recipient) instead of a single mentee. `url` required; preprints are papers whose
+  `venue` ends in "(preprint)".
+- Seen URLs: `data/lab-news-seen.json` (added or excluded, with a reason) — the weekly task never re-adds a URL listed there.
+- Local-view mirrors `data/lab-members.js` and `data/lab-news.js`: regenerate after any edit with
+  `python3 gen-lab-js.py`.
+- The page shows the last **24 months** by default, newest first; the home page shows the three newest (`#labNewsLatest`).
+
+### Weekly auto-update
+A scheduled task runs every **Monday** (after Mentee News): for the PI and each included trainee it
+queries Europe PMC (and Crossref as a fallback) for anything published in the last 8 days (60-day
+catch-up), searches for news coverage, awards and appointments, writes a plain-language summary from
+the abstract, appends the item, regenerates the mirrors, and notifies you. **Review, then push.**
+A preprint is skipped once its journal version is in the feed; a journal version is added even if the
+preprint is already listed.
+
 ## Handoff document: weekly refresh
 
-A third Monday task compares `HANDOFF.md` against the git history since the commit named at its
+A fourth Monday task compares `HANDOFF.md` against the git history since the commit named at its
 top, revises any section that the week's commits made stale, and appends to its change log. Like
 the other tasks it never commits — you push the updated file with the weekly update.
 
@@ -89,7 +116,7 @@ This folder is already a git repository with an initial commit.
 ```bash
 cd <this folder>
 git add -A
-git commit -m "Weekly publications + mentee news update"
+git commit -m "Weekly publications + lab news + mentee news update"
 git push
 ```
 

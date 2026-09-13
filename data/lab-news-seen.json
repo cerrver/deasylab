@@ -1,0 +1,479 @@
+{
+  "seen": [
+    {
+      "url": "https://doi.org/10.1016/j.radonc.2026.111713",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.radonc.2026.111712",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1158/1078-0432.ccr-25-1216",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.21203/rs.3.rs-9695978/v1",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.phro.2026.101003",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.adro.2026.102090",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41408-026-01486-y",
+      "people": [
+        "simhal",
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.radonc.2026.111531",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1109/tnse.2026.3682565",
+      "people": [
+        "grange",
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ijrobp.2026.02.237",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.phro.2026.100907",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.3390/cancers18020273",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1158/1078-0432.ccr-25-0572",
+      "people": [
+        "simhal"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.csbj.2025.10.066",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1101/2025.10.24.683878",
+      "people": [
+        "simhal",
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.phro.2025.100844",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1002/hem3.70218",
+      "people": [
+        "simhal"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.modpat.2025.100897",
+      "people": [
+        "ebrahimpour"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1002/mp.18070",
+      "people": [
+        "ebrahimpour"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1172/jci182555",
+      "people": [
+        "chen-xinan"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41746-025-01780-2",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1007/s10278-025-01554-y",
+      "people": [
+        "ebrahimpour"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1088/1361-6560/add9de",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41467-025-59584-7",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.phro.2025.100769",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1002/mp.17807",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1093/bioinformatics/btaf093",
+      "people": [
+        "simhal",
+        "grange",
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41408-025-01230-y",
+      "people": [
+        "simhal",
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41523-025-00725-y",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1101/2025.01.23.632803",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1101/2025.01.19.633756",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41598-024-84193-7",
+      "people": [
+        "ebrahimpour"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1093/bfgp/elaf004",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1101/2024.12.11.628056",
+      "people": [
+        "simhal"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1093/bjr/tqae187",
+      "people": [
+        "ebrahimpour"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1002/mp.17536",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.isci.2024.111463",
+      "people": [
+        "chen-xinan"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41598-024-76625-1",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1101/2024.11.05.24316768",
+      "people": [
+        "chen-xinan",
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.semradonc.2024.07.012",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1002/cam4.70359",
+      "people": [
+        "ebrahimpour"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1001/jamanetworkopen.2024.36407",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.33594/000000726",
+      "people": [
+        "askarifirouzjaei",
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13 (Europe PMC)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://www.estro.org/About/Newsroom/Newsletter/Physics/Predictive-models-and-their-validation-in-radiatio",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://www.mskcc.org/news/how-msk-doctors-are-improving-radiation-treatments-with-ai",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "backfill 2026-09-13",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41467-025-60522-w",
+      "people": [
+        "deasy"
+      ],
+      "status": "excluded",
+      "reason": "author correction to the Nat Commun brain-metastasis atlas; not a separate item",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1101/2024.10.06.616915",
+      "people": [
+        "simhal",
+        "grange",
+        "deasy"
+      ],
+      "status": "excluded",
+      "reason": "bioRxiv preprint superseded by the Bioinformatics 2025 ORCO paper",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1101/2024.09.20.613788",
+      "people": [
+        "simhal",
+        "deasy"
+      ],
+      "status": "excluded",
+      "reason": "bioRxiv preprint superseded by the Blood Cancer J 2025 WEE1 paper",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.31234/osf.io/mqwg9",
+      "people": [],
+      "status": "excluded",
+      "reason": "different 'Deasy JO' (psychology preprint)",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://www.mskcc.org/news/msk-research-highlights-july-15-2025",
+      "people": [
+        "deasy"
+      ],
+      "status": "excluded",
+      "reason": "MSK highlight of the Woollie LLM paper; quotes Anyi Li only, no lab member quoted",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://www.mskcc.org/news/computational-biology-ai-improving-cancer-care",
+      "people": [
+        "deasy"
+      ],
+      "status": "excluded",
+      "reason": "June 2024, outside the 24-month window and no direct quote",
+      "date": "2026-09-13"
+    },
+    {
+      "url": "https://www.estro.org/About/Newsroom/Newsletter/Congresses/Interview-with-Chair-of-the-ESTRO-2026-Physics-Tra",
+      "people": [],
+      "status": "excluded",
+      "reason": "interview is with Cristina Garibaldi, not a lab member",
+      "date": "2026-09-13"
+    }
+  ]
+}
