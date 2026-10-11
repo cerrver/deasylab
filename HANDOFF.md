@@ -4,7 +4,7 @@
 **Repo:** https://github.com/cerrver/deasylab (branch `main`, GitHub Pages "deploy from branch", root folder)
 **Local working copy:** `…\Documents\Claude\Projects\Web site design and deployment\deasylab\` on Joseph's Windows PC
 **Owner / final say on content:** Joseph O. Deasy (deasyj@mskcc.org)
-**Handoff document last updated:** 2026-10-11 (at commit `5fb41ef`; the lab-rename change set is in the working tree, pending Joseph's commit)
+**Handoff document last updated:** 2026-10-11 (at commit `7f090c2`; one-line hero spacing fix pending commit)
 
 This document is the single place a new maintainer (a person or another Claude Project) needs to
 read to take over the site. It is kept current by a weekly scheduled task (see §9) and should be
@@ -316,7 +316,11 @@ must be recreated, its prompt should carry: repo path on the PC, the schemas abo
 
 Newest first. One line per delivered change set; the weekly refresh task appends from `git log`.
 
-- 2026-10-11 · (pending commit) · **Lab renamed** to "Deasy Laboratory for Computational Medical Physics and Mathematical Oncology"
+- 2026-10-11 · (pending commit) · Home hero `<h1>`: a space added between the lead-in span and the gradient
+  span, and before each `<br />`, so the heading's plain text reads "Deasy Laboratory for Computational
+  Medical Physics and Mathematical Oncology" in reader mode, copy-and-paste, screen readers and search
+  snippets (no visual change).
+- 2026-10-11 · `7f090c2` · **Lab renamed** to "Deasy Laboratory for Computational Medical Physics and Mathematical Oncology"
   with the new one-paragraph description (see §5): `<title>`, `og:title`/`og:description`, meta
   descriptions, header brand lockup (two-line subtitle), footer block, copyright line, body copy and
   alt text on all eight pages; home hero retitled (lead-in line + three-line gradient stack) and its
