@@ -1,6 +1,6 @@
 /* AUTO-GENERATED from data/papers.json by gen-papers-js.py — do not edit by hand. */
 window.PAPERS_DATA = {
-  "_comment": "Deasy Laboratory for Cancer Modeling — publications index. AUTO-GENERATED from the 'Deasy publications' Google Drive folder (folder id 1DhHKMaoxOYPA0zeTVsLZF6NENsqO9Pju). Each entry links to the PDF in that Drive folder (url) and, where present in the PDF, a DOI. Citations were extracted directly from each PDF. Re-generated weekly (Mondays). Fields: id, title, authors, venue, year, type, doi, url (Drive view link), driveId, flag (optional review note).",
+  "_comment": "Deasy Laboratory for Computational Medical Physics and Mathematical Oncology — publications index. AUTO-GENERATED from the 'Deasy publications' Google Drive folder (folder id 1DhHKMaoxOYPA0zeTVsLZF6NENsqO9Pju). Each entry links to the PDF in that Drive folder (url) and, where present in the PDF, a DOI. Citations were extracted directly from each PDF. Re-generated weekly (Mondays). Fields: id, title, authors, venue, year, type, doi, url (Drive view link), driveId, flag (optional review note).",
   "generated": "2026-09-03",
   "source": "google-drive:1DhHKMaoxOYPA0zeTVsLZF6NENsqO9Pju",
   "papers": [

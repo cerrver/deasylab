@@ -1,4 +1,4 @@
-# Deasy Laboratory for Cancer Modeling — website
+# Deasy Laboratory for Computational Medical Physics and Mathematical Oncology — website
 
 A static, multi-page site (no framework, no build step) for the Deasy Lab,
 designed to be served from **GitHub Pages** at **https://cerrver.github.io/deasylab**.

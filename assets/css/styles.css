@@ -1,5 +1,5 @@
 /* =============================================================
-   Deasy Laboratory for Cancer Modeling — stylesheet
+   Deasy Laboratory for Computational Medical Physics and Mathematical Oncology — stylesheet
    Built on the MSK Predictive Informatics component system.
    Re-brand the whole site by editing the tokens in :root.
    Identity: indigo primary + cyan accent (distinct from the
@@ -76,7 +76,7 @@ h1, h2, h3, h4 { color: var(--ink); line-height: 1.15; font-weight: 700; }
 }
 .brand__text { display: flex; flex-direction: column; line-height: 1.1; }
 .brand__text strong { font-size: 16px; color: var(--ink); }
-.brand__text small { font-size: 11.5px; color: var(--muted); letter-spacing: .04em; text-transform: uppercase; }
+.brand__text small { font-size: 10.5px; line-height: 1.2; white-space: nowrap; color: var(--muted); letter-spacing: .04em; text-transform: uppercase; }
 .brand__logo { height: 46px; width: auto; display: block; }
 .footer__logo { display: inline-flex; background: #fff; border-radius: 14px; padding: 10px 13px; box-shadow: var(--shadow-sm); flex-shrink: 0; }
 .footer__logo img { height: 92px; width: auto; display: block; }
@@ -140,6 +140,11 @@ h1, h2, h3, h4 { color: var(--ink); line-height: 1.15; font-weight: 700; }
 .hero .eyebrow { color: #7fe9f2; }
 .hero__title { font-family: var(--font-serif); font-weight: 600; font-size: clamp(38px, 5.2vw, 64px); line-height: 1.03; color: #fff; letter-spacing: -.01em; }
 .hero__title .grad { background: linear-gradient(100deg, #a5b4fc, #67e8f9); -webkit-background-clip: text; background-clip: text; color: transparent; }
+/* Long lab name (Oct 2026): a lighter lead-in line, then the name as a three-line gradient stack.
+   4.25vw tracks the hero text column so the longest line ("Mathematical Oncology") never wraps. */
+.hero__title--long { font-size: clamp(28px, 4.25vw, 48px); line-height: 1.08; }
+.hero__title--long .hero__title-pre { display: block; font-size: .66em; font-weight: 500; color: #e2e5fb; letter-spacing: 0; line-height: 1.15; margin-bottom: .32em; }
+.hero__title--long .grad { display: block; }
 .hero__lead { margin-top: 22px; max-width: 620px; font-size: 19px; color: #d9dcf2; }
 .hero__actions { margin-top: 30px; display: flex; gap: 14px; flex-wrap: wrap; }
 .hero__stats { margin-top: 48px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; max-width: 760px; border-top: 1px solid rgba(255,255,255,.16); padding-top: 26px; }
@@ -390,7 +395,7 @@ h1, h2, h3, h4 { color: var(--ink); line-height: 1.15; font-weight: 700; }
 /* ---------- footer ---------- */
 .footer { background: var(--blue-900); color: #cdcfe8; }
 .footer__inner { display: flex; justify-content: space-between; gap: 40px; flex-wrap: wrap; padding: 56px 24px 36px; }
-.footer__brand { display: flex; gap: 16px; align-items: flex-start; max-width: 440px; }
+.footer__brand { display: flex; gap: 16px; align-items: flex-start; max-width: 540px; }
 .footer__brand strong { color: #fff; font-size: 17px; display: block; margin-bottom: 6px; }
 .footer__brand p { font-size: 14.5px; line-height: 1.6; }
 .footer__links h4 { color: #fff; font-size: 14px; text-transform: uppercase; letter-spacing: .06em; margin-bottom: 12px; }
@@ -565,6 +570,22 @@ h1, h2, h3, h4 { color: var(--ink); line-height: 1.15; font-weight: 700; }
   .hero__stats { grid-template-columns: repeat(2, 1fr); gap: 24px 20px; }
   .feature { grid-template-columns: 1fr; gap: 22px; }
   .feature--flip .feature__media { order: 0; }
+}
+/* Header with the long lab name: subtitle hidden and links tightened between 841 and 1045 px;
+   hamburger menu from 840 px (the link row no longer fits beside the brand below that). */
+@media (max-width: 1045px) {
+  .brand__text small { display: none; }
+  .nav__links { gap: 4px; }
+  .nav__links a { font-size: 14px; padding: 8px 9px; }
+}
+@media (max-width: 840px) {
+  .nav__links { display: none; }
+  .nav__toggle { display: flex; }
+  .nav__mobile:not([hidden]) { display: flex; }
+  .brand__text small { display: block; }
+}
+@media (max-width: 400px) {
+  .brand__text small { font-size: 9.5px; letter-spacing: .03em; }
 }
 @media (max-width: 760px) {
   body { font-size: 16px; }

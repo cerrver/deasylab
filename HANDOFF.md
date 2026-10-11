@@ -1,10 +1,10 @@
 # Deasy Lab website — maintainer handoff
 
-**Site:** Deasy Laboratory for Cancer Modeling · https://cerrver.github.io/deasylab/
+**Site:** Deasy Laboratory for Computational Medical Physics and Mathematical Oncology (renamed 2026-10-11; formerly "Deasy Laboratory for Cancer Modeling") · https://cerrver.github.io/deasylab/
 **Repo:** https://github.com/cerrver/deasylab (branch `main`, GitHub Pages "deploy from branch", root folder)
 **Local working copy:** `…\Documents\Claude\Projects\Web site design and deployment\deasylab\` on Joseph's Windows PC
 **Owner / final say on content:** Joseph O. Deasy (deasyj@mskcc.org)
-**Handoff document last updated:** 2026-09-13 (at commit `b29b454`; Lab News changes pending commit)
+**Handoff document last updated:** 2026-10-11 (at commit `5fb41ef`; the lab-rename change set is in the working tree, pending Joseph's commit)
 
 This document is the single place a new maintainer (a person or another Claude Project) needs to
 read to take over the site. It is kept current by a weekly scheduled task (see §9) and should be
@@ -23,7 +23,7 @@ JSON files in `data/`, each of which has a `.js` mirror so the page also works w
 
 Fonts: Inter (UI) and Newsreader (display/serif) from Google Fonts. Palette tokens are in `:root` at
 the top of `styles.css` — indigo `#3730a3` family (`--blue-*`), cyan `#06b6d4` accent (`--accent*`),
-tints, radii, shadows. Brand assets: `assets/img/logo.png` (full logo, explorer with binoculars),
+tints, radii, shadows. Brand assets: `assets/img/logo.png` (footer logo: the explorer-with-binoculars illustration only — until 2026-10-11 it also carried "DEASY LAB FOR CANCER MODELING" as baked-in text, which was cropped away when the lab was renamed; the lab name is HTML text beside the image),
 `logo-mark.png` (nav mark), `favicon.png`, `lab-team.jpg`.
 
 ## 2. Page map
@@ -139,6 +139,26 @@ canonical source, so a stale mirror shows stale data when opened from disk but n
 
 ## 5. Content conventions and fixed wording
 
+- **Lab name and description (verbatim, supplied by Joseph 2026-10-11):** the lab is the
+  "Deasy Laboratory for Computational Medical Physics and Mathematical Oncology" everywhere — `<title>`s,
+  `og:title`, header `aria-label`, footer block, copyright line, body copy and alt text of all eight
+  pages. Its one-paragraph description is "Physics and information based modeling, outcome prediction, and optimization of cancer treatment. Integrating dose, imaging, and molecular data to understand cancer and optimize treatments."
+  — used verbatim as the home-page hero lead, the home `<meta name="description">` and
+  `og:description` (spelling and hyphenation as supplied; do not "correct" it without asking).
+  Fixed renderings of the long name: header lockup = `Deasy Lab` over a two-line small caps
+  subtitle `Computational Medical Physics` / `and Mathematical Oncology` (the subtitle is hidden
+  between 841 and 1045 px, where it would collide with the nav links; the hamburger menu now starts
+  at 840 px instead of 760 px); home hero = a lighter lead-in line "Deasy Laboratory for" over a
+  three-line gradient stack `Computational` / `Medical Physics and` / `Mathematical Oncology`
+  (`.hero__title--long`, `clamp(28px, 4.25vw, 48px)`, sized so the longest line never wraps).
+  The former name "Deasy Laboratory for Cancer Modeling" must not reappear; `grep -rni "cancer
+  modeling"` over the repo should only hit this document's history notes.
+- **Weill Cornell Medicine (Joseph, 2026-10-11):** acknowledged only as the PI's own appointment
+  (team.html#pi title list and bio), never as a lab affiliation. The hero eyebrow is
+  "Memorial Sloan Kettering Cancer Center"; the footer address of every page ends at "New York,
+  NY"; the Join contact card has no affiliation line. Factual mentions of WCM elsewhere (the WCM/MSK
+  M.S. in Biomedical Imaging teaching paragraph, the ROBIN consortium, "collaborators across MSK and
+  Weill Cornell Medicine" on Join) were left as they are.
 - **PI block (team.html#pi):** "Joseph O. Deasy, PhD, FAAPM" and the six titles exactly as
   supplied: Attending Physicist; Chair, Department of Medical Physics; Chief, Service for
   Predictive Informatics; Enid A. Haupt Endowed Chair for Medical Physics; Member, Memorial Sloan
@@ -155,7 +175,7 @@ canonical source, so a stale mirror shows stale data when opened from disk but n
   interview with the PI." Home-page banner: "Lab News — updated weekly · Every paper, preprint, and
   news story from the last two years involving the PI or a current lab trainee." (wording drafted by
   the maintainer 2026-09-13, not dictated by Joseph — may be edited freely).
-- **Funding intro** (verbatim): "The Deasy Laboratory for Cancer Modeling has been supported by
+- **Funding intro** (verbatim; lab name updated 2026-10-11): "The Deasy Laboratory for Computational Medical Physics and Mathematical Oncology has been supported by
   Varian/Siemens, The Breast Cancer Research Foundation, Cycle for Survival, Enid A. Haupt,
   Richard and Clara Weyergraf-Serra, and multiple NIH grants, including:" followed by Active and
   Completed lists. Active list came from the NIH Other Support pages certified 2026-04-30; completed
@@ -252,6 +272,17 @@ Device-side rules learned the hard way:
 | Deasy Lab — weekly Lab News update | Mon 13:45 (`45 13 * * 1`) | For the PI and each included member of `lab-members.json`: Europe PMC (Crossref fallback) for any paper/preprint in the last 8 days (60-day catch-up), web search for media/awards, plain-language summaries from abstracts; appends to `lab-news.json`, logs every URL in `lab-news-seen.json`, regenerates mirrors with `gen-lab-js.py` | Notification + working-tree changes |
 | Deasy Lab — weekly handoff document refresh | Mon 14:15 (`15 14 * * 1`) | Reads `git log`/`diff` since the commit named at the top of this file and revises HANDOFF.md (page map, schemas, conventions, task table, change log) | Notification only if something changed; updated HANDOFF.md left in working tree |
 
+**Status 2026-10-11 (read from the account's scheduled-task list; details to confirm with Joseph):**
+all four tasks above are **paused** (`enabled: false` since 2026-10-08; their schedules now read
+Wed/Thu 10:15–11:59 America/New_York rather than the Monday UTC times in the table). A new task
+**"Deasy Lab site: approval reminder"** (Mon 08:46 America/New_York) is active; it expects a cloud
+routine "Deasy Lab — weekly site update" to update data on branch `claude/weekly-update` and open a
+pull request named "Weekly site update", and it checks `main` for `automation/site_tools.py` and
+`automation/prepare_branch.sh`. **That `automation/` folder is not in this repository as of
+2026-10-11**, so the reminder will report "not installed" until it is added and pushed; the
+routine itself was not visible from the session that wrote this note. None of the task prompts
+mention the old lab name, so the automation will not reintroduce it.
+
 Each task's full prompt is stored with the task itself (Claude app → scheduled tasks). If a task
 must be recreated, its prompt should carry: repo path on the PC, the schemas above, the
 `--no-optional-locks` rule, the three-line push commands, and "never commit or push".
@@ -285,7 +316,18 @@ must be recreated, its prompt should carry: repo path on the PC, the schemas abo
 
 Newest first. One line per delivered change set; the weekly refresh task appends from `git log`.
 
-- 2026-09-13 · (pending commit) · **Lab News**: new `lab-news.html` feed page (search / filter by lab
+- 2026-10-11 · (pending commit) · **Lab renamed** to "Deasy Laboratory for Computational Medical Physics and Mathematical Oncology"
+  with the new one-paragraph description (see §5): `<title>`, `og:title`/`og:description`, meta
+  descriptions, header brand lockup (two-line subtitle), footer block, copyright line, body copy and
+  alt text on all eight pages; home hero retitled (lead-in line + three-line gradient stack) and its
+  lead replaced by the description; `styles.css` (brand subtitle size, `.hero__title--long` rules,
+  footer brand width 540 px, header breakpoints 1045/840/400 px); `assets/img/logo.png` cropped to
+  the illustration (old wordmark removed); README title, stylesheet header and `data/papers.json`/`.js`
+  `_comment` updated; HANDOFF §1, §5, §9 (task status note), §11. Same change set: Weill Cornell
+  Medicine removed from the hero eyebrow, from the footer address line of all eight pages and from
+  the Join contact card — it is now acknowledged only as the PI's appointment on the Team page.
+
+- 2026-09-13 · `5fb41ef` · **Lab News**: new `lab-news.html` feed page (search / filter by lab
   member / type / sort, "Show older items", covered-people strip), `assets/js/lab-news.js`,
   `data/lab-members.json`, `data/lab-news.json` (45 backfilled items, Sept 2024 – Sept 2026),
   `data/lab-news-seen.json`, `gen-lab-js.py`; home page `#mentee-news` section replaced by a
