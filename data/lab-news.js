@@ -1,7 +1,7 @@
 /* AUTO-GENERATED from data/lab-news.json by gen-lab-js.py — do not edit by hand. */
 window.LAB_NEWS_DATA = {
   "_note": "Deasy Lab 'Lab News' feed: every publication (journal papers and preprints) and every news item from the last two years that includes Joseph O. Deasy or a current lab trainee (data/lab-members.json) as an author or subject. Items are appended by the weekly scheduled task after verification (each must have a direct URL). Separate from the complete publication archive (data/papers.json).",
-  "updated": "2026-09-13",
+  "updated": "2026-10-12",
   "window": "rolling 24 months on the site; older items kept and shown via 'Show older items'",
   "windowMonths": 24,
   "items": [
@@ -934,6 +934,70 @@ window.LAB_NEWS_DATA = {
       "added": "2026-09-13",
       "flag": null,
       "source": "europepmc:39248192"
+    },
+    {
+      "id": "paper-10-1093-oons-kvag016",
+      "type": "paper",
+      "title": "Targeting the Metabolic Niche: Vulnerabilities and Opportunities in Brain Metastases",
+      "date": "2026-09-25",
+      "venue": "Oxford Open Neuroscience",
+      "url": "https://doi.org/10.1093/oons/kvag016",
+      "doi": "10.1093/oons/kvag016",
+      "authorsShort": "Chesebro AG, Kocher CD, Grange D, ... Weistuch C",
+      "people": [
+        {
+          "id": "grange",
+          "role": "co-author"
+        },
+        {
+          "id": "deasy",
+          "role": "co-author"
+        }
+      ],
+      "summary": "This review proposes a three-part framework for how cancer cells colonize the brain — gaining vascular access, finding metabolic fuel, and escaping immune surveillance — and argues that metabolism is the least exploited of the three in the clinic. It describes how lung, breast and melanoma metastases each pair a characteristic metabolic program with characteristic locations in the brain, and how targeted metabolic therapy, prediction informed by the primary cancer, and longitudinal modeling could bring metabolism into precision care for brain metastases.",
+      "added": "2026-10-12",
+      "flag": null,
+      "source": "crossref"
+    },
+    {
+      "id": "paper-10-1002-hem3-70473",
+      "type": "paper",
+      "title": "Dynamic risk stratification in smoldering multiple myeloma: Integrating evolving biomarkers with the 2/20/20 Model",
+      "date": "2026-09-23",
+      "venue": "Hemasphere",
+      "url": "https://doi.org/10.1002/hem3.70473",
+      "doi": "10.1002/hem3.70473",
+      "authorsShort": "Akhlaghi T, Nemirovsky D, Maclachlan KH, ... Hultcrantz M",
+      "people": [
+        {
+          "id": "simhal",
+          "role": "co-author"
+        }
+      ],
+      "summary": "Smoldering multiple myeloma is a precursor condition whose risk of progressing to active myeloma varies widely, and current risk models use only baseline features. Analyzing 323 MSK patients diagnosed between 2002 and 2019, the authors tracked serial M-protein and free light chain measurements during the first year after diagnosis to define evolving risk factors and integrate them with the standard 2/20/20 model, improving risk stratification.",
+      "added": "2026-10-12",
+      "flag": null,
+      "source": "europepmc:42781377"
+    },
+    {
+      "id": "paper-10-1016-j-bspc-2026-111229",
+      "type": "paper",
+      "title": "Tumor-aware augmentation with task-guided attention analysis improves rectal cancer segmentation from magnetic resonance images",
+      "date": "2026-08-21",
+      "venue": "Biomed Signal Process Control",
+      "url": "https://doi.org/10.1016/j.bspc.2026.111229",
+      "doi": "10.1016/j.bspc.2026.111229",
+      "authorsShort": "Rangnekar A, Miranda J, Horvat N, ... Deasy JO",
+      "people": [
+        {
+          "id": "deasy",
+          "role": "last/senior author"
+        }
+      ],
+      "summary": "A deep-learning study on segmenting rectal cancers in MRI, in which tumor-aware data augmentation and task-guided attention analysis are reported to improve segmentation performance.",
+      "added": "2026-10-12",
+      "flag": "Summary based on title only; abstract not reviewed (publisher page requires a human check)",
+      "source": "crossref"
     }
   ]
 };

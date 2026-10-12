@@ -1,7 +1,7 @@
 /* AUTO-GENERATED from data/papers.json by gen-papers-js.py — do not edit by hand. */
 window.PAPERS_DATA = {
   "_comment": "Deasy Laboratory for Computational Medical Physics and Mathematical Oncology — publications index. AUTO-GENERATED from the 'Deasy publications' Google Drive folder (folder id 1DhHKMaoxOYPA0zeTVsLZF6NENsqO9Pju). Each entry links to the PDF in that Drive folder (url) and, where present in the PDF, a DOI. Citations were extracted directly from each PDF. Re-generated weekly (Mondays). Fields: id, title, authors, venue, year, type, doi, url (Drive view link), driveId, flag (optional review note).",
-  "generated": "2026-09-03",
+  "generated": "2026-10-12",
   "source": "google-drive:1DhHKMaoxOYPA0zeTVsLZF6NENsqO9Pju",
   "papers": [
     {
@@ -344,6 +344,264 @@ window.PAPERS_DATA = {
       "doi": null,
       "driveId": "12iW7vSNH5EfLN_OCspm0N0N-yBBANjz8",
       "url": "https://drive.google.com/file/d/12iW7vSNH5EfLN_OCspm0N0N-yBBANjz8/view"
+    },
+    {
+      "id": "lee-correlation-between-tumor-metabolism-semiquantitative-perfusion-2018",
+      "title": "Correlation Between Tumor Metabolism and Semiquantitative Perfusion Magnetic Resonance Imaging Metrics in Non-Small Cell Lung Cancer",
+      "authors": "Lee SH, Rimner A, Gelb E, Deasy JO, Hunt MA, Humm JL, et al.",
+      "venue": "International Journal of Radiation Oncology, Biology, Physics",
+      "year": 2018,
+      "type": "journal-article",
+      "doi": "10.1016/j.ijrobp.2018.02.031",
+      "driveId": "1zeQZ3e6aqezKGvQF_eqsrjpZBxQjI44U",
+      "url": "https://drive.google.com/file/d/1zeQZ3e6aqezKGvQF_eqsrjpZBxQjI44U/view"
+    },
+    {
+      "id": "oh-psg-copy-number-amplification-association-poor-2026",
+      "title": "PSG copy number amplification and association with poor survival in early-stage female lung adenocarcinoma patients",
+      "authors": "Oh JH, Zhu Y, Srivastava H, Ebrahimpour L, Elkin R, Kocher CD, et al.",
+      "venue": "Journal of Clinical Oncology (ASCO Annual Meeting abstract 8028)",
+      "year": 2026,
+      "type": "proceedings",
+      "doi": "10.1200/JCO.2026.44.16_suppl.8028",
+      "driveId": "1RgB7MjUpajTFEyEA67j9lGSTMb6BqFnM",
+      "url": "https://drive.google.com/file/d/1RgB7MjUpajTFEyEA67j9lGSTMb6BqFnM/view",
+      "flag": "Meeting abstract (ASCO 2026 poster session), not a full paper"
+    },
+    {
+      "id": "deasy-comments-use-lyman-kutcher-burman-model-2000",
+      "title": "Comments on the Use of the Lyman-Kutcher-Burman Model to Describe Tissue Response to Nonuniform Irradiation",
+      "authors": "Deasy JO",
+      "venue": "International Journal of Radiation Oncology, Biology, Physics",
+      "year": 2000,
+      "type": "commentary",
+      "doi": null,
+      "driveId": "1CT_Igc09z1bOODyap0VFZjwOQhj2ymFZ",
+      "url": "https://drive.google.com/file/d/1CT_Igc09z1bOODyap0VFZjwOQhj2ymFZ/view",
+      "flag": "No DOI printed in the PDF"
+    },
+    {
+      "id": "deasy-proton-dose-calculation-algorithm-conformal-therapy-1998",
+      "title": "A proton dose calculation algorithm for conformal therapy simulations based on Moliere's theory of lateral deflections",
+      "authors": "Deasy JO",
+      "venue": "Medical Physics",
+      "year": 1998,
+      "type": "journal-article",
+      "doi": null,
+      "driveId": "13lex-vx450uHrklpiC-2NNHTyKfLsNQm",
+      "url": "https://drive.google.com/file/d/13lex-vx450uHrklpiC-2NNHTyKfLsNQm/view",
+      "flag": "No DOI printed in the PDF"
+    },
+    {
+      "id": "deasy-method-radiation-therapy-planning-1995",
+      "title": "Method for Radiation Therapy Planning",
+      "authors": "Deasy JO, De Leone R",
+      "venue": "US Patent 5,418,827",
+      "year": 1995,
+      "type": "patent",
+      "doi": null,
+      "driveId": "15RKnGjf_awJmkApBSUGD8AKIc0dVeRAD",
+      "url": "https://drive.google.com/file/d/15RKnGjf_awJmkApBSUGD8AKIc0dVeRAD/view"
+    },
+    {
+      "id": "jeong-modelling-interplay-between-hypoxia-proliferation-radiotherapy-2013",
+      "title": "Modelling the interplay between hypoxia and proliferation in radiotherapy tumour response",
+      "authors": "Jeong J, Shoghi KI, Deasy JO",
+      "venue": "Physics in Medicine and Biology",
+      "year": 2013,
+      "type": "journal-article",
+      "doi": "10.1088/0031-9155/58/14/4897",
+      "driveId": "1EK61rlbt6cHGdCsqi01InjYGbzx_jVqG",
+      "url": "https://drive.google.com/file/d/1EK61rlbt6cHGdCsqi01InjYGbzx_jVqG/view"
+    },
+    {
+      "id": "zhu-large-language-model-trained-clinical-oncology-2025",
+      "title": "Large language model trained on clinical oncology data predicts cancer progression",
+      "authors": "Zhu M, Lin H, Jiang J, Jinia AJ, Jee J, Pichotta K, et al.",
+      "venue": "npj Digital Medicine",
+      "year": 2025,
+      "type": "journal-article",
+      "doi": "10.1038/s41746-025-01780-2",
+      "driveId": "1uoOcSoi1OYNLdpy-TvMy7ntIDog8qnFe",
+      "url": "https://drive.google.com/file/d/1uoOcSoi1OYNLdpy-TvMy7ntIDog8qnFe/view"
+    },
+    {
+      "id": "lee-integrating-genomic-nongenomic-data-stratify-risk-2026",
+      "title": "Integrating Genomic and Nongenomic Data to Stratify the Risk of Contralateral Breast Cancer After Radiation Therapy",
+      "authors": "Lee S, Shu X, Derkach A, Reiner AS, Liang X, Woods M, et al.",
+      "venue": "International Journal of Radiation Oncology, Biology, Physics",
+      "year": 2026,
+      "type": "journal-article",
+      "doi": "10.1016/j.ijrobp.2026.02.237",
+      "driveId": "1hakw2If7QwYSAjQeE_Mbsk9hD6I5wbkv",
+      "url": "https://drive.google.com/file/d/1hakw2If7QwYSAjQeE_Mbsk9hD6I5wbkv/view"
+    },
+    {
+      "id": "zhao-predicting-hypoxic-volume-head-neck-tumors-2025",
+      "title": "Predicting the hypoxic volume of head and neck tumors from fluorodeoxyglucose positron emission tomography images using artificial intelligence",
+      "authors": "Zhao W, Grkovski M, Schoder H, Apte AP, Humm J, Lee NY, et al.",
+      "venue": "Physics and Imaging in Radiation Oncology",
+      "year": 2025,
+      "type": "journal-article",
+      "doi": "10.1016/j.phro.2025.100769",
+      "driveId": "1eerlvbT4qKOrxl6P7LCt-jmz1Vh3fByl",
+      "url": "https://drive.google.com/file/d/1eerlvbT4qKOrxl6P7LCt-jmz1Vh3fByl/view"
+    },
+    {
+      "id": "jiang-tumor-aware-recurrent-inter-patient-deformable-2025",
+      "title": "Tumor aware recurrent inter-patient deformable image registration of computed tomography scans with lung cancer",
+      "authors": "Jiang J, Choi CMS, Thor M, Deasy JO, Veeraraghavan H",
+      "venue": "Medical Physics",
+      "year": 2025,
+      "type": "journal-article",
+      "doi": "10.1002/mp.17536",
+      "driveId": "1sfIR5FYw_8v4dFXLriq-NPB_JUyS2bbk",
+      "url": "https://drive.google.com/file/d/1sfIR5FYw_8v4dFXLriq-NPB_JUyS2bbk/view"
+    },
+    {
+      "id": "thor-prospective-validation-pretreatment-18f-fdg-pet-2025",
+      "title": "Prospective validation of a pretreatment 18F-FDG PET/CT and mean lung dose model for early radiation pneumonitis",
+      "authors": "Thor M, Apte A, Grkovski M, Simone CB II, Gelblum DY, Zarepisheh M, et al.",
+      "venue": "Physics and Imaging in Radiation Oncology",
+      "year": 2025,
+      "type": "journal-article",
+      "doi": "10.1016/j.phro.2025.100844",
+      "driveId": "1gvDqaCtzFabMcrBgYuWAHjfNPc2FKSwS",
+      "url": "https://drive.google.com/file/d/1gvDqaCtzFabMcrBgYuWAHjfNPc2FKSwS/view"
+    },
+    {
+      "id": "crispinortuzar-predicting-hypoxia-status-combination-contrast-enhanced-2018",
+      "title": "Predicting hypoxia status using a combination of contrast-enhanced computed tomography and [18F]-Fluorodeoxyglucose positron emission tomography radiomics features",
+      "authors": "Crispin-Ortuzar M, Apte A, Grkovski M, Oh JH, Lee NY, Schoder H, et al.",
+      "venue": "Radiotherapy and Oncology",
+      "year": 2018,
+      "type": "journal-article",
+      "doi": "10.1016/j.radonc.2017.11.025",
+      "driveId": "14oAzUWzyJRcp-q_T6-A0nkw3N9LtmunU",
+      "url": "https://drive.google.com/file/d/14oAzUWzyJRcp-q_T6-A0nkw3N9LtmunU/view"
+    },
+    {
+      "id": "jeong-fractionation-dependence-tumor-control-proton-therapy-2025",
+      "title": "The fractionation dependence of tumor control in proton therapy for early-stage non-small cell lung cancer",
+      "authors": "Jeong J, Taasti VT, Jackson A, Gouw ZAR, Simone CB II, Lambin P, et al.",
+      "venue": "bioRxiv",
+      "year": 2025,
+      "type": "preprint",
+      "doi": "10.1101/2025.01.23.632803",
+      "driveId": "1mwDqZpJmDEbnSTU0kk9HPqmi00t8eSZy",
+      "url": "https://drive.google.com/file/d/1mwDqZpJmDEbnSTU0kk9HPqmi00t8eSZy/view"
+    },
+    {
+      "id": "simhal-orco-ollivier-ricci-curvature-omics-unsupervised-2025",
+      "title": "ORCO: Ollivier-Ricci Curvature-Omics - an unsupervised method for analyzing robustness in biological systems",
+      "authors": "Simhal AK, Weistuch C, Murgas K, Grange D, Zhu J, Oh JH, et al.",
+      "venue": "Bioinformatics",
+      "year": 2025,
+      "type": "journal-article",
+      "doi": "10.1093/bioinformatics/btaf093",
+      "driveId": "1eMDeUUq70iLCnxw3-QzxSTEM9hrmR-N6",
+      "url": "https://drive.google.com/file/d/1eMDeUUq70iLCnxw3-QzxSTEM9hrmR-N6/view"
+    },
+    {
+      "id": "weistuch-normal-tissue-transcriptional-signatures-tumor-type-2024",
+      "title": "Normal tissue transcriptional signatures for tumor-type-agnostic phenotype prediction",
+      "authors": "Weistuch C, Murgas KA, Zhu J, Norton L, Dill KA, Tannenbaum AR, et al.",
+      "venue": "Scientific Reports",
+      "year": 2024,
+      "type": "journal-article",
+      "doi": "10.1038/s41598-024-76625-1",
+      "driveId": "12-9t_tq3ZrIVqlTeM3LzunoaGoqM_rxt",
+      "url": "https://drive.google.com/file/d/12-9t_tq3ZrIVqlTeM3LzunoaGoqM_rxt/view"
+    },
+    {
+      "id": "deasy-optimizing-lung-cancer-radiotherapy-treatments-personalized-2022",
+      "title": "Optimizing Lung Cancer Radiotherapy Treatments Using Personalized Dose-Response Curves",
+      "authors": "Deasy JO, Jeong J, Thor M, Apte A, Jackson A, Chen I, et al.",
+      "venue": "Medical Radiology: Radiation Oncology (Springer book series)",
+      "year": 2022,
+      "type": "other",
+      "doi": "10.1007/174_2022_307",
+      "driveId": "1NqvkEdzKj4nojOs7G6gj5B1Rdx-Ys10n",
+      "url": "https://drive.google.com/file/d/1NqvkEdzKj4nojOs7G6gj5B1Rdx-Ys10n/view",
+      "flag": "Book chapter (Springer Medical Radiology series)"
+    },
+    {
+      "id": "gouw-primer-shot-fractionation-early-treatment-break-2024",
+      "title": "\"Primer shot\" fractionation with an early treatment break is theoretically superior to consecutive weekday fractionation schemes for early-stage non-small cell lung cancer",
+      "authors": "Gouw ZAR, Jeong J, Rimner A, Lee NY, Jackson A, Fu A, et al.",
+      "venue": "Radiotherapy and Oncology",
+      "year": 2024,
+      "type": "journal-article",
+      "doi": "10.1016/j.radonc.2023.110006",
+      "driveId": "1ZW3pv631aB1rPrGIu_wePRReHSnr70l8",
+      "url": "https://drive.google.com/file/d/1ZW3pv631aB1rPrGIu_wePRReHSnr70l8/view"
+    },
+    {
+      "id": "weistuch-maximum-entropy-principle-compositional-data-2022",
+      "title": "The maximum entropy principle for compositional data",
+      "authors": "Weistuch C, Zhu J, Deasy JO, Tannenbaum AR",
+      "venue": "BMC Bioinformatics",
+      "year": 2022,
+      "type": "journal-article",
+      "doi": "10.1186/s12859-022-05007-z",
+      "driveId": "1TWy9t_F6iCfMm6r_QGxtLFRsphNB4vs0",
+      "url": "https://drive.google.com/file/d/1TWy9t_F6iCfMm6r_QGxtLFRsphNB4vs0/view"
+    },
+    {
+      "id": "simhal-gene-interaction-network-analysis-multiple-myeloma-2023",
+      "title": "Gene interaction network analysis in multiple myeloma detects complex immune dysregulation associated with shorter survival",
+      "authors": "Simhal AK, Maclachlan KH, Elkin R, Zhu J, Norton L, Deasy JO, et al.",
+      "venue": "Blood Cancer Journal",
+      "year": 2023,
+      "type": "journal-article",
+      "doi": "10.1038/s41408-023-00935-2",
+      "driveId": "1Yth9mSlKAupH4qFGNgYEsl5E-EsE2ymd",
+      "url": "https://drive.google.com/file/d/1Yth9mSlKAupH4qFGNgYEsl5E-EsE2ymd/view"
+    },
+    {
+      "id": "zhu-wasserstein-hog-local-directionality-extraction-optimal-2023",
+      "title": "Wasserstein HOG: Local Directionality Extraction via Optimal Transport",
+      "authors": "Zhu J, Veeraraghavan H, Jiang J, Oh JH, Norton L, Deasy JO, et al.",
+      "venue": "IEEE Transactions on Medical Imaging",
+      "year": 2023,
+      "type": "journal-article",
+      "doi": "10.1109/TMI.2023.3325295",
+      "driveId": "1RWLZHTXiQKis8i_2XMErS0_NF958DIVo",
+      "url": "https://drive.google.com/file/d/1RWLZHTXiQKis8i_2XMErS0_NF958DIVo/view",
+      "flag": "Author's accepted manuscript version"
+    },
+    {
+      "id": "zhu-geometric-graph-neural-networks-multi-omics-2023",
+      "title": "Geometric graph neural networks on multi-omics data to predict cancer survival outcomes",
+      "authors": "Zhu J, Oh JH, Simhal AK, Elkin R, Norton L, Deasy JO, et al.",
+      "venue": "Computers in Biology and Medicine",
+      "year": 2023,
+      "type": "journal-article",
+      "doi": "10.1016/j.compbiomed.2023.107117",
+      "driveId": "1aajpjnv28ZU-98Ne0jVjhqPQVo5ezgBV",
+      "url": "https://drive.google.com/file/d/1aajpjnv28ZU-98Ne0jVjhqPQVo5ezgBV/view"
+    },
+    {
+      "id": "oh-predicting-germline-dependence-hematuria-risk-prostate-2023",
+      "title": "Predicting the germline dependence of hematuria risk in prostate cancer radiotherapy patients",
+      "authors": "Oh JH, Lee S, Thor M, Rosenstein BS, Tannenbaum A, Kerns S, et al.",
+      "venue": "Radiotherapy and Oncology",
+      "year": 2023,
+      "type": "journal-article",
+      "doi": "10.1016/j.radonc.2023.109723",
+      "driveId": "1GI9kx2n6-X31wv2bjrJ6q7XKWnbjKs-E",
+      "url": "https://drive.google.com/file/d/1GI9kx2n6-X31wv2bjrJ6q7XKWnbjKs-E/view"
+    },
+    {
+      "id": "davey-predicting-cancer-relapse-following-lung-stereotactic-2023",
+      "title": "Predicting cancer relapse following lung stereotactic radiotherapy: an external validation study using real-world evidence",
+      "authors": "Davey A, Thor M, van Herk M, Faivre-Finn C, Rimner A, Deasy JO, et al.",
+      "venue": "Frontiers in Oncology",
+      "year": 2023,
+      "type": "journal-article",
+      "doi": "10.3389/fonc.2023.1156389",
+      "driveId": "1bDXFDTHEUgQHRXz4eTYIUz-NqqPmMyyP",
+      "url": "https://drive.google.com/file/d/1bDXFDTHEUgQHRXz4eTYIUz-NqqPmMyyP/view"
     }
   ]
 };

@@ -288,6 +288,258 @@
       "menteeId": "lisanne-v-van-dijk",
       "status": "added",
       "date": "2026-09-10"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41571-026-01204-4",
+      "menteeId": "issam-el-naqa",
+      "status": "added",
+      "reason": "paper: last/senior author",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.xcrm.2026.102966",
+      "menteeId": "mireia-crispin-ortuzar",
+      "status": "added",
+      "reason": "paper: co-author",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41591-026-04587-0",
+      "menteeId": "mireia-crispin-ortuzar",
+      "status": "added",
+      "reason": "paper: last/senior author",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41467-026-76372-z",
+      "menteeId": "mireia-crispin-ortuzar",
+      "status": "added",
+      "reason": "paper: last/senior author",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1200/jco-25-01817",
+      "menteeId": "tafadzwa-chaunzwa",
+      "status": "added",
+      "reason": "paper: first author",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41593-026-02202-6",
+      "menteeId": "tafadzwa-chaunzwa",
+      "status": "added",
+      "reason": "paper: co-author",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1056/aioa2400703",
+      "menteeId": "tafadzwa-chaunzwa",
+      "status": "added",
+      "reason": "paper: co-author",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1001/jamanetworkopen.2026.4845",
+      "menteeId": "tafadzwa-chaunzwa",
+      "status": "added",
+      "reason": "paper: co-author",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jtho.2026.103949",
+      "menteeId": "tafadzwa-chaunzwa",
+      "status": "added",
+      "reason": "paper: first author",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://www.astro.org/news-and-publications/news-and-media-center/news-releases/2025/winners-of-the-astro-astrazeneca-small-cell-lung-cancer-therapy-challenge-announced",
+      "menteeId": "nitin-ohri",
+      "status": "added",
+      "reason": "award: recipient",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://ascina.at/ascina-awards-2025-osterreichische-nachwuchsforscherinnen-ausgezeichnet/",
+      "menteeId": "caroline-moosm-ller",
+      "status": "added",
+      "reason": "award: recipient",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://yongxin.ae.gatech.edu/",
+      "menteeId": "yongxin-chen",
+      "status": "added",
+      "reason": "award: recipient",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41586-026-10947-0",
+      "menteeId": "wei-zhao",
+      "status": "excluded",
+      "reason": "author correction; Zhao W at NCI is a different person",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1073/pnas.2625638123",
+      "menteeId": "kaiming-xu",
+      "status": "excluded",
+      "reason": "Xu K at Boston Children's Hospital/HHMI is a different person",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41592-026-03177-9",
+      "menteeId": "xinan-chen",
+      "status": "excluded",
+      "reason": "Codebook consortium TF paper; no verifiable author match for Xinan Chen (MSK medical physics)",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41467-026-75376-z",
+      "menteeId": "xinan-chen",
+      "status": "excluded",
+      "reason": "Codebook consortium TF paper; no verifiable author match",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41586-026-10798-9",
+      "menteeId": "xinan-chen",
+      "status": "excluded",
+      "reason": "Codebook consortium TF paper; no verifiable author match",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41586-026-10816-w",
+      "menteeId": "xinan-chen",
+      "status": "excluded",
+      "reason": "retraction note; Chen X at Columbia is a different person",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1158/1078-0432.ccr-26-0392",
+      "menteeId": "xinan-chen",
+      "status": "excluded",
+      "reason": "Chen X at MD Anderson is a different person",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.radonc.2026.111769",
+      "menteeId": "andrew-hope",
+      "status": "excluded",
+      "reason": "middle author (13/20) in a field journal",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ijrobp.2026.07.058",
+      "menteeId": "nitin-ohri",
+      "status": "excluded",
+      "reason": "middle author (4/14) in a field journal",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ijrobp.2026.06.3055",
+      "menteeId": "nitin-ohri",
+      "status": "excluded",
+      "reason": "middle author (29/39) in a field journal",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1126/sciadv.adv9162",
+      "menteeId": "yao-xie",
+      "status": "excluded",
+      "reason": "Xie Y at UC San Diego is a different person",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1126/science.ady6893",
+      "menteeId": "yao-xie",
+      "status": "excluded",
+      "reason": "Xie Y at UC San Diego is a different person",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.radonc.2026.111713",
+      "menteeId": "maria-thor",
+      "status": "excluded",
+      "reason": "middle author (3/7) in a field journal (Deasy co-author; handled by Lab News)",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1126/sciadv.aeg9191",
+      "menteeId": "yongxin-chen",
+      "status": "excluded",
+      "reason": "Chen Y (Georgia Tech BME/IRIM, continuum robots) appears to be Yue Chen, a different person",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1126/scitranslmed.adt9565",
+      "menteeId": "yongxin-chen",
+      "status": "excluded",
+      "reason": "Chen Y at Emory Hematology is a different person",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1088/1361-6560/ae8c0e",
+      "menteeId": "vicki-taasti",
+      "status": "excluded",
+      "reason": "middle author (19/23) in a field journal",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.media.2026.104217",
+      "menteeId": "mireia-crispin-ortuzar",
+      "status": "excluded",
+      "reason": "middle author (7/15) in a field journal",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ijrobp.2026.06.3067",
+      "menteeId": "jamie-dean",
+      "status": "excluded",
+      "reason": "middle author (4/25) in a field journal",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ijrobp.2026.04.029",
+      "menteeId": "lisanne-v-van-dijk",
+      "status": "excluded",
+      "reason": "reply letter",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ijrobp.2026.04.025",
+      "menteeId": "lisanne-v-van-dijk",
+      "status": "excluded",
+      "reason": "reply letter",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1001/jamanetworkopen.2026.34809",
+      "menteeId": "ishita-chen",
+      "status": "excluded",
+      "reason": "Chen IA at University of South Florida is a different person",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1200/po-25-00597",
+      "menteeId": "tafadzwa-chaunzwa",
+      "status": "excluded",
+      "reason": "middle author (8/16); JCO Precis Oncol not in the middle-author family list",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1001/jamanetworkopen.2025.14452",
+      "menteeId": "tafadzwa-chaunzwa",
+      "status": "excluded",
+      "reason": "mass-authorship survey (76/147)",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jtho.2026.104092",
+      "menteeId": "tafadzwa-chaunzwa",
+      "status": "excluded",
+      "reason": "response letter",
+      "date": "2026-10-12"
     }
   ]
 }

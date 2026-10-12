@@ -474,6 +474,192 @@
       "status": "excluded",
       "reason": "interview is with Cristina Garibaldi, not a lab member",
       "date": "2026-09-13"
+    },
+    {
+      "url": "https://doi.org/10.1093/oons/kvag016",
+      "people": [
+        "grange",
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "paper: grange co-author, deasy co-author",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1002/hem3.70473",
+      "people": [
+        "simhal"
+      ],
+      "status": "added",
+      "reason": "paper: simhal co-author",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.bspc.2026.111229",
+      "people": [
+        "deasy"
+      ],
+      "status": "added",
+      "reason": "paper: deasy last/senior author",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1182/blood.2026034926",
+      "people": [
+        "nayak"
+      ],
+      "status": "excluded",
+      "reason": "Nayak L here is Lakshmi Nayak (Dana-Farber), a different person",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.3389/fimmu.2026.1850725",
+      "people": [
+        "chen-xinan"
+      ],
+      "status": "excluded",
+      "reason": "different person (Chen X, MSK Plastic Surgery); Xinan Chen is an MSK medical physics resident",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1093/skinhd/vzag124",
+      "people": [
+        "chen-xinan"
+      ],
+      "status": "excluded",
+      "reason": "different person (Chen X, MSK Plastic Surgery); Xinan Chen is an MSK medical physics resident",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41598-026-62278-9",
+      "people": [
+        "chen-xinan"
+      ],
+      "status": "excluded",
+      "reason": "different person (Chen X, MSK Plastic Surgery); Xinan Chen is an MSK medical physics resident",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41467-026-75376-z",
+      "people": [
+        "chen-xinan"
+      ],
+      "status": "excluded",
+      "reason": "different person (Codebook consortium; no author match); Xinan Chen is an MSK medical physics resident",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41592-026-03177-9",
+      "people": [
+        "chen-xinan"
+      ],
+      "status": "excluded",
+      "reason": "different person (Codebook consortium; no author match); Xinan Chen is an MSK medical physics resident",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41586-026-10816-w",
+      "people": [
+        "chen-xinan"
+      ],
+      "status": "excluded",
+      "reason": "different person (retraction note; Chen X at Columbia); Xinan Chen is an MSK medical physics resident",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1101/gad.353377.125",
+      "people": [
+        "chen-xinan"
+      ],
+      "status": "excluded",
+      "reason": "different person (Chen X at Shandong University); Xinan Chen is an MSK medical physics resident",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41586-026-10798-9",
+      "people": [
+        "chen-xinan"
+      ],
+      "status": "excluded",
+      "reason": "different person (Codebook consortium; no author match); Xinan Chen is an MSK medical physics resident",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1038/s42255-026-01583-z",
+      "people": [
+        "chen-xinan"
+      ],
+      "status": "excluded",
+      "reason": "different person (Chen X at Weill Cornell Urology); Xinan Chen is an MSK medical physics resident",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1158/1078-0432.ccr-26-0392",
+      "people": [
+        "chen-xinan"
+      ],
+      "status": "excluded",
+      "reason": "different person (Chen X at MD Anderson); Xinan Chen is an MSK medical physics resident",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ijrobp.2026.06.625",
+      "people": [
+        "ebrahimpour",
+        "deasy"
+      ],
+      "status": "excluded",
+      "reason": "ASTRO 2026 meeting abstract (IJROBP supplement S296-S297)",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ijrobp.2026.06.1064",
+      "people": [
+        "askarifirouzjaei",
+        "deasy"
+      ],
+      "status": "excluded",
+      "reason": "ASTRO 2026 meeting abstract (IJROBP supplement e186-e187)",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ijrobp.2026.06.627",
+      "people": [
+        "nayak",
+        "deasy"
+      ],
+      "status": "excluded",
+      "reason": "ASTRO 2026 meeting abstract (IJROBP supplement S297-S298)",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ijrobp.2026.06.1993",
+      "people": [
+        "deasy"
+      ],
+      "status": "excluded",
+      "reason": "ASTRO 2026 meeting abstract (IJROBP supplement e613-e614)",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1016/s2152-2650(26)03358-6",
+      "people": [
+        "simhal",
+        "deasy"
+      ],
+      "status": "excluded",
+      "reason": "IMS 2026 meeting abstract (Clin Lymphoma Myeloma Leuk supplement)",
+      "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1016/s2152-2650(26)03501-9",
+      "people": [
+        "simhal",
+        "deasy"
+      ],
+      "status": "excluded",
+      "reason": "IMS 2026 meeting abstract (Clin Lymphoma Myeloma Leuk supplement)",
+      "date": "2026-10-12"
     }
   ]
 }

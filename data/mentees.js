@@ -1,7 +1,7 @@
 /* AUTO-GENERATED from data/mentees.json by gen-mentee-js.py — do not edit by hand. */
 window.MENTEES_DATA = {
   "_note": "Mentee roster for the Deasy Lab 'Mentee News' feed. Source: Joseph O. Deasy CV (Nov 2025). institution/position are the CURRENT verified values; cvPosition is what the CV listed. include=false hides the person from the site.",
-  "updated": "2026-09-10",
+  "updated": "2026-10-12",
   "mentees": [
     {
       "id": "wei-zhao",
@@ -20,7 +20,7 @@ window.MENTEES_DATA = {
       "nameNote": null,
       "include": true,
       "verify": true,
-      "researchNotes": "MSK residency alumni page lists Wei Zhao, PhD as 'Graduated 2025' with no current position; the MSK Veeraraghavan Lab members page (https://www.mskcc.org/research-areas/labs/members/wei-zhao) still lists Wei Zhao, PhD, suggesting they remain at MSK, but the post-residency title could not be confirmed (MSK Synapse profile returned 403). Very common name; no 2025-2026 Zhao/Deasy paper found in Crossref. Reclassified as former mentee per J. Deasy (2026-09-10)."
+      "researchNotes": "MSK residency alumni page lists Wei Zhao, PhD as 'Graduated 2025' with no current position; the MSK Veeraraghavan Lab members page (https://www.mskcc.org/research-areas/labs/members/wei-zhao) still lists Wei Zhao, PhD, suggesting they remain at MSK, but the post-residency title could not be confirmed (MSK Synapse profile returned 403). Very common name; no 2025-2026 Zhao/Deasy paper found in Crossref. Reclassified as former mentee per J. Deasy (2026-09-10). [2026-10-12] MSK therapeutic medical physics residency alumni list says \"Wei Zhao, PhD — Graduated 2025\" with no current position (https://www.mskcc.org/hcp-education-training/residencies/residency-therapeutic-medical-physics/residents-fellows/alumni); current institution still unconfirmed."
     },
     {
       "id": "anish-simhal",
@@ -58,7 +58,7 @@ window.MENTEES_DATA = {
       "nameNote": null,
       "include": true,
       "verify": true,
-      "researchNotes": "Was a Stony Brook AMS PhD student in Allen Tannenbaum's lab (ResearchGate profile: https://www.researchgate.net/profile/Kaiming-Xu-2); his Aug 2026 JCI Insight first-author paper lists his affiliation as Dept of Anesthesiology, Yale School of Medicine, and a LinkedIn search snippet shows 'Kaiming Xu - Yale University'. Exact job title not found. Also co-authored an npj Breast Cancer paper with Deasy (Jan 2025, outside window). Reclassified as former mentee per J. Deasy (2026-09-10)."
+      "researchNotes": "Was a Stony Brook AMS PhD student in Allen Tannenbaum's lab (ResearchGate profile: https://www.researchgate.net/profile/Kaiming-Xu-2); his Aug 2026 JCI Insight first-author paper lists his affiliation as Dept of Anesthesiology, Yale School of Medicine, and a LinkedIn search snippet shows 'Kaiming Xu - Yale University'. Exact job title not found. Also co-authored an npj Breast Cancer paper with Deasy (Jan 2025, outside window). Reclassified as former mentee per J. Deasy (2026-09-10). [2026-10-12] Yale profile (https://medicine.yale.edu/ysm/profile/kaiming-xu) lists Postdoctoral Associate (department not stated; profile last updated Aug 2025) — medium confidence, flag kept."
     },
     {
       "id": "lopamudra-nayak",
@@ -134,7 +134,7 @@ window.MENTEES_DATA = {
       "nameNote": "CV spelling: Constantin Zakarian",
       "include": true,
       "verify": true,
-      "researchNotes": "Publishes as K./Konstantin Zakarian (Zakarian & Deasy papers); ResearchGate contributions page lists a Sun Nuclear, Inc. affiliation, consistent with the CV. No current dated page found."
+      "researchNotes": "Publishes as K./Konstantin Zakarian (Zakarian & Deasy papers); ResearchGate contributions page lists a Sun Nuclear, Inc. affiliation, consistent with the CV. No current dated page found. [2026-10-12] Searched for news and current affiliation; no web page found that confirms the current position (common name or no public footprint). Flag kept."
     },
     {
       "id": "jerry-markman",
@@ -153,7 +153,7 @@ window.MENTEES_DATA = {
       "nameNote": null,
       "include": true,
       "verify": false,
-      "researchNotes": "Official MSU faculty page (B.S. WashU 1993). Publishes as Jerry Markman, D.Sc., in the 1999–2002 WashU Med Phys papers, so the CV's 'BS' understates his degree."
+      "researchNotes": "Official MSU faculty page (B.S. WashU 1993). Publishes as Jerry Markman, D.Sc., in the 1999–2002 WashU Med Phys papers, so the CV's 'BS' understates his degree. [2026-10-12] Searched for news and current affiliation; no web page found that confirms the current position (common name or no public footprint). Flag kept."
     },
     {
       "id": "angel-blanco",
@@ -164,10 +164,10 @@ window.MENTEES_DATA = {
       "period": "2001–2002",
       "project": "Toxicity modeling",
       "cvPosition": "Director, Radiation Oncology",
-      "institution": "Memorial Hermann Health System / Oncology Consultants, Houston, TX",
-      "position": "Radiation Oncologist; Director, Radiation Oncology",
-      "institutionSource": "https://memorialhermann.org/doctors/radiation-oncologists/angel-blanco-md",
-      "institutionVerified": "2026-09-10",
+      "institution": "McGovern Medical School at UTHealth Houston / Memorial Hermann",
+      "position": "Radiation Oncologist",
+      "institutionSource": "https://med.uth.edu/neurosciences/dr-angel-i-blanco-md/",
+      "institutionVerified": "2026-10-12",
       "homepage": null,
       "nameNote": null,
       "include": true,
@@ -186,7 +186,7 @@ window.MENTEES_DATA = {
       "institution": "Moffitt Cancer Center",
       "position": "Founding Chair, Department of Machine Learning",
       "institutionSource": "https://www.moffitt.org/research-science/researchers/issam-el-naqa/",
-      "institutionVerified": "2026-09-10",
+      "institutionVerified": "2026-10-12",
       "homepage": null,
       "nameNote": null,
       "include": true,
@@ -204,8 +204,8 @@ window.MENTEES_DATA = {
       "cvPosition": "Radiation Oncologist, University of Utah",
       "institution": "University of Utah / Huntsman Cancer Institute",
       "position": "Professor of Radiation Oncology",
-      "institutionSource": "https://healthcare.utah.edu/find-a-doctor/gita-suneja",
-      "institutionVerified": "2026-09-10",
+      "institutionSource": "https://amportal.astro.org/gita-suneja-md-ms-fastro-35235522",
+      "institutionVerified": "2026-10-12",
       "homepage": null,
       "nameNote": null,
       "include": true,
@@ -223,8 +223,8 @@ window.MENTEES_DATA = {
       "cvPosition": "Radiation Oncologist, Princess Margaret Cancer Centre",
       "institution": "Princess Margaret Cancer Centre / University of Toronto",
       "position": "Staff Radiation Oncologist; Associate Professor",
-      "institutionSource": "https://radonc.utoronto.ca/faculty/andrew-hope",
-      "institutionVerified": "2026-09-10",
+      "institutionSource": "https://ims.utoronto.ca/faculty/andrew-hope",
+      "institutionVerified": "2026-10-12",
       "homepage": null,
       "nameNote": null,
       "include": true,
@@ -336,9 +336,9 @@ window.MENTEES_DATA = {
       "project": "Outcomes modeling",
       "cvPosition": "Radiation Oncologist",
       "institution": "New Mexico Cancer Center",
-      "position": "Radiation Oncologist",
-      "institutionSource": "https://nmcancercenter.org/gregg-e-franklin-md-phd/",
-      "institutionVerified": "2026-09-10",
+      "position": "Clinical Director of Radiation Oncology",
+      "institutionSource": "https://binaytara.org/projects/conferences/speakers/gregg-franklin",
+      "institutionVerified": "2026-10-12",
       "homepage": null,
       "nameNote": "CV spelling: Greg Franklin",
       "include": true,
@@ -356,8 +356,8 @@ window.MENTEES_DATA = {
       "cvPosition": "Radiation Oncologist, Associate Professor, Albert Einstein College of Medicine",
       "institution": "Albert Einstein College of Medicine / Montefiore Einstein",
       "position": "Professor of Radiation Oncology",
-      "institutionSource": "https://einsteinmed.edu/faculty/13388/nitin-ohri",
-      "institutionVerified": "2026-09-10",
+      "institutionSource": "https://highlights.montefioreeinstein.org/cancer-center/nitin-ohri-named-winner-astro-astrazeneca-sclc-therapy-challenge",
+      "institutionVerified": "2026-10-12",
       "homepage": null,
       "nameNote": null,
       "include": true,
@@ -419,7 +419,7 @@ window.MENTEES_DATA = {
       "nameNote": null,
       "include": true,
       "verify": true,
-      "researchNotes": "Common name. A LinkedIn search snippet ('YI Mu - Mathematician Statistician - CDC') matches the CV position, but the profile could not be opened to confirm the WUSTL/Deasy link, and CDC pages do not list staff. No qualifying 2025-2026 items found that could be confidently attributed to this person."
+      "researchNotes": "Common name. A LinkedIn search snippet ('YI Mu - Mathematician Statistician - CDC') matches the CV position, but the profile could not be opened to confirm the WUSTL/Deasy link, and CDC pages do not list staff. No qualifying 2025-2026 items found that could be confidently attributed to this person. [2026-10-12] Searched for news and current affiliation; no web page found that confirms the current position (common name or no public footprint). Flag kept."
     },
     {
       "id": "paras-tiwari",
@@ -476,7 +476,7 @@ window.MENTEES_DATA = {
       "nameNote": "CV spelling: Areli Zuniga",
       "include": true,
       "verify": true,
-      "researchNotes": "LinkedIn headline 'PhD Física médica — Clínica Dávila / Pontificia Universidad Católica de Chile'; ZoomInfo lists 'Oficial de Protección Radiológica 1a Categoría at Clínica Dávila'. UW-Madison alumni directory confirms PhD 2015 (Generalized Tumor Dose). No official clinic page found — secondary sources only."
+      "researchNotes": "LinkedIn headline 'PhD Física médica — Clínica Dávila / Pontificia Universidad Católica de Chile'; ZoomInfo lists 'Oficial de Protección Radiológica 1a Categoría at Clínica Dávila'. UW-Madison alumni directory confirms PhD 2015 (Generalized Tumor Dose). No official clinic page found — secondary sources only. [2026-10-12] Searched for news and current affiliation; no web page found that confirms the current position (common name or no public footprint). Flag kept."
     },
     {
       "id": "jung-hun-oh",
@@ -546,8 +546,8 @@ window.MENTEES_DATA = {
       "cvPosition": "Associate Professor, Georgia Institute of Technology",
       "institution": "Georgia Institute of Technology",
       "position": "Associate Professor, School of Aerospace Engineering",
-      "institutionSource": "https://ae.gatech.edu/news/2026/02/yongxin-chen-awarded-ifacs-manfred-thoma-medal",
-      "institutionVerified": "2026-09-10",
+      "institutionSource": "https://yongxin.ae.gatech.edu/",
+      "institutionVerified": "2026-10-12",
       "homepage": null,
       "nameNote": null,
       "include": true,
@@ -646,8 +646,8 @@ window.MENTEES_DATA = {
       "homepage": null,
       "nameNote": null,
       "include": true,
-      "verify": false,
-      "researchNotes": "MSK Synapse (institutional bibliography) lists 'Medical Physics; Assistant Attending' - a more specific title than the CV's 'Medical Physicist'. Most recent listed publication is a 2024 Red Journal paper (first author, with Santanam L as senior author). No qualifying 2025-2026 items found."
+      "verify": true,
+      "researchNotes": "MSK Synapse (institutional bibliography) lists 'Medical Physics; Assistant Attending' - a more specific title than the CV's 'Medical Physicist'. Most recent listed publication is a 2024 Red Journal paper (first author, with Santanam L as senior author). No qualifying 2025-2026 items found. [2026-10-12] Medium-confidence evidence of a move: NYU Grossman School of Medicine faculty profile \"Sangkyu Lee, PhD\", Clinical Assistant Professor, Department of Radiation Oncology (https://med.nyu.edu/faculty/sangkyu-lee), listing co-authored Deasy papers; the MSK residency alumni page gives no current institution. Institution left as MSK pending confirmation."
     },
     {
       "id": "james-matthews",
@@ -773,9 +773,9 @@ window.MENTEES_DATA = {
       "project": "Cellular modeling",
       "cvPosition": "Assistant Professor",
       "institution": "University of North Carolina at Chapel Hill",
-      "position": "Assistant Professor of Mathematics",
-      "institutionSource": "https://math.unc.edu/math-new/professor-caroline-moosmuller-wins-junior-principal-investigator-award-from-2025-ascina-awards/",
-      "institutionVerified": "2026-09-10",
+      "position": "Assistant Professor and J. Burton Linker Fellow, Department of Mathematics",
+      "institutionSource": "https://tarheels.live/cmoosm/people/",
+      "institutionVerified": "2026-10-12",
       "homepage": null,
       "nameNote": null,
       "include": true,
@@ -799,7 +799,7 @@ window.MENTEES_DATA = {
       "nameNote": null,
       "include": true,
       "verify": true,
-      "researchNotes": "LinkedIn headline 'Phong Tran, Ph.D. — Fidelity Investments' (profile mentions MSK). Personal site still lists Citibank AVP (2022). Title not confirmed."
+      "researchNotes": "LinkedIn headline 'Phong Tran, Ph.D. — Fidelity Investments' (profile mentions MSK). Personal site still lists Citibank AVP (2022). Title not confirmed. [2026-10-12] Searched for news and current affiliation; no web page found that confirms the current position (common name or no public footprint). Flag kept."
     },
     {
       "id": "rena-elkin",
@@ -830,9 +830,9 @@ window.MENTEES_DATA = {
       "project": "Fractionation",
       "cvPosition": "Radiation Oncologist, Netherlands Cancer Institute",
       "institution": "Netherlands Cancer Institute",
-      "position": "Radiation Oncologist",
-      "institutionSource": "https://www.avl.nl/en/specialists-employees/specialists/radiation-oncologists/zeno-gouw/",
-      "institutionVerified": "2026-09-10",
+      "position": "Radiation oncologist",
+      "institutionSource": "https://avl.nl/en/specialists-employees/specialists/radiation-oncologists/zeno-gouw",
+      "institutionVerified": "2026-10-12",
       "homepage": null,
       "nameNote": null,
       "include": true,
@@ -868,9 +868,9 @@ window.MENTEES_DATA = {
       "project": "Image analysis",
       "cvPosition": "Medical Physicist, Norwegian University of Science and Technology",
       "institution": "Norwegian University of Science and Technology (NTNU)",
-      "position": "Assistant Professor and Researcher, Department of Physics; Coordinator, Norwegian 7T MR Center",
-      "institutionSource": "https://www.ntnu.edu/employees/rene.winter",
-      "institutionVerified": "2026-09-10",
+      "position": "Assistant professor and researcher, Department of Physics; coordinator, Norwegian 7T MR Center",
+      "institutionSource": "https://ntnu.edu/employees/rene.winter",
+      "institutionVerified": "2026-10-12",
       "homepage": null,
       "nameNote": "CV spelling: Rene Winter",
       "include": true,
@@ -913,7 +913,26 @@ window.MENTEES_DATA = {
       "nameNote": "CV spelling: Elfried Salanon",
       "include": true,
       "verify": true,
-      "researchNotes": "Google Scholar and ResearchGate list INRAE ('Faculty Member'); thesis ended 2025 (CRAN dispersionIndicators README). Current post-PhD role not confirmed on an official page."
+      "researchNotes": "Google Scholar and ResearchGate list INRAE ('Faculty Member'); thesis ended 2025 (CRAN dispersionIndicators README). Current post-PhD role not confirmed on an official page. [2026-10-12] Searched for news and current affiliation; no web page found that confirms the current position (common name or no public footprint). Flag kept."
+    },
+    {
+      "id": "tafadzwa-chaunzwa",
+      "name": "Tafadzwa L. Chaunzwa",
+      "degree": "MD",
+      "status": "current",
+      "role": "Junior faculty mentee",
+      "period": "2024–",
+      "project": null,
+      "cvPosition": null,
+      "institution": "Memorial Sloan Kettering Cancer Center",
+      "position": "Assistant Attending Radiation Oncologist; Physician-Scientist",
+      "institutionSource": "https://www.mskcc.org/research-areas/labs/members/tafadzwa-chaunzwa",
+      "institutionVerified": "2026-10-12",
+      "homepage": "https://www.mskcc.org/research-areas/research-teams/advanced-computing-and-oncology-lab/members",
+      "nameNote": "Full name Tafadzwa Lawrence Chaunzwa; author form Chaunzwa TL",
+      "include": true,
+      "verify": false,
+      "researchNotes": "Added at Joseph's request on 2026-10-12 (not in the Nov 2025 CV roster); Joseph states he has officially mentored Dr. Chaunzwa since 2024. Position and institution from his MSK lab-member page (Advanced Computing and Oncology Lab). Project not stated. Qualifying items from the last 24 months were backfilled on 2026-10-12; JCO Precis Oncol 2026 (8/16) and a JAMA Netw Open 2025 survey (76/147) were excluded (middle authorship outside the Nature/Science/Cell/Lancet/NEJM/JAMA middle-author rule, or mass authorship)."
     }
   ]
 };
