@@ -345,6 +345,7 @@ tasks and the approval reminder stay paused (`enabled: false`); the cloud routin
 
 Newest first. One line per delivered change set; the weekly refresh task appends from `git log`.
 
+- 2026-10-12 · (pending commit) · Award wording corrected per Joseph: the team was the overall competition winner, not a Task 1 winner (feed item, write-up page, captions).
 - 2026-10-12 · (pending commit) · **News write-up pages.** New `news/flare-2026.html` tells the FLARE 2026 award story on the site
   (challenge, approach, validation numbers from the team's slides, certificate and Codabench screenshot, team links); the Lab News
   award item's `url` now points to it, so "Read the story" opens the write-up rather than the competition site. The award was
@@ -356,7 +357,7 @@ Newest first. One line per delivered change set; the weekly refresh task appends
   `styles.css`. First use: the FLARE 2026 award item shows the certificate and a screenshot of the Codabench competition page
   (`assets/img/news/flare2026-certificate.jpg`, `flare2026-codabench.jpg`, supplied by Joseph). Render-checked at 1280 px and 390 px.
 - 2026-10-12 · (pending commit) · Lab News + Mentee News: MICCAI FLARE 2026 Outstanding Winner Award (Team PANSEG_MSK —
-  Lopamudra Nayak, Leyla Ebrahimpour, Jue Jiang — first of 190 teams, Task 1 pan-cancer CT segmentation) added as an award item
+  Lopamudra Nayak, Leyla Ebrahimpour, Jue Jiang — overall winner of the pan-cancer CT segmentation challenge, first of 190 teams) added as an award item
   in `lab-news.json` (recipients: nayak, ebrahimpour) and in `mentee-news.json` for lopamudra-nayak; source: certificate
   FLARE2026-T1-006 and slides supplied by Joseph; date month-only (2026-10) pending confirmation.
 - 2026-10-12 · (pending commit) · **First "Update DeasyLab" run.** Publications: the Drive folder held 62 files but only 31

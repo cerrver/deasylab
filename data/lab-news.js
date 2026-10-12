@@ -1002,7 +1002,7 @@ window.LAB_NEWS_DATA = {
     {
       "id": "award-miccai-flare-2026-outstanding-winner-panseg-msk",
       "type": "award",
-      "title": "MICCAI FLARE 2026 Outstanding Winner Award — Team PANSEG_MSK ranks first of 190 teams in pan-cancer CT segmentation (Task 1)",
+      "title": "MICCAI FLARE 2026 Outstanding Winner Award — Team PANSEG_MSK wins the pan-cancer CT segmentation challenge, first of 190 teams",
       "date": "2026-10",
       "venue": "MICCAI 2026 FLARE challenge",
       "url": "news/flare-2026.html",
@@ -1018,7 +1018,7 @@ window.LAB_NEWS_DATA = {
           "role": "recipient"
         }
       ],
-      "summary": "Team PANSEG_MSK — postdocs Lopamudra Nayak and Leyla Ebrahimpour with faculty collaborator Jue Jiang — ranked first of 190 teams in Task 1 of the MICCAI 2026 FLARE challenge (Fast, Low-resource, Accurate, Robust and Effectual Medical Image Analysis) and received its Outstanding Winner Award. The task called for fully automatic segmentation of tumors anywhere in the body on CT, trained on more than 17,000 scans in which only the primary lesion was labelled, under strict time and memory limits. Their entry, \"Coarse-Spacing nnU-Net with Tversky Loss for Pan-Cancer CT Segmentation\", uses a compact four-stage nnU-Net v2 with a Dice + cross-entropy + Tversky loss, runs in about three seconds per scan with roughly 1.4 GB of GPU memory, and the code is open source.",
+      "summary": "Team PANSEG_MSK — postdocs Lopamudra Nayak and Leyla Ebrahimpour with faculty collaborator Jue Jiang — won the MICCAI 2026 FLARE challenge (Fast, Low-resource, Accurate, Robust and Effectual Medical Image Analysis) outright, ranking first of 190 teams and receiving its Outstanding Winner Award. The challenge called for fully automatic segmentation of tumors anywhere in the body on CT, trained on more than 17,000 scans in which only the primary lesion was labelled, under strict time and memory limits. Their entry, \"Coarse-Spacing nnU-Net with Tversky Loss for Pan-Cancer CT Segmentation\", uses a compact four-stage nnU-Net v2 with a Dice + cross-entropy + Tversky loss, runs in about three seconds per scan with roughly 1.4 GB of GPU memory, and the code is open source.",
       "added": "2026-10-12",
       "flag": "Confirm the award date — the certificate carries none; MICCAI 2026 ran 27 Sept – 1 Oct 2026 in Strasbourg",
       "source": "write-up on this site (news/flare-2026.html) from the certificate FLARE2026-T1-006 and team slides supplied by Joseph; competition page https://www.codabench.org/competitions/7149/",
@@ -1026,7 +1026,7 @@ window.LAB_NEWS_DATA = {
         {
           "src": "assets/img/news/flare2026-certificate.jpg",
           "alt": "MICCAI 2026 FLARE Outstanding Winner Award certificate for Lopamudra Nayak, Leyla Ebrahimpour and Jue Jiang, team PANSEG_MSK, for the paper 'Coarse-Spacing nnU-Net with Tversky Loss for Pan-Cancer CT Segmentation'",
-          "caption": "The FLARE 2026 Outstanding Winner Award certificate (Task 1), signed by challenge chair Dr. Jun Ma."
+          "caption": "The FLARE 2026 Outstanding Winner Award certificate, signed by challenge chair Dr. Jun Ma."
         },
         {
           "src": "assets/img/news/flare2026-codabench.jpg",
