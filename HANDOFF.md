@@ -61,7 +61,7 @@ deasylab/
 │   ├── js/publications.js
 │   ├── js/lab-news.js
 │   ├── js/mentee-news.js
-│   └── img/             logo.png, logo-mark.png, favicon.png, lab-team.jpg, tools/*.svg (six tool illustrations)
+│   └── img/             logo.png, logo-mark.png, favicon.png, lab-team.jpg, tools/*.svg (six tool illustrations), news/ (images attached to feed items)
 └── data/
     ├── papers.json / papers.js
     ├── pdf-manifest.json    status of every Europe PMC record vs. the Drive folder (in-drive | inbox | uploaded | no-oa | failed | skipped | candidate)
@@ -109,7 +109,8 @@ Top level: `updated`, `windowMonths` (24), `items[]`. Each item: `id`
 (`<menteeId>-<slug>`), `menteeId`, `mentee`, `type` (paper | media | award), `title`, `date`
 (YYYY-MM-DD or YYYY-MM), `venue`, `url` (required, must be a real resolved URL), `doi`,
 `authorsShort`, `menteeRole`, `summary` (2–3 plain-language sentences), `added`, `flag`
-(null or a short note → "verify" badge). Items are never deleted by automation; to remove one,
+(null or a short note → "verify" badge). Optional `images[]` = `[{src (site-relative, e.g.
+`assets/img/news/x.jpg`), alt, caption, href?}]` — rendered under the summary (first image only on the home page). Items are never deleted by automation; to remove one,
 delete the record by hand. The page shows the last `windowMonths` newest-first, with a "Show
 older items" button for the rest. The home page shows the three newest.
 
@@ -132,7 +133,7 @@ Top level: `_note`, `updated`, `window`, `windowMonths` (24), `items[]`. Each it
 "Preprint"), `url` (required; DOI URL for papers), `doi`, `authorsShort` (first 3 … last), `people[]`
 = `[{id: <memberId>, role}]` with role ∈ first author | last/senior author | corresponding author |
 co-author | subject | quoted | recipient, `summary` (2–3 plain-language sentences from the abstract),
-`added`, `flag` (null or note → "verify" badge), `source` (e.g. `europepmc:<id>`). Inclusion rule:
+`added`, `flag` (null or note → "verify" badge), `source` (e.g. `europepmc:<id>`). Optional `images[]` as in §4.3. Inclusion rule:
 **every** publication or preprint in any venue, and any press/award item, that names the PI or an
 included trainee. Items from a trainee's earlier position are included but flagged. Never delete
 items by automation. Backfilled 2026-09-13 with 45 items (43 papers/preprints, 2 media).
@@ -339,6 +340,11 @@ tasks and the approval reminder stay paused (`enabled: false`); the cloud routin
 
 Newest first. One line per delivered change set; the weekly refresh task appends from `git log`.
 
+- 2026-10-12 · (pending commit) · **News cards can carry images.** Optional `images[]` on a feed item (see §4.3/§4.6) is rendered by
+  `assets/js/lab-news.js` and `assets/js/mentee-news.js` (`figures()`) as a `.news__figs` strip after the summary — all images with
+  captions on the feed pages, the first image only (no caption) in the compact home-page cards; styles `.news__figs`/`.news__fig` in
+  `styles.css`. First use: the FLARE 2026 award item shows the certificate and a screenshot of the Codabench competition page
+  (`assets/img/news/flare2026-certificate.jpg`, `flare2026-codabench.jpg`, supplied by Joseph). Render-checked at 1280 px and 390 px.
 - 2026-10-12 · (pending commit) · Lab News + Mentee News: MICCAI FLARE 2026 Outstanding Winner Award (Team PANSEG_MSK —
   Lopamudra Nayak, Leyla Ebrahimpour, Jue Jiang — first of 190 teams, Task 1 pan-cancer CT segmentation) added as an award item
   in `lab-news.json` (recipients: nayak, ebrahimpour) and in `mentee-news.json` for lopamudra-nayak; source: certificate

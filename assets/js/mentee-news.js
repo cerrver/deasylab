@@ -87,6 +87,17 @@
     return s;
   }
 
+  function figures(it, compact) {
+    var imgs = (it.images || []).filter(function (im) { return im && im.src; });
+    if (!imgs.length) return "";
+    if (compact) imgs = imgs.slice(0, 1);
+    return '<div class="news__figs">' + imgs.map(function (im) {
+      var img = '<img src="' + esc(im.src) + '" alt="' + esc(im.alt || "") + '" loading="lazy" decoding="async">';
+      var inner = im.href ? '<a href="' + esc(im.href) + '" target="_blank" rel="noopener">' + img + "</a>" : img;
+      return '<figure class="news__fig">' + inner + (im.caption && !compact ? '<figcaption>' + esc(im.caption) + "</figcaption>" : "") + "</figure>";
+    }).join("") + "</div>";
+  }
+
   function card(it, m, compact) {
     var type = TYPE_LABEL[it.type] || it.type;
     var title = '<a href="' + esc(it.url) + '" target="_blank" rel="noopener">' + esc(it.title) + "</a>";
@@ -104,6 +115,7 @@
         '<h3 class="news__title">' + title + "</h3>" +
         (meta.length ? '<p class="news__meta">' + meta.join(" · ") + "</p>" : "") +
         '<p class="news__summary">' + esc(it.summary) + "</p>" +
+        figures(it, compact) +
         '<div class="news__actions">' +
           '<a class="pill" href="' + esc(it.url) + '" target="_blank" rel="noopener">' + icon("external") + (it.type === "paper" ? "Read the paper" : "Read the story") + "</a>" +
           (it.doi ? '<a class="pill" href="https://doi.org/' + esc(it.doi) + '" target="_blank" rel="noopener">DOI</a>' : "") +
