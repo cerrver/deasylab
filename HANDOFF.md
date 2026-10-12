@@ -339,6 +339,10 @@ tasks and the approval reminder stay paused (`enabled: false`); the cloud routin
 
 Newest first. One line per delivered change set; the weekly refresh task appends from `git log`.
 
+- 2026-10-12 · (pending commit) · Lab News + Mentee News: MICCAI FLARE 2026 Outstanding Winner Award (Team PANSEG_MSK —
+  Lopamudra Nayak, Leyla Ebrahimpour, Jue Jiang — first of 190 teams, Task 1 pan-cancer CT segmentation) added as an award item
+  in `lab-news.json` (recipients: nayak, ebrahimpour) and in `mentee-news.json` for lopamudra-nayak; source: certificate
+  FLARE2026-T1-006 and slides supplied by Joseph; date month-only (2026-10) pending confirmation.
 - 2026-10-12 · (pending commit) · **First "Update DeasyLab" run.** Publications: the Drive folder held 62 files but only 31
   were indexed — 23 entries added (`papers.json` now 54; 4 flagged: ASCO 2026 abstract, a book chapter, two 1990s–2000 items
   without DOI); 7 Drive files identified as duplicates of indexed papers (listed in `PDF-WANTED.md` §5). Open-access PDF hunt:

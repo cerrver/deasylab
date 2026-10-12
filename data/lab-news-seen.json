@@ -660,6 +660,16 @@
       "status": "excluded",
       "reason": "IMS 2026 meeting abstract (Clin Lymphoma Myeloma Leuk supplement)",
       "date": "2026-10-12"
+    },
+    {
+      "url": "https://www.codabench.org/competitions/7149/",
+      "people": [
+        "nayak",
+        "ebrahimpour"
+      ],
+      "status": "added",
+      "reason": "award: recipients (supplied by Joseph)",
+      "date": "2026-10-12"
     }
   ]
 }

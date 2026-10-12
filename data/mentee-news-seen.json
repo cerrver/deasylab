@@ -540,6 +540,13 @@
       "status": "excluded",
       "reason": "response letter",
       "date": "2026-10-12"
+    },
+    {
+      "url": "https://www.codabench.org/competitions/7149/",
+      "menteeId": "lopamudra-nayak",
+      "status": "added",
+      "reason": "award: recipient (supplied by Joseph)",
+      "date": "2026-10-12"
     }
   ]
 }
