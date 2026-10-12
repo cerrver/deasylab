@@ -670,6 +670,16 @@
       "status": "added",
       "reason": "award: recipients (supplied by Joseph)",
       "date": "2026-10-12"
+    },
+    {
+      "url": "news/flare-2026.html",
+      "people": [
+        "nayak",
+        "ebrahimpour"
+      ],
+      "status": "added",
+      "reason": "award: recipients — write-up page on this site; the competition URL is also logged",
+      "date": "2026-10-12"
     }
   ]
 }
