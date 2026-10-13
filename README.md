@@ -9,7 +9,7 @@ log) and is refreshed weekly by a scheduled task.
 
 ## Pages
 
-- `index.html` — home: mission, p53 hero video, **news hub** (Lab News card beside the Mentee News card, three newest items each), research programs, **Tools for Cancer Research** (cards + SVG art in `assets/img/tools/`; ViSpace card still carries a REPLACE-VISPACE note), featured discovery, recent highlights, team teaser, recruitment CTA
+- `index.html` — home: mission, p53 hero video, **news hub** (Lab News card beside the Mentee News card, three newest items each), research programs, **Tools for Cancer Research** (cards + SVG art in `assets/img/tools/`; ViSPACE links to github.com/himangi2003/ViSPACE), featured discovery, recent highlights, team teaser, recruitment CTA
 - `research.html` — the four research programs, methods & tools, **NIH ROBIN consortium + didactic talk lists** (titles copied from immunorobin.org; each year links to the video page), milestones, funding teaser
 - `team.html` — principal investigator, key faculty collaborators, postdoctoral fellows, **Funding** (active/completed grants + financial disclosure)
 - `disclosures.html` — financial disclosure statement (update the "Last updated" date when it changes; linked from every footer)

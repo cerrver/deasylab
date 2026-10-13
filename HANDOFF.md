@@ -206,7 +206,7 @@ canonical source, so a stale mirror shows stale data when opened from disk but n
   and pyCERR https://github.com/cerr/pyCERR ; AI auto-segmentation models
   https://github.com/cerr/model_installer ; ORCO https://github.com/aksimhal/ORC-Omics
   (doi 10.1093/bioinformatics/btaf093) ; NetFlow https://areelkin.github.io/netflow and
-  https://github.com/areElkin/netflow (bioRxiv 10.1101/2025.10.24.683878) ; ViSpace (placeholder).
+  https://github.com/areElkin/netflow (bioRxiv 10.1101/2025.10.24.683878) ; ViSPACE https://github.com/himangi2003/ViSPACE (computational pathology pipeline by Himangi Srivastava; spelling "ViSPACE" per Joseph).
   Card art in `assets/img/tools/` is original SVG in the brand palette; replace with screenshots
   only if licensing is confirmed.
 - **ROBIN section** (research.html#robin): ImmunoRad ROBIN center (WCM / UChicago / MSK),
@@ -327,8 +327,6 @@ tasks and the approval reminder stay paused (`enabled: false`); the cloud routin
   page); 13 items carry "verify" flags in total. The weekly Lab News task must be approved for device
   binding in the app's scheduled-task list (same as the handoff task).
 
-- ViSpace: no public page or repository found; card shows a dashed "REPLACE-VISPACE" note. Needs a
-  description and link from Joseph.
 - Jeho Jeong: no MSK profile page located; card shows department only.
 - Hero statistics on the home page (papers, trainees, ECHO patients, CERR citations, "7 major NIH
   awards led") have not been independently confirmed by Joseph.
@@ -345,6 +343,7 @@ tasks and the approval reminder stay paused (`enabled: false`); the cloud routin
 
 Newest first. One line per delivered change set; the weekly refresh task appends from `git log`.
 
+- 2026-10-13 · (pending commit) · Tools: ViSPACE card completed — corrected name (ViSPACE), description from the repository README (Virchow2-based whole-slide pathology segmentation and spatial TME biomarkers), GitHub link https://github.com/himangi2003/ViSPACE, REPLACE-VISPACE note removed; Research page and README spelling updated.
 - 2026-10-12 · (pending commit) · Award wording corrected per Joseph: the team was the overall competition winner, not a Task 1 winner (feed item, write-up page, captions).
 - 2026-10-12 · (pending commit) · **News write-up pages.** New `news/flare-2026.html` tells the FLARE 2026 award story on the site
   (challenge, approach, validation numbers from the team's slides, certificate and Codabench screenshot, team links); the Lab News
