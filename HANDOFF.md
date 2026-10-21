@@ -4,7 +4,7 @@
 **Repo:** https://github.com/cerrver/deasylab (branch `main`, GitHub Pages "deploy from branch", root folder)
 **Local working copy:** `…\Documents\Claude\Projects\Web site design and deployment\deasylab\` on Joseph's Windows PC
 **Owner / final say on content:** Joseph O. Deasy (deasyj@mskcc.org)
-**Handoff document last updated:** 2026-10-12 (at commit `b0fe01f`; first Update DeasyLab run pending commit)
+**Handoff document last updated:** 2026-10-21 (at commit `7150408`; VALIDATE consortium additions pending commit)
 
 This document is the single place a new maintainer (a person or another Claude Project) needs to
 read to take over the site. It is kept current by a weekly scheduled task (see §9) and should be
@@ -24,14 +24,14 @@ JSON files in `data/`, each of which has a `.js` mirror so the page also works w
 Fonts: Inter (UI) and Newsreader (display/serif) from Google Fonts. Palette tokens are in `:root` at
 the top of `styles.css` — indigo `#3730a3` family (`--blue-*`), cyan `#06b6d4` accent (`--accent*`),
 tints, radii, shadows. Brand assets: `assets/img/logo.png` (footer logo: the explorer-with-binoculars illustration only — until 2026-10-11 it also carried "DEASY LAB FOR CANCER MODELING" as baked-in text, which was cropped away when the lab was renamed; the lab name is HTML text beside the image),
-`logo-mark.png` (nav mark), `favicon.png`, `lab-team.jpg`.
+`logo-mark.png` (nav mark), `favicon.png`, `lab-team.jpg`, `validate-logo.png` (VALIDATE consortium wordmark, navy on transparent; the same file as in the validate4rt repo).
 
 ## 2. Page map
 
 | File | Purpose | Notable section ids |
 |---|---|---|
-| `index.html` | Home | `#home` hero (p53 video, stats, "Lab & mentee news →" button → `#news`), `#mission`, `#news` **news hub** — two side-by-side columns: `#lab-news` (banner + 3 newest items via `#labNewsLatest`) and `#mentee-news` (banner + 3 newest via `#menteeNewsLatest`); stacks to one column below 940 px, `#research` (four programs), `#tools` **Tools for Cancer Research** (six `.toolcard`s), `#featured` (npj Breast Cancer discovery), `#recent` highlights, `#team` teaser, recruitment CTA |
-| `research.html` | Research programs | `#echo`, `#digital-twins`, `#math-oncology`, `#proton`, `#tools` (short lead → `index.html#tools`), `#robin` (NIH ROBIN consortium + didactic talk lists), `#milestones`, `#funding` (teaser → `team.html#funding`) |
+| `index.html` | Home | `#home` hero (p53 video, stats, "Lab & mentee news →" button → `#news`), `#mission`, `#validate` (VALIDATE consortium feature band: logo + description + button to the consortium site), `#news` **news hub** — two side-by-side columns: `#lab-news` (banner + 3 newest items via `#labNewsLatest`) and `#mentee-news` (banner + 3 newest via `#menteeNewsLatest`); stacks to one column below 940 px, `#research` (four programs), `#tools` **Tools for Cancer Research** (six `.toolcard`s), `#featured` (npj Breast Cancer discovery), `#recent` highlights, `#team` teaser, recruitment CTA |
+| `research.html` | Research programs | `#echo`, `#digital-twins`, `#math-oncology`, `#proton`, `#tools` (short lead → `index.html#tools`), `#robin` (NIH ROBIN consortium + didactic talk lists), `#validate` (VALIDATE consortium: lead + three cards linking to the consortium site, its projects page and the Cochrane review), `#milestones`, `#funding` (teaser → `team.html#funding`) |
 | `team.html` | People + funding | `#pi` (PI card with six titles, email, MSK Medical Physics link, ORCID), `#faculty` **Key Faculty Collaborators**, `#fellows` Postdoctoral Fellows, `#funding` (Active / Completed grants), `#disclosure` |
 | `publications.html` | Searchable publications library | rendered by `assets/js/publications.js` from `data/papers.js`/`.json` |
 | `lab-news.html` | Lab News feed + covered people | `#feed`, `#members`; rendered by `assets/js/lab-news.js` from `data/lab-news.js`/`.json` + `data/lab-members.js`/`.json`; deep link `?person=<memberId>` |
@@ -42,7 +42,7 @@ tints, radii, shadows. Brand assets: `assets/img/logo.png` (footer logo: the exp
 
 Every page has the same header nav (Home · Research · Team · Publications · Lab News · Mentee News ·
 Join / Contact, plus a mobile menu `#mobileMenu`) and the same footer (email, ORCID, GitHub (CERR),
-Disclosures, MSK Department of Medical Physics link, "Back to top"). **When you add a page or nav
+Disclosures, VALIDATE consortium link, MSK Department of Medical Physics link, "Back to top"). **When you add a page or nav
 link, edit the header and footer in all eight HTML files** — there is no include mechanism.
 
 ## 3. Directory layout
@@ -171,6 +171,13 @@ canonical source, so a stale mirror shows stale data when opened from disk but n
   (`.hero__title--long`, `clamp(28px, 4.25vw, 48px)`, sized so the longest line never wraps).
   The former name "Deasy Laboratory for Cancer Modeling" must not reappear; `grep -rni "cancer
   modeling"` over the repo should only hit this document's history notes.
+- **VALIDATE consortium (Joseph, 2026-10-21):** the consortium Dr. Deasy chairs (co-chair Laura Cella, CNR
+  Naples) has a prominent place on the site: the `#validate` band on the home page (second section, right after
+  `#mission`), the `#validate` section on research.html (after ROBIN) and a footer link on every page. Its site is a
+  separate repo, `cerrver/validate4rt`, served at https://cerrver.github.io/validate4rt/ — **all three links point
+  there; switch them to https://validate4rt.org/ once that domain is live** (`grep -rn validate4rt *.html news/*.html`).
+  Facts in the copy (27 investigators, ten countries, the Cochrane numbers) come from the consortium site; update
+  both sites together when the roster changes.
 - **Weill Cornell Medicine (Joseph, 2026-10-11):** acknowledged only as the PI's own appointment
   (team.html#pi title list and bio), never as a lab affiliation. The hero eyebrow is
   "Memorial Sloan Kettering Cancer Center"; the footer address of every page ends at "New York,
@@ -343,6 +350,7 @@ tasks and the approval reminder stay paused (`enabled: false`); the cloud routin
 
 Newest first. One line per delivered change set; the weekly refresh task appends from `git log`.
 
+- 2026-10-21 · (pending commit) · **VALIDATE consortium added.** Home page `#validate` feature band (logo on white, description, button to the consortium site), research.html `#validate` section (lead + three cards), footer link on all nine pages, `assets/img/validate-logo.png`, `.feature__media--validate` style; §1/§2/§5 updated. Links point to https://cerrver.github.io/validate4rt/ until validate4rt.org is live.
 - 2026-10-13 · (pending commit) · Tools: ViSPACE card completed — corrected name (ViSPACE), description from the repository README (Virchow2-based whole-slide pathology segmentation and spatial TME biomarkers), GitHub link https://github.com/himangi2003/ViSPACE, REPLACE-VISPACE note removed; Research page and README spelling updated.
 - 2026-10-12 · (pending commit) · Award wording corrected per Joseph: the team was the overall competition winner, not a Task 1 winner (feed item, write-up page, captions).
 - 2026-10-12 · (pending commit) · **News write-up pages.** New `news/flare-2026.html` tells the FLARE 2026 award story on the site

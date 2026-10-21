@@ -231,6 +231,9 @@ h1, h2, h3, h4 { color: var(--ink); line-height: 1.15; font-weight: 700; }
 .feature p { font-size: 16.5px; color: var(--body); margin-bottom: 14px; }
 .feature .ref { font-size: 14px; color: var(--muted); }
 .feature--flip .feature__media { order: 2; }
+/* VALIDATE consortium band on the home page: the logo sits on white instead of the gradient */
+.feature__media--validate { background: #fff; border: 1px solid var(--line); }
+.feature__media--validate img { width: 78%; max-width: 420px; height: auto; }
 
 /* ---------- highlights ---------- */
 .highlight { background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: var(--radius); padding: 26px; box-shadow: var(--shadow-sm); }
