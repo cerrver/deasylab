@@ -1,7 +1,7 @@
 # Deasy Laboratory for Computational Medical Physics and Mathematical Oncology — website
 
 A static, multi-page site (no framework, no build step) for the Deasy Lab,
-designed to be served from **GitHub Pages** at **https://cerrver.github.io/deasylab**.
+designed to be served from **GitHub Pages** at **https://deasylab.info** (custom domain; the github.io address redirects there).
 
 **Taking over maintenance?** Read `HANDOFF.md` first — it is the full operational handoff
 (page map, data schemas, fixed wording, publishing workflow, scheduled tasks, open items, change
@@ -107,7 +107,7 @@ This folder is already a git repository with an initial commit.
 
 3. In the repo: **Settings → Pages → Build and deployment → Source: Deploy from a branch**,
    branch `main`, folder `/ (root)`, **Save**.
-4. After ~1 minute the site is live at **https://cerrver.github.io/deasylab/**.
+4. After ~1 minute the site is live at **https://deasylab.info/**.
 
 (If your GitHub username is not literally `cerrver`, substitute it in the remote URL.)
 

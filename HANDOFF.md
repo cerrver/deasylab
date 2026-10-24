@@ -1,6 +1,6 @@
 # Deasy Lab website — maintainer handoff
 
-**Site:** Deasy Laboratory for Computational Medical Physics and Mathematical Oncology (renamed 2026-10-11; formerly "Deasy Laboratory for Cancer Modeling") · https://cerrver.github.io/deasylab/
+**Site:** Deasy Laboratory for Computational Medical Physics and Mathematical Oncology (renamed 2026-10-11; formerly "Deasy Laboratory for Cancer Modeling") · https://deasylab.info/ (GitHub Pages custom domain, set 2026-10-24; DNS at GoDaddy points straight at GitHub Pages, no forwarding)
 **Repo:** https://github.com/cerrver/deasylab (branch `main`, GitHub Pages "deploy from branch", root folder)
 **Local working copy:** `…\Documents\Claude\Projects\Web site design and deployment\deasylab\` on Joseph's Windows PC
 **Owner / final say on content:** Joseph O. Deasy (deasyj@mskcc.org)
@@ -174,8 +174,8 @@ canonical source, so a stale mirror shows stale data when opened from disk but n
 - **VALIDATE consortium (Joseph, 2026-10-21):** the consortium Dr. Deasy chairs (co-chair Laura Cella, CNR
   Naples) has a prominent place on the site: the `#validate` band on the home page (second section, right after
   `#mission`), the `#validate` section on research.html (after ROBIN) and a footer link on every page. Its site is a
-  separate repo, `cerrver/validate4rt`, served at https://cerrver.github.io/validate4rt/ — **all three links point
-  there; switch them to https://validate4rt.org/ once that domain is live** (`grep -rn validate4rt *.html news/*.html`).
+  separate repo, `cerrver/validate4rt`, served at https://validate4rt.org/ (custom domain since 2026-10-24) — all three links point
+  there (`grep -rn validate4rt *.html news/*.html`).
   Facts in the copy (27 investigators, ten countries, the Cochrane numbers) come from the consortium site; update
   both sites together when the roster changes.
 - **Weill Cornell Medicine (Joseph, 2026-10-11):** acknowledged only as the PI's own appointment
@@ -247,7 +247,7 @@ git commit -m "<what changed>"
 git push
 ```
 
-GitHub Pages redeploys within about a minute. Verify at https://cerrver.github.io/deasylab/.
+GitHub Pages redeploys within about a minute. Verify at https://deasylab.info/.
 
 ## 7. How the site is edited from a Claude session (the current practice)
 
