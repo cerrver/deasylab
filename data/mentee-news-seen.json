@@ -547,6 +547,195 @@
       "status": "excluded",
       "reason": "current lab member — Lab News only (Joseph, 2026-10-12: Mentee News is for mentees not currently part of the lab)",
       "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.oraloncology.2026.108192",
+      "menteeId": "lisanne-v-van-dijk",
+      "status": "added",
+      "reason": "last/senior author in Oral Oncol",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.radonc.2026.111815",
+      "menteeId": "lisanne-v-van-dijk",
+      "status": "added",
+      "reason": "last/senior author in Radiother Oncol",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-032-38224-5_56",
+      "menteeId": "saad-nadeem",
+      "status": "added",
+      "reason": "last/senior author in MICCAI 2026",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.1002/cncr.70595",
+      "menteeId": "andrew-hope",
+      "status": "added",
+      "reason": "last/senior author in Cancer",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.64898/2026.10.15.26365671",
+      "menteeId": "anish-simhal",
+      "status": "excluded",
+      "reason": "current lab member — Lab News only",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.1093/cid/ciag502",
+      "menteeId": "gita-suneja",
+      "status": "excluded",
+      "reason": "Clin Infect Dis not in venue list (senior author; commentary)",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.1093/cid/ciag652",
+      "menteeId": "gita-suneja",
+      "status": "excluded",
+      "reason": "Clin Infect Dis not in venue list (senior author)",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.1093/cid/ciag333",
+      "menteeId": "gita-suneja",
+      "status": "excluded",
+      "reason": "Clin Infect Dis not in venue list; middle author (5/10)",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.prro.2026.09.014",
+      "menteeId": "gita-suneja",
+      "status": "excluded",
+      "reason": "middle author (2/3) in a field journal",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.1158/1055-9965.epi-26-0066",
+      "menteeId": "andrew-hope",
+      "status": "excluded",
+      "reason": "middle author (10/38) in a field journal",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.oraloncology.2026.108140",
+      "menteeId": "andrew-hope",
+      "status": "excluded",
+      "reason": "middle author (17/26) in a field journal",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.1007/s00520-026-11077-z",
+      "menteeId": "andrew-hope",
+      "status": "excluded",
+      "reason": "middle author (8/11) in a field journal",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41416-026-03587-8",
+      "menteeId": "andrew-hope",
+      "status": "excluded",
+      "reason": "middle author (8/14) in a field journal",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.clon.2026.104333",
+      "menteeId": "andrew-hope",
+      "status": "excluded",
+      "reason": "middle author (6/11) in a field journal",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.brachy.2026.07.177",
+      "menteeId": "nitin-ohri",
+      "status": "excluded",
+      "reason": "middle author (6/11) in a field journal",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.1002/jmri.70552",
+      "menteeId": "issam-el-naqa",
+      "status": "excluded",
+      "reason": "middle author (2/14) in a field journal",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.21203/rs.3.rs-10938506/v1",
+      "menteeId": "zehor-belkatir",
+      "status": "excluded",
+      "reason": "middle author on a Research Square preprint",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.21203/rs.3.rs-10991925/v1",
+      "menteeId": "zehor-belkatir",
+      "status": "excluded",
+      "reason": "middle author on a Research Square preprint",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.1002/acm2.70752",
+      "menteeId": "vicki-taasti",
+      "status": "excluded",
+      "reason": "first author, but J Appl Clin Med Phys not in venue list (same tier as the PIRO exclusion) — PI may override",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.1080/19420862.2026.2732787",
+      "menteeId": "maryam-pouryahya",
+      "status": "excluded",
+      "reason": "middle author (4/19) in a field journal (AstraZeneca co-authors — likely her)",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.1007/s10143-026-04460-1",
+      "menteeId": "angel-blanco",
+      "status": "excluded",
+      "reason": "middle author (10/12) in a field journal",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.1093/braincomms/fcag347",
+      "menteeId": "corey-weistuch",
+      "status": "excluded",
+      "reason": "middle author (4/8) in a field journal",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.1182/blood.2026034926",
+      "menteeId": "lopamudra-nayak",
+      "status": "excluded",
+      "reason": "Nayak L = Lakshmi Nayak (DFCI), different person",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41467-026-77433-z",
+      "menteeId": "lopamudra-nayak",
+      "status": "excluded",
+      "reason": "Nayak L = Lakshmi Nayak (DFCI), different person",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.cell.2026.09.037",
+      "menteeId": "constantin-zakarian",
+      "status": "excluded",
+      "reason": "consortium author list; no verifiable match",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41467-026-77587-w",
+      "menteeId": "yao-xie",
+      "status": "excluded",
+      "reason": "Xie Y at Washington University hematology is a different person",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.1136/jnnp-2026-339968",
+      "menteeId": "sang-kyu-lee",
+      "status": "excluded",
+      "reason": "Lee SK (Montefiore neuroradiology, MESH registry) is a different person",
+      "date": "2026-10-31"
     }
   ]
 }

@@ -680,6 +680,15 @@
       "status": "added",
       "reason": "award: recipients — write-up page on this site; the competition URL is also logged",
       "date": "2026-10-12"
+    },
+    {
+      "url": "https://doi.org/10.64898/2026.10.15.26365671",
+      "people": [
+        "simhal"
+      ],
+      "status": "added",
+      "reason": "preprint; Simhal first author (Europe PMC PPR1345269; MSK co-authors)",
+      "date": "2026-10-31"
     }
   ]
 }
