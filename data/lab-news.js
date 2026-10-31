@@ -23,7 +23,12 @@ window.LAB_NEWS_DATA = {
       "summary": "PhenoAge is a \"biological age\" score computed from routine blood tests, and faster PhenoAge aging has been linked to worse cancer outcomes — usually read as evidence that biological aging drives prognosis. Examining 3,067 patients undergoing surgery for a primary tumor, the authors found that PhenoAge acceleration rose with tumor stage, that only one or two of its eight blood components (different ones for different cancers) carried the prognostic signal, and that replacing the clock's population-derived weights with equal weights did not weaken it. They conclude that, in people with cancer, PhenoAge may be measuring the burden of the disease itself rather than biological aging.",
       "added": "2026-10-31",
       "flag": null,
-      "source": "europepmc:PPR1345269"
+      "source": "europepmc:PPR1345269",
+      "authors": "Simhal AK, Lee J, Tan KS, McCormick PJ, Fischer GW, Scarpa JR, Sapiro G, Mincer JS.",
+      "year": 2026,
+      "volume": null,
+      "issue": null,
+      "pages": null
     },
     {
       "id": "media-estro-newsletter-2026-predictive-models-interview",
@@ -62,7 +67,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Radiation to the heart is a known concern in lung cancer treatment. This study took a previously published model that links dose to specific heart structures (the left atrium and superior vena cava) with death from causes other than cancer after stereotactic body radiotherapy, and tested it in two independent groups of more than 200 early-stage lung cancer patients each. The model held up in the cohort that defined the outcome the same way, and a companion overall-survival model held up in both, supporting the idea that sparing these heart structures matters.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:42503335"
+      "source": "europepmc:42503335",
+      "authors": "Stam B, Wijsman R, Thor M, Rimner A, Deasy JO, Belderbos J, Sonke JJ.",
+      "year": 2026,
+      "volume": "223",
+      "issue": null,
+      "pages": "111713"
     },
     {
       "id": "paper-10-1016-j-radonc-2026-111712",
@@ -82,7 +92,12 @@ window.LAB_NEWS_DATA = {
       "summary": "ECHO is MSK's in-house system that automatically produces optimized radiotherapy plans from the tumor and normal-tissue contours and the clinical dose criteria. This paper reports its clinical roll-out for lung cancer: since 2021 more than 430 patients have been treated with ECHO IMRT plans and, since 2023, more than 90 with ECHO VMAT plans for lung SBRT. The automated plans gave more consistent tumor coverage than manual plans with similar normal-tissue sparing, and saved about an hour and a half of planner time per case.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:42498230"
+      "source": "europepmc:42498230",
+      "authors": "Jeong J, Huang Q, Zhou Y, Yorke E, Lin E, Jhanwar G, Yang J, Pham H, Thor M, Wu AJ, Cervino L, Moran JM, Deasy JO, Zarepisheh M, Hong L.",
+      "year": 2026,
+      "volume": "223",
+      "issue": null,
+      "pages": "111712"
     },
     {
       "id": "paper-10-1158-1078-0432-ccr-25-1216",
@@ -102,7 +117,12 @@ window.LAB_NEWS_DATA = {
       "summary": "An overview of the NCI-funded Radiation Oncology-Biology Integration Network (ROBIN), a consortium of five centers — including the ImmunoRad center co-led by MSK — that uses omics technologies, data science, and clinically annotated patient samples to work out how tumors and normal tissues respond to radiotherapy. The review describes each center's translational programs, the network's commitment to standardized, shareable data, and its training mission for the next generation of radiation biologists.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:41941260"
+      "source": "europepmc:41941260",
+      "authors": "Gregucci F, Lee-Poturalski C, Dirrim M, Stewart J, Caruthers D, Stiles CD, Hentrich K, Cardenas J, Chan TA, Yu DS, Tran P, Simone N, Sawant A, Schwarz J, Robinson C, Haas-Kogan D, Michor F, Vanpouille-Box C, Ng J, Hasan Y, Yu J, Ren L, Marchionni L, Hugo G, Berbeco R, Nakamura JL, Lindsay J, Yang X, Deasy JO, Weichselbaum RR, Formenti SC.",
+      "year": 2026,
+      "volume": "32",
+      "issue": "12",
+      "pages": "2340-2351"
     },
     {
       "id": "paper-10-21203-rs-3-rs-9695978-v1",
@@ -122,7 +142,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Chemotherapy is usually given at the maximum tolerated dose as often as possible, but that is not always the best schedule. This preprint describes a simulated-annealing algorithm that, given a mathematical model of a patient's response to treatment, searches for the dosing schedule that best minimizes tumor burden or extends progression-free survival. On a simple model, only three one-drug schedules ever came out optimal — continuous therapy and two types of adaptive therapy — and for two drugs the algorithm could map which patients benefit from which schedule.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:PPR1241532"
+      "source": "europepmc:PPR1241532",
+      "authors": "Kocher CD, Deasy JO, Reed DR, Norton L, Weistuch C.",
+      "year": 2026,
+      "volume": null,
+      "issue": null,
+      "pages": null
     },
     {
       "id": "paper-10-1016-j-phro-2026-101003",
@@ -142,7 +167,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Radiotherapy is normally delivered in equal daily doses, but a tumor model that includes hypoxia and competition for resources suggests uneven schedules could work better. The authors turned schedule design into an optimization problem with limits on normal-tissue dose and solved it with a sequence of mixed-integer convex programs. The best schedules shared a pattern — a large initial \"primer\" dose, a one-week break to let oxygen-starved cells reoxygenate, then several small fractions and a final large one — and achieved a 12% higher modeled tumor control probability than the standard weekday schedule.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:42255163"
+      "source": "europepmc:42255163",
+      "authors": "Fu A, Gouw Z, Jeong J, Deasy JO.",
+      "year": 2026,
+      "volume": "39",
+      "issue": null,
+      "pages": "101003"
     },
     {
       "id": "paper-10-1016-j-adro-2026-102090",
@@ -162,7 +192,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Using MSK's AWARE program, which tracks anatomy on weekly cone-beam CT scans during head and neck radiotherapy, the team looked at 165 patients to see whether early shrinkage of the salivary glands predicts dry mouth (xerostomia). Patients who developed acute xerostomia showed larger parotid and submandibular gland shrinkage in weeks two and three and had received higher mean doses to those glands. Lowering the parotid dose during the boost phase, and adapting the plan, reduced the risk.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:42382855"
+      "source": "europepmc:42382855",
+      "authors": "Treechairusame T, Zhang P, Hu YC, Aliotta E, Li A, Aristophanous M, Cervino L, Deasy JO, Lee NY, Oh JH, Zhang P.",
+      "year": 2026,
+      "volume": "11",
+      "issue": "8",
+      "pages": "102090"
     },
     {
       "id": "paper-10-1038-s41408-026-01486-y",
@@ -186,7 +221,12 @@ window.LAB_NEWS_DATA = {
       "summary": "A research letter reporting that patients with smoldering multiple myeloma whose circulating T cells are dominated by differentiated effector cells form a functionally high-risk group.",
       "added": "2026-09-13",
       "flag": "Summary based on title only; the letter has no indexed abstract",
-      "source": "europepmc:42067559"
+      "source": "europepmc:42067559",
+      "authors": "Firestone RS, Simhal AK, Akhlaghi T, Oh JH, McAvoy D, Maclachlan KH, Garces JJ, Mailankody S, Hassoun H, Shah UA, Korde N, Tan CR, Rajeeve S, Hashmi H, Lesokhin AM, Hosszu K, Maura F, Deasy JO, Usmani SZ, Hultcrantz M.",
+      "year": 2026,
+      "volume": "16",
+      "issue": "1",
+      "pages": "67"
     },
     {
       "id": "paper-10-1016-j-radonc-2026-111531",
@@ -206,7 +246,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Erectile dysfunction after prostate radiotherapy is common and hard to predict. Using genome-wide genetic data and clinical variables from 387 men in the GenePARE study, the authors trained a biologically informed deep-learning model (BioDeepGWAS) that reached an AUC of 0.75 on held-out patients and was well calibrated. Men in the highest-risk third had about twelve times the odds of the complication compared with the lowest third, and the model pointed to neurophysiological, hormonal, and blood-vessel pathways as drivers.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:41967608"
+      "source": "europepmc:41967608",
+      "authors": "Oh JH, Auer P, Hall W, Rosenstein BS, Deasy JO, Kerns S.",
+      "year": 2026,
+      "volume": "219",
+      "issue": null,
+      "pages": "111531"
     },
     {
       "id": "paper-10-1109-tnse-2026-3682565",
@@ -230,7 +275,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Discrete curvature measures such as Ollivier-Ricci curvature help identify fragile nodes and pathways in networks, but they assume every link is a kind of distance and ignore links that are inhibitory. This paper introduces the notions of balanced graphs and graph frustration to handle signed (promoting or inhibiting) edges, and defines new curvature-inspired fragility indices for unbalanced graphs. Tested on gene-regulatory and social networks, the new indices picked out critical edges better than commonly used alternatives.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:42064467"
+      "source": "europepmc:42064467",
+      "authors": "Grange D, Sun Y, Weistuch C, Elkin R, Phillips S, Deasy JO, Georgiou T.",
+      "year": 2026,
+      "volume": null,
+      "issue": null,
+      "pages": null
     },
     {
       "id": "paper-10-1016-j-ijrobp-2026-02-237",
@@ -250,7 +300,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Women treated with radiotherapy for breast cancer have a raised risk of a second cancer in the other breast. Using the WECARE study (633 cases and 1,253 matched controls with genome-wide genotype data), the authors compared three ways of combining genetic and non-genetic information and found that a sequential, iterative integration using mixed-effect random forests worked best, with moderate discrimination (AUC 0.64) and an odds ratio of about 3.3 between the lowest- and highest-risk groups.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:41763494"
+      "source": "europepmc:41763494",
+      "authors": "Lee S, Shu X, Derkach A, Reiner AS, Liang X, Woods M, Concannon P, Lynch CF, Malone KE, Knight JA, John EM, Deasy JO, Bernstein JL, Oh JH.",
+      "year": 2026,
+      "volume": "125",
+      "issue": "5",
+      "pages": "1512-1521"
     },
     {
       "id": "paper-10-1016-j-phro-2026-100907",
@@ -270,7 +325,12 @@ window.LAB_NEWS_DATA = {
       "summary": "To compare radiation dose maps across many lung cancer patients, images must be aligned without distorting the tumors. This study tested a deep-learning registration method (TRACER) that is aware of tumors against two alternatives in 240 patients, finding that it best preserved tumor volume and organ doses. Adding dose features from the resulting voxel-based analysis improved prediction of radiation pneumonitis compared with using mean lung dose alone.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:41631006"
+      "source": "europepmc:41631006",
+      "authors": "Choi CMS, Jiang J, Mankuzhy NP, Nadkarni N, Madhavan S, Wu AJ, Deasy JO, Thor M, Rimner A, Veeraraghavan H.",
+      "year": 2026,
+      "volume": "37",
+      "issue": null,
+      "pages": "100907"
     },
     {
       "id": "paper-10-3390-cancers18020273",
@@ -290,7 +350,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Pancreatic cancer is surrounded by dense stroma that blunts treatment. In this co-clinical study, mice with pancreatic tumors were scanned with diffusion-weighted and dynamic contrast-enhanced MRI before and after radiotherapy, and the imaging changes were correlated with tumor-cell counts on pathology; the same quantitative imaging measures were then shown to be obtainable in eleven patients using standard clinical MRI. The work supports using these imaging biomarkers to evaluate new drug combinations that target both tumor and stroma.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:41595193"
+      "source": "europepmc:41595193",
+      "authors": "Paudyal R, Russell J, Lekaye HC, Deasy JO, Humm JL, Awais M, Nadeem S, Do RKG, O'Reilly EM, Schwartz LH, Shukla-Dave A.",
+      "year": 2026,
+      "volume": "18",
+      "issue": "2",
+      "pages": "273"
     },
     {
       "id": "paper-10-1158-1078-0432-ccr-25-0572",
@@ -310,7 +375,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Final results of a phase II trial of five years of continuous lenalidomide maintenance in multiple myeloma, together with profiling of T cells in the blood over the trial. Patients whose measurable residual disease reappeared had worse progression-free survival, yet most did not progress within two years. T-cell profiles rich in activated cytotoxic effector cells predicted early relapse while quiescent, naive-rich profiles predicted durable remission — an \"immune MRD\" signal that separated patients with early progression from those who stayed in remission despite MRD resurgence.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:40853874"
+      "source": "europepmc:40853874",
+      "authors": "Firestone RS, Simhal AK, McAvoy D, Jurgens EM, Garcés JJ, Nemirovsky D, Derkach A, Maclachlan KH, Hultcrantz M, Mailankody S, Shah UA, Tan CR, Korde N, Hassoun H, Rajeeve S, Hashmi H, Landau HJ, Scordo M, Shah GL, Giralt SA, Diamond BT, Maura F, Hosszu K, Chung DJ, Landgren O, Usmani SZ, Lesokhin AM.",
+      "year": 2025,
+      "volume": "31",
+      "issue": "21",
+      "pages": "4446-4456"
     },
     {
       "id": "paper-10-1016-j-csbj-2025-10-066",
@@ -330,7 +400,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Radiomic datasets are often too small for standard machine learning. The authors built a regularized network model to find sub-networks of related image features and a graph-based k-means clustering that uses unbalanced optimal transport to group patients. Applied to CT radiomics and gene expression in head and neck and lung cancer, the method separated patients into groups with significantly different survival, and the groups differed in tumor immune-cell composition.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:41357300"
+      "source": "europepmc:41357300",
+      "authors": "Oh JH, Apte A, Veeraraghavan H, Zhu J, Shukla-Dave A, Deasy JO.",
+      "year": 2025,
+      "volume": "27",
+      "issue": null,
+      "pages": "4772-4778"
     },
     {
       "id": "paper-10-1101-2025-10-24-683878",
@@ -354,7 +429,12 @@ window.LAB_NEWS_DATA = {
       "summary": "NetFlow is an open computational framework for exploring high-dimensional and multi-modal biomedical data. It builds a graph of how samples relate to one another by combining a lineage-tracing-inspired pseudo-ordering with sparse similarity networks, works with small cohorts, supports multi-modal fusion, and provides interactive visualization. Across cancer datasets it refined clinically relevant subtypes and revealed more structured relationships than standard clustering and dimensionality-reduction methods.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:PPR1107767"
+      "source": "europepmc:PPR1107767",
+      "authors": "Elkin R, Oh JH, Simhal AK, Deasy JO.",
+      "year": 2025,
+      "volume": null,
+      "issue": null,
+      "pages": null
     },
     {
       "id": "paper-10-1016-j-phro-2025-100844",
@@ -374,7 +454,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Early radiation pneumonitis after chemoradiotherapy can force lung cancer patients to stop consolidation immunotherapy. This study tested a previously published risk model, based on pretreatment FDG-PET uptake in the normal lungs and the mean lung dose, in an independent group of 50 patients. The model predicted early pneumonitis well (AUC 0.76 after refitting), and the authors derived dose and uptake thresholds that captured 25 of 27 cases across the combined cohorts.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:41090189"
+      "source": "europepmc:41090189",
+      "authors": "Thor M, Apte A, Grkovski M, Simone CB, Gelblum DY, Zarepisheh M, Iyengar P, Wu AJ, Shin JY, Chaunzwa T, Ma J, Billing D, Dunphy M, Chaft JE, Gomez DR, Deasy JO, Shaverdian N.",
+      "year": 2025,
+      "volume": "36",
+      "issue": null,
+      "pages": "100844"
     },
     {
       "id": "media-mskcc-2025-ai-radiation-treatment",
@@ -413,7 +498,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Circulating tumor cells in the blood are a known prognostic marker in newly diagnosed multiple myeloma, but it was unclear whether they simply reflect tumor burden. Analyzing 540 patients from the CoMMpass study and an external validation cohort, the authors found that high circulating tumor cell counts track with complex genomic features and proliferation-related gene expression, and outperform proliferation signatures as a prognostic marker.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:40995465"
+      "source": "europepmc:40995465",
+      "authors": "Garces JJ, Diamond B, Sevcikova T, Nenarokov S, Bilek D, Radova E, Venglar O, Kapustova V, Firestone R, Maclachlan K, Simhal A, Broskevicova L, Vrana J, Muronova L, Popkova T, Mihalyova J, Plonkova H, Durante M, Ziccheddu B, Simicek M, Cho HJ, Mulligan G, Keats J, Zihala D, Landgren O, Hajek R, Usmani S, Maura F, Jelinek T.",
+      "year": 2025,
+      "volume": "9",
+      "issue": "9",
+      "pages": "e70218"
     },
     {
       "id": "paper-10-1016-j-modpat-2025-100897",
@@ -433,7 +523,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Lung neuroendocrine tumors are rare and vary widely in behavior. In 83 patients, the authors built survival models from CT radiomics, features from digitized pathology slides, and clinical data. Combining pathology-derived features with clinical data gave the best performance (concordance index about 0.70 for overall survival), and harmonizing radiomic features across scanners did not help.",
       "added": "2026-09-13",
       "flag": "Published from Université Laval before the author joined the lab — confirm",
-      "source": "europepmc:40992504"
+      "source": "europepmc:40992504",
+      "authors": "Yolchuyeva S, Ebrahimpour L, Lemaréchal Y, Joubert P, Bilodeau S, Després P, Manem VS.",
+      "year": 2025,
+      "volume": "38",
+      "issue": "12",
+      "pages": "100897"
     },
     {
       "id": "paper-10-1002-mp-18070",
@@ -453,7 +548,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Incidentally found kidney masses need to be sorted into benign cysts and tumors. Using 599 contrast-enhanced CT cases from the public KiTS23 dataset, the authors compared six feature-selection methods and ten classifiers and applied Nested ComBat harmonization to correct for differences in slice thickness; harmonization raised the AUC by up to about 8 percentage points, reaching 0.95.",
       "added": "2026-09-13",
       "flag": "Published from Université Laval before the author joined the lab — confirm",
-      "source": "europepmc:40891042"
+      "source": "europepmc:40891042",
+      "authors": "Ziasaeedi N, Lemaréchal Y, Agharazii M, Manem VSK, Després P, Ebrahimpour L.",
+      "year": 2025,
+      "volume": "52",
+      "issue": "9",
+      "pages": "e18070"
     },
     {
       "id": "paper-10-1172-jci182555",
@@ -473,7 +573,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Waste fluid from the brain drains to lymph nodes in the neck, but whether that drainage is necessary for normal brain function was unknown. Using dynamic contrast-enhanced MRI and computational fluid dynamics in rats, the authors found that blocking the deep cervical lymph nodes raised intracranial pressure and opened alternative drainage routes in young but not middle-aged animals, while both ages showed signs of low-grade inflammation and blood-brain-barrier stress in the cerebrospinal fluid.",
       "added": "2026-09-13",
       "flag": "Work from the author's Stony Brook / optimal-mass-transport lineage — confirm this is Xinan Chen",
-      "source": "europepmc:40663395"
+      "source": "europepmc:40663395",
+      "authors": "Gursky Z, Khan ZN, Koundal S, Bhardwaj A, Caceres Melgarejo J, Xu K, Chen X, Lin HM, Gu X, Lee H, Kipnis J, Dori Y, Tannenbaum A, Santambrogio L, Benveniste H.",
+      "year": 2025,
+      "volume": "135",
+      "issue": "17",
+      "pages": "e182555"
     },
     {
       "id": "paper-10-1038-s41746-025-01780-2",
@@ -493,7 +598,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Woollie is an open-source large language model trained on real-world oncology data from MSK for lung, breast, prostate, pancreatic, and colorectal cancers and validated on data from UCSF. Reading nearly 40,000 radiology impression notes from about 4,000 patients, it predicted cancer progression with an AUROC of 0.97 on MSK data and 0.88 on UCSF data, and it outperformed ChatGPT on medical benchmarks.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:40604229"
+      "source": "europepmc:40604229",
+      "authors": "Zhu M, Lin H, Jiang J, Jinia AJ, Jee J, Pichotta K, Waters M, Rose D, Schultz N, Chalise S, Valleru L, Morin O, Moran J, Deasy JO, Pilai S, Nichols C, Riely G, Braunstein LZ, Li A.",
+      "year": 2025,
+      "volume": "8",
+      "issue": "1",
+      "pages": "397"
     },
     {
       "id": "paper-10-1007-s10278-025-01554-y",
@@ -513,7 +623,12 @@ window.LAB_NEWS_DATA = {
       "summary": "PARADIM is an open-source research platform for data science on medical images that follows FAIR principles and the DICOM standard. It handles user access, de-identification, storage, annotation, and model training and evaluation, records rich metadata for reproducibility, and can run large-scale pipelines such as automatic segmentation and dose calculation.",
       "added": "2026-09-13",
       "flag": "Published from Université Laval before the author joined the lab — confirm",
-      "source": "europepmc:40461664"
+      "source": "europepmc:40461664",
+      "authors": "Lemaréchal Y, Couture G, Pelletier F, Lefol R, Asselin PL, Ouellet S, Bernard J, Ebrahimpour L, Manem VSK, Topalis J, Schachtner B, Jodogne S, Joubert P, Jeblick K, Ingrisch M, Després P.",
+      "year": 2026,
+      "volume": "39",
+      "issue": "2",
+      "pages": "1783-1795"
     },
     {
       "id": "paper-10-1088-1361-6560-add9de",
@@ -533,7 +648,12 @@ window.LAB_NEWS_DATA = {
       "summary": "A radiobiological \"digital twin\" was built for each head and neck cancer patient by combining a mechanistic tumor model with pretreatment diffusion MRI and FDG and FMISO (hypoxia) PET, then updated with weekly tumor-volume measurements during chemoradiotherapy. Personalized models predicted the course of tumor shrinkage better than a generic population model, and predictions using baseline imaging plus week-one data improved prediction of later locoregional recurrence (AUC 0.83 versus 0.77 for week-one volume alone).",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:40378867"
+      "source": "europepmc:40378867",
+      "authors": "Aliotta E, Jeong J, Paudyal R, Grkovski M, Diplas B, Han J, Hatzoglou V, Aristophanous M, Riaz N, Schöder H, Lee NY, Shukla-Dave A, Deasy JO.",
+      "year": 2025,
+      "volume": "70",
+      "issue": "11",
+      "pages": null
     },
     {
       "id": "paper-10-1038-s41467-025-59584-7",
@@ -553,7 +673,12 @@ window.LAB_NEWS_DATA = {
       "summary": "A multi-institutional atlas of 13,067 brain metastases from 3,065 patients, the largest of its kind. Metastases cluster near the grey-white matter junction in well-perfused regions, with histology-dependent differences (lung and breast cancers often spread to the cerebellum; deep brain structures are relatively spared). The authors propose a probabilistic risk map that could let whole-brain radiotherapy target high-risk regions while sparing areas important for cognition.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:40374598"
+      "source": "europepmc:40374598",
+      "authors": "Barrios J, Porter E, Capaldi DPI, Upadhaya T, Chen WC, Perks JR, Apte A, Aristophanous M, LoCastro E, Hsu D, Stone PH, Villanueva-Meyer JE, Valdes G, Jiang F, Maddalena M, Ballangrud A, Prezelski K, Lin H, Sun JY, Aldin MAK, Chau OW, Ziemer B, Seaberg M, Sneed PK, Nakamura JL, Boreta LC, Fogh SE, Raleigh DR, Chew J, Vasudevan H, Cha S, Hess C, Fragoso R, Shultz DB, Pike L, Hervey-Jumper SL, Tsang DS, Theodosopoulos P, Cooke D, Benedict SH, Sheng K, Seuntjens J, Coolens C, Deasy JO, Braunstein S, Morin O.",
+      "year": 2025,
+      "volume": "16",
+      "issue": "1",
+      "pages": "4536"
     },
     {
       "id": "paper-10-1016-j-phro-2025-100769",
@@ -573,7 +698,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Hypoxia imaging with FMISO-PET helps guide head and neck radiotherapy but is rarely available. The authors trained a generative adversarial network to synthesize FMISO-like hypoxia maps directly from routine FDG-PET/CT images of 134 patients. The predicted hypoxic volumes correlated strongly with the measured ones (R of about 0.96 and 0.91 in two test sets), far better than simply scaling the FDG images.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:40584457"
+      "source": "europepmc:40584457",
+      "authors": "Zhao W, Grkovski M, Schoder H, Apte AP, Humm J, Lee NY, Deasy JO, Veeraraghavan H.",
+      "year": 2025,
+      "volume": "34",
+      "issue": null,
+      "pages": "100769"
     },
     {
       "id": "paper-10-1002-mp-17807",
@@ -593,7 +723,12 @@ window.LAB_NEWS_DATA = {
       "summary": "A Medical Physics point/counterpoint debate on whether FLASH radiotherapy — ultra-high-dose-rate delivery — represents a paradigm shift or a passing fad.",
       "added": "2026-09-13",
       "flag": "Summary based on title only; no indexed abstract (editorial format)",
-      "source": "europepmc:40184041"
+      "source": "europepmc:40184041",
+      "authors": "Seco J, Deasy JO, Das IJ.",
+      "year": 2025,
+      "volume": "52",
+      "issue": "6",
+      "pages": "3504-3508"
     },
     {
       "id": "paper-10-1093-bioinformatics-btaf093",
@@ -621,7 +756,12 @@ window.LAB_NEWS_DATA = {
       "summary": "ORCO is an open-source Python package that combines omics data with a network of known gene or protein interactions and computes Ollivier-Ricci curvature for each interaction, an edge-based measure of network robustness. The approach has revealed regulatory modules and candidate therapeutic targets in several cancers and in neurodevelopmental disorders, and applies to any data that can be represented as a network.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:40036763"
+      "source": "europepmc:40036763",
+      "authors": "Simhal AK, Weistuch C, Murgas K, Grange D, Zhu J, Oh JH, Elkin R, Deasy JO.",
+      "year": 2025,
+      "volume": "41",
+      "issue": "3",
+      "pages": "btaf093"
     },
     {
       "id": "paper-10-1038-s41408-025-01230-y",
@@ -645,7 +785,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Current prognostic scores in multiple myeloma rely on disease burden and a handful of genetic changes. Analyzing 659 patients in the CoMMpass dataset and two independent trial datasets, the authors found that high expression of the cell-cycle regulator WEE1 marks a group with much shorter progression-free survival, independently of known risk markers and linked to disrupted p53 signaling. The result suggests WEE1 expression could be used clinically and that WEE1 inhibitors deserve preclinical testing in myeloma.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:39979284"
+      "source": "europepmc:39979284",
+      "authors": "Simhal AK, Firestone RS, Oh JH, Avutu V, Norton L, Hultcrantz M, Usmani SZ, Maclachlan KH, Deasy JO.",
+      "year": 2025,
+      "volume": "15",
+      "issue": "1",
+      "pages": "22"
     },
     {
       "id": "paper-10-1038-s41523-025-00725-y",
@@ -665,7 +810,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Following up on a breast cancer subgroup with poor prognosis that the lab had identified by integrating multi-omic data, this study characterized what makes it different. The high-risk tumors scored higher on three hypoxia gene signatures, had a distinct immune-cell composition, and, within the basal subtype, had fewer tumor-infiltrating lymphocytes — pointing to hypoxia and low immune infiltration as drivers of the poor outcomes.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:39875417"
+      "source": "europepmc:39875417",
+      "authors": "Oh JH, Pareja F, Elkin R, Xu K, Norton L, Deasy JO.",
+      "year": 2025,
+      "volume": "11",
+      "issue": "1",
+      "pages": "8"
     },
     {
       "id": "paper-10-1101-2025-01-23-632803",
@@ -685,7 +835,12 @@ window.LAB_NEWS_DATA = {
       "summary": "The extra effectiveness of protons over photons (their RBE) is usually assumed not to depend on how treatment is fractionated. Modeling all published proton-therapy outcomes for early-stage lung cancer (399 patients), the authors found an RBE of about 1.08–1.11 for short courses of 12 fractions or fewer but only 0.82–0.89 for courses of 20–25 fractions, suggesting protons and photons differ in their underlying radiobiology.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:PPR970645"
+      "source": "europepmc:PPR970645",
+      "authors": "Jeong J, Taasti VT, Jackson A, Gouw ZAR, Simone CB, Lambin P, Deasy JO.",
+      "year": 2025,
+      "volume": null,
+      "issue": null,
+      "pages": null
     },
     {
       "id": "paper-10-1101-2025-01-19-633756",
@@ -705,7 +860,12 @@ window.LAB_NEWS_DATA = {
       "summary": "This preprint describes a cloud-based framework for running AI analyses on medical images built around pyCERR, the Python port of the lab's CERR platform, and the Cancer Genomics Cloud. Users can organize multi-modal imaging data, install AI models with their dependencies, run segmentation, radiomics, DCE-MRI, and dose-volume analyses, and bring results back for review.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:PPR969266"
+      "source": "europepmc:PPR969266",
+      "authors": "Apte AP, LoCastro E, Iyer A, Elguindi S, Jiang J, Oh JH, Veeraraghavan H, Shukla-Dave A, Deasy JO.",
+      "year": 2025,
+      "volume": null,
+      "issue": null,
+      "pages": null
     },
     {
       "id": "paper-10-1038-s41598-024-84193-7",
@@ -725,7 +885,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Many deep-learning models claim to predict lung cancer risk from CT scans, but they are rarely compared head to head. Using 253 patients from the National Lung Screening Trial, the authors benchmarked ten 3D and eleven 2D state-of-the-art models; 3D models did better (best AUROC 0.86 versus 0.79), and pretraining on radiology-specific datasets gave no clear advantage over general-purpose pretraining.",
       "added": "2026-09-13",
       "flag": "Published from Université Laval before the author joined the lab — confirm",
-      "source": "europepmc:39799226"
+      "source": "europepmc:39799226",
+      "authors": "Jiang Y, Ebrahimpour L, Després P, Manem VS.",
+      "year": 2025,
+      "volume": "15",
+      "issue": "1",
+      "pages": "1736"
     },
     {
       "id": "paper-10-1093-bfgp-elaf004",
@@ -745,7 +910,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Pregnancy-specific glycoproteins (PSGs) are normally made by the placenta, but their expression in tumors has been linked to poor survival. Analyzing TCGA data across cancer types, the authors found the strongest sex difference in lung adenocarcinoma: PSG expression predicted worse survival in women but not men, a finding validated in the independent CPTAC dataset and linked to KRAS signaling. PSGs may therefore be sex-specific drug targets in female lung cancer patients.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:40257008"
+      "source": "europepmc:40257008",
+      "authors": "Oh JH, Rizzuto G, Elkin R, Weistuch C, Norton L, Dveksler G, Deasy JO.",
+      "year": 2025,
+      "volume": "24",
+      "issue": null,
+      "pages": "elaf004"
     },
     {
       "id": "paper-10-1101-2024-12-11-628056",
@@ -765,7 +935,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Using multiplexed super-resolution imaging of single synapses in mouse cortex, this preprint shows that glutamatergic synapses fall into subclasses that mirror the biochemical categories of their receptor subunits. Two subclasses match expectations from synaptic plasticity — large AMPA-receptor-rich synapses that may be potentiated and small NMDA-receptor-rich \"silent\" synapses — and synapse structure predicted receptor content better than the identity of the parent neuron.",
       "added": "2026-09-13",
       "flag": "Work from the author's earlier neuroscience collaboration (Stanford / UNC), not a lab project — confirm inclusion",
-      "source": "europepmc:PPR954777"
+      "source": "europepmc:PPR954777",
+      "authors": "Micheva KD, Simhal AK, Schardt J, Smith SJ, Weinberg RJ, Owen SF.",
+      "year": 2024,
+      "volume": null,
+      "issue": null,
+      "pages": null
     },
     {
       "id": "paper-10-1093-bjr-tqae187",
@@ -785,7 +960,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Radiomic features can depend on which software extracted them. In 164 lung cancer patients treated with immune checkpoint inhibitors, the authors compared features from two libraries (Pyradiomics and RaCat) and found that even the direction of association with survival, PD-L1, and CD8 counts depended on the library, while intensity-based features were the most stable across gray-level discretization settings.",
       "added": "2026-09-13",
       "flag": "Published from Université Laval before the author joined the lab — confirm",
-      "source": "europepmc:39287013"
+      "source": "europepmc:39287013",
+      "authors": "Ebrahimpour L, Lemaréchal Y, Yolchuyeva S, Orain M, Lamaze F, Driussi A, Coulombe F, Joubert P, Després P, Manem VSK.",
+      "year": 2024,
+      "volume": "97",
+      "issue": "1164",
+      "pages": "1982-1991"
     },
     {
       "id": "paper-10-1002-mp-17536",
@@ -805,7 +985,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Comparing radiotherapy doses across patients requires aligning their CT scans without deforming the tumors. TRACER is a deep-learning registration method built on recurrent 3D convolutional LSTM layers that is conditioned on tumor segmentations and trained without manual labels. Across three datasets it aligned normal tissues accurately while preserving tumors far better than competing methods.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:39589333"
+      "source": "europepmc:39589333",
+      "authors": "Jiang J, Choi CMS, Thor M, Deasy JO, Veeraraghavan H.",
+      "year": 2025,
+      "volume": "52",
+      "issue": "2",
+      "pages": "938-950"
     },
     {
       "id": "paper-10-1016-j-isci-2024-111463",
@@ -825,7 +1010,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Measuring how the brain clears waste is difficult, which has fueled debate about the glymphatic system's role in neurodegeneration. Extending the group's regularized optimal mass transport analysis of dynamic contrast-enhanced MRI to an unbalanced form that separates influx from clearance, the authors found abnormal transport in rats with severe cerebral amyloid angiopathy but normal transport in an Alzheimer's model with moderate plaque burden.",
       "added": "2026-09-13",
       "flag": "Work from the author's Stony Brook / optimal-mass-transport lineage — confirm this is Xinan Chen",
-      "source": "europepmc:39720539"
+      "source": "europepmc:39720539",
+      "authors": "Koundal S, Chen X, Gursky Z, Lee H, Xu K, Liang F, Xie Z, Xu F, Lin HM, Van Nostrand WE, Gu X, Elkin R, Tannenbaum A, Benveniste H.",
+      "year": 2024,
+      "volume": "27",
+      "issue": "12",
+      "pages": "111463"
     },
     {
       "id": "paper-10-1038-s41598-024-76625-1",
@@ -845,7 +1035,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Cancers may reuse the gene-expression programs of normal tissues. Starting from normal-tissue transcriptomes, the authors used non-negative matrix factorization to define six transcriptomic \"archetypes\" that, in combination, describe both normal tissues and a wide range of tumors. Enrichment of these archetypes correlated with survival and drug sensitivity independently of actionable DNA alterations, and metastatic HR+/HER2- breast tumors adopted signatures resembling the tissue they invaded.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:39516498"
+      "source": "europepmc:39516498",
+      "authors": "Weistuch C, Murgas KA, Zhu J, Norton L, Dill KA, Tannenbaum AR, Deasy JO.",
+      "year": 2024,
+      "volume": "14",
+      "issue": "1",
+      "pages": "27230"
     },
     {
       "id": "paper-10-1101-2024-11-05-24316768",
@@ -869,7 +1064,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Standard analysis of dynamic contrast-enhanced MRI ignores how contrast agent physically flows between voxels. This preprint introduces urOMT, an unbalanced regularized optimal mass transport model that quantifies and visualizes net flow speed, flux, and rates of contrast entering and leaving a tumor, and applies it to 153 scans from 39 breast cancer patients receiving neoadjuvant chemotherapy, where the flow metrics showed patterns that may relate to pathological complete response.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:PPR935866"
+      "source": "europepmc:PPR935866",
+      "authors": "Chen X, Huang W, Shukla-Dave A, Paudyal R, Gullo RL, Perez M, Pinker K, Deasy JO.",
+      "year": 2024,
+      "volume": null,
+      "issue": null,
+      "pages": null
     },
     {
       "id": "paper-10-1016-j-semradonc-2024-07-012",
@@ -889,7 +1089,12 @@ window.LAB_NEWS_DATA = {
       "summary": "A review of how data science can improve radiotherapy planning and clinical decisions. It argues that personalizing treatment depends on joining physical planning with predictive models of tumor control and normal-tissue complications, that genomics, radiomics, dosiomics, and deep learning will improve those models, and that mechanistic patient-specific simulations — digital twins — could guide adaptive radiotherapy.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:39271273"
+      "source": "europepmc:39271273",
+      "authors": "Deasy JO.",
+      "year": 2024,
+      "volume": "34",
+      "issue": "4",
+      "pages": "379-394"
     },
     {
       "id": "paper-10-1002-cam4-70359",
@@ -909,7 +1114,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Using the National Lung Screening Trial, this nested case-control study of 462 positive screens tested whether changes in CT radiomic features between two yearly scans (delta radiomics) improve lung cancer risk prediction. Delta features outperformed baseline features, oversampling of the minority class consistently helped, and harmonizing for slice thickness and reconstruction kernel made little overall difference; the best models reached a test score of 0.76.",
       "added": "2026-09-13",
       "flag": "Published from Université Laval before the author joined the lab — confirm",
-      "source": "europepmc:39463128"
+      "source": "europepmc:39463128",
+      "authors": "Ebrahimpour L, Després P, Manem VSK.",
+      "year": 2024,
+      "volume": "13",
+      "issue": "20",
+      "pages": "e70359"
     },
     {
       "id": "paper-10-1001-jamanetworkopen-2024-36407",
@@ -929,7 +1139,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Distant metastasis is now the main way head and neck cancer treatment fails. In 281 patients from two prospective trials who had FMISO-PET hypoxia imaging before and during chemoradiotherapy, the authors examined whether tumor hypoxia predicts later distant spread, using competing-risk models with death as a competing event.",
       "added": "2026-09-13",
       "flag": "Abstract truncated in the index; results section not reviewed — confirm summary",
-      "source": "europepmc:39348119"
+      "source": "europepmc:39348119",
+      "authors": "Gui C, Wray R, Schöder H, Deasy JO, Grkovski M, Humm JL, Wong RJ, Sherman EJ, Riaz N, Lee NY.",
+      "year": 2024,
+      "volume": "7",
+      "issue": "9",
+      "pages": "e2436407"
     },
     {
       "id": "paper-10-33594-000000726",
@@ -953,7 +1168,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Earlier work from these labs showed that irradiating only half of a tumor can still control the whole tumor through an immune response, and that endothelial acid sphingomyelinase (ASMase) governs tumor radiocurability. Here, in Lewis lung carcinoma models, hemi-irradiation controlled tumors in normal mice but not in ASMase-knockout mice or when ASMase was blocked pharmacologically, and the immune changes (CD8+ T cells, ICAM-1, STING activation) appeared only when ASMase was present.",
       "added": "2026-09-13",
       "flag": null,
-      "source": "europepmc:39248192"
+      "source": "europepmc:39248192",
+      "authors": "Mathieu M, Nepali PR, Russell J, Askarifirouzjaei H, Baltaci M, Powell SN, Humm J, Deasy JO, Haimovitz-Friedman A.",
+      "year": 2024,
+      "volume": "58",
+      "issue": "5",
+      "pages": "477-490"
     },
     {
       "id": "paper-10-1093-oons-kvag016",
@@ -977,7 +1197,12 @@ window.LAB_NEWS_DATA = {
       "summary": "This review proposes a three-part framework for how cancer cells colonize the brain — gaining vascular access, finding metabolic fuel, and escaping immune surveillance — and argues that metabolism is the least exploited of the three in the clinic. It describes how lung, breast and melanoma metastases each pair a characteristic metabolic program with characteristic locations in the brain, and how targeted metabolic therapy, prediction informed by the primary cancer, and longitudinal modeling could bring metabolism into precision care for brain metastases.",
       "added": "2026-10-12",
       "flag": null,
-      "source": "crossref"
+      "source": "crossref",
+      "authors": "Chesebro AG, Kocher CD, Grange D, Deasy JO, Weistuch C.",
+      "year": 2026,
+      "volume": "5",
+      "issue": null,
+      "pages": "kvag016"
     },
     {
       "id": "paper-10-1002-hem3-70473",
@@ -997,7 +1222,12 @@ window.LAB_NEWS_DATA = {
       "summary": "Smoldering multiple myeloma is a precursor condition whose risk of progressing to active myeloma varies widely, and current risk models use only baseline features. Analyzing 323 MSK patients diagnosed between 2002 and 2019, the authors tracked serial M-protein and free light chain measurements during the first year after diagnosis to define evolving risk factors and integrate them with the standard 2/20/20 model, improving risk stratification.",
       "added": "2026-10-12",
       "flag": null,
-      "source": "europepmc:42781377"
+      "source": "europepmc:42781377",
+      "authors": "Akhlaghi T, Nemirovsky D, Maclachlan KH, Firestone RS, Korde N, Mailankody S, Lesokhin AM, Hassoun H, Patel D, Shah UA, Tan CR, Landau HJ, Shah GL, Scordo M, Simhal AK, Landgren O, Giralt SA, Usmani SZ, Derkach A, Hultcrantz M.",
+      "year": 2026,
+      "volume": "10",
+      "issue": "9",
+      "pages": "e70473"
     },
     {
       "id": "paper-10-1016-j-bspc-2026-111229",
@@ -1017,7 +1247,12 @@ window.LAB_NEWS_DATA = {
       "summary": "A deep-learning study on segmenting rectal cancers in MRI, in which tumor-aware data augmentation and task-guided attention analysis are reported to improve segmentation performance.",
       "added": "2026-10-12",
       "flag": "Summary based on title only; abstract not reviewed (publisher page requires a human check)",
-      "source": "crossref"
+      "source": "crossref",
+      "authors": "Rangnekar A, Miranda J, Horvat N, Chahwan S, Alrayess S, Apte A, Iyer A, LoCastro E, Ravella R, Gollub MJ, Petkovska I, Smith JJ, Romesser P, Garcia-Aguilar J, Veeraraghavan H, Deasy JO.",
+      "year": 2026,
+      "volume": "128",
+      "issue": null,
+      "pages": "111229"
     },
     {
       "id": "award-miccai-flare-2026-outstanding-winner-panseg-msk",

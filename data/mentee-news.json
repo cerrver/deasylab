@@ -17,7 +17,12 @@
       "menteeRole": "last/senior author",
       "summary": "Altered taste is a common lasting side effect of radiotherapy for head and neck cancer. Using a prospective cohort of 972 patients, this study asked whether deep-learning models that read the full 3D dose distribution, planning CT and organ contours could predict moderate-to-severe taste alteration six months after treatment better than a conventional model built on mean dose to the oral cavity and parotid glands plus age. The transformer model matched but did not beat the conventional model (AUC 0.71 for both), while its attention maps pointed to the supraglottic and submandibular regions, suggesting where dose matters most for taste.",
       "added": "2026-10-31",
-      "flag": null
+      "flag": null,
+      "authors": "Neh H, MacRae DC, de Vette SPM, van der Hoek L, van Ooijen PMA, Sijtsema NM, Langendijk JA, van Dijk LV.",
+      "year": 2026,
+      "volume": "182",
+      "issue": null,
+      "pages": "108192"
     },
     {
       "id": "lisanne-v-van-dijk-radonc-2026-111815",
@@ -33,7 +38,12 @@
       "menteeRole": "last/senior author",
       "summary": "Side-effect scores collected repeatedly during and after radiotherapy are often incomplete, and how the gaps are filled can change what a model learns. This study compared nine imputation methods, from simple carry-forward rules to deep learning, on four toxicities (dry mouth, swallowing difficulty, taste alteration and sticky saliva) recorded at 16 time points in 1,442 head and neck cancer patients. Most methods performed similarly, but the simplest ones were clearly worse, and the authors advise care in which patients are included when a dataset has many missing time points.",
       "added": "2026-10-31",
-      "flag": null
+      "flag": null,
+      "authors": "van der Hoek L, de Vette SPM, Neh H, MacRae DC, Langendijk JA, Sijtsema NM, van Ooijen PMA, van der Schaaf A, van Dijk LV.",
+      "year": 2026,
+      "volume": "225",
+      "issue": null,
+      "pages": "111815"
     },
     {
       "id": "saad-nadeem-miccai-2026-impartial",
@@ -49,7 +59,12 @@
       "menteeRole": "last/senior author",
       "summary": "Outlining individual cells in pathology images normally requires dense, pixel-by-pixel labels that are slow and expensive to produce, especially for newer multiplexed imaging methods with varying channel layouts. ImPartial is a deep-learning framework that learns from sparse scribbles instead, adding a self-supervised task that quantizes and imputes image channels so the network learns structure without full labels. On benchmark multiplexed datasets and clinical brightfield immunohistochemistry slides it matched fully supervised models with far fewer annotations; code and data are released on GitHub.",
       "added": "2026-10-31",
-      "flag": null
+      "flag": null,
+      "authors": "Shrivastava G, Nadeem S.",
+      "year": 2026,
+      "volume": "16891",
+      "issue": null,
+      "pages": "594-602"
     },
     {
       "id": "andrew-hope-cncr-70595",
@@ -65,7 +80,12 @@
       "menteeRole": "last/senior author",
       "summary": "Whether radiation around the time of surgery helps patients with thymic tumors has never been settled by a randomized trial. This retrospective study followed 360 patients treated surgically at a high-volume center between 2004 and 2021, about half of whom also received radiation. Recurrences were mostly in the pleura rather than in the irradiated field, tumor invasiveness (especially vascular invasion) was the strongest predictor of relapse, and a survival benefit from radiation appeared only after statistical adjustment — so the authors call for prospective testing.",
       "added": "2026-10-31",
-      "flag": null
+      "flag": null,
+      "authors": "Icht O, Nardi-Agmon I, Thavendiranathan P, Keshavjee S, Agrawal A, Miro JM, Badran O, Liu G, Ye XY, Cho BCJ, Bezjak A, Hope A.",
+      "year": 2026,
+      "volume": "132",
+      "issue": "18",
+      "pages": "e70595"
     },
     {
       "id": "saad-nadeem-logy-innovation-to-low-resource-settings",
@@ -113,7 +133,12 @@
       "menteeRole": "first author",
       "summary": "Using imaging and fluid-transport modeling in rats, the team compared lymph drainage through the deep neck lymph nodes in normal animals and animals with chronic high blood pressure. Hypertensive animals showed simpler flow patterns and reduced flow through these nodes, indicating impaired drainage. Because these nodes help clear waste from the brain, the work suggests one way a common systemic condition may affect brain health.",
       "added": "2026-09-10",
-      "flag": "JCI Insight is outside the named venue list; included as a first-author paper in a leading journal."
+      "flag": "JCI Insight is outside the named venue list; included as a first-author paper in a leading journal.",
+      "authors": "Xu K, Bhardwaj A, Koundal S, Ren Q, You C, Papademetris X, Benveniste H, Georgiou TT.",
+      "year": 2026,
+      "volume": "11",
+      "issue": "18",
+      "pages": "e206714"
     },
     {
       "id": "issam-el-naqa-10-1002-mp-70616",
@@ -129,7 +154,12 @@
       "menteeRole": "last/senior author",
       "summary": "This review surveys how generative AI, foundation models, and large language models are beginning to be used in radiation therapy physics, from analyzing medical images and automating routine tasks to supporting clinical decisions and streamlining workflows. The authors also lay out the main hurdles to safe adoption, including interpretability, data privacy, regulatory compliance, reproducibility, and AI 'hallucination', and offer guidance for medical physicists and clinicians navigating these tools.",
       "added": "2026-09-10",
-      "flag": null
+      "flag": null,
+      "authors": "Qi XS, Wang Y, Yang X, Ren L, Liu W, Benedict SH, Xiao Y, Xing L, El Naqa IM.",
+      "year": 2026,
+      "volume": "53",
+      "issue": "8",
+      "pages": "e70616"
     },
     {
       "id": "issam-el-naqa-can-society-for-radiation-oncology-astro",
@@ -161,7 +191,12 @@
       "menteeRole": "first author",
       "summary": "This paper reports the routine clinical use at MSK of ECHO, an in-house automated treatment-planning system, for lung cancer radiotherapy. Since 2021-2023, 431 patients received ECHO-generated IMRT plans and 93 SBRT patients received ECHO-generated VMAT plans; the automated plans gave more consistent tumor coverage with comparable protection of healthy organs versus manually built plans. Optimization took about 33 minutes (IMRT) or 56 minutes (VMAT), saving roughly 1.5 hours of planner time per patient.",
       "added": "2026-09-10",
-      "flag": null
+      "flag": null,
+      "authors": "Jeong J, Huang Q, Zhou Y, Yorke E, Lin E, Jhanwar G, Yang J, Pham H, Thor M, Wu AJ, Cervino L, Moran JM, Deasy JO, Zarepisheh M, Hong L.",
+      "year": 2026,
+      "volume": "223",
+      "issue": null,
+      "pages": "111712"
     },
     {
       "id": "nitin-ohri-10-1016-j-ijrobp-2026-05-050",
@@ -177,7 +212,12 @@
       "menteeRole": "last/senior author",
       "summary": "A prospective study from Montefiore Einstein, led by Dr. Ohri as senior author, that followed cancer survivors over the long term after concurrent chemoradiation to measure how their physical activity changed. Understanding how activity levels recover (or fail to recover) after intensive treatment can help clinicians support survivors' fitness and quality of life.",
       "added": "2026-09-10",
-      "flag": "Summary based on title and bibliographic record only; abstract not reviewed."
+      "flag": "Summary based on title and bibliographic record only; abstract not reviewed.",
+      "authors": "Zakharia A, Kabarriti R, Bodner WR, Mehta KJ, Halmos B, Kalnicki S, Garg M, Ohri N.",
+      "year": 2026,
+      "volume": null,
+      "issue": null,
+      "pages": null
     },
     {
       "id": "nitin-ohri-ehensive-cancer-centers-lung-cancer-team",
@@ -209,7 +249,12 @@
       "menteeRole": "last/senior author",
       "summary": "The team built a 3D deep-learning model that predicts five different radiotherapy side effects at once (such as swallowing problems and dry mouth) in head and neck cancer patients, using radiation dose maps and imaging from 1,418 patients. Predicting several toxicities together outperformed conventional models and single-toxicity deep learning models for dysphagia and xerostomia. Such models could help doctors tailor radiotherapy plans to reduce lasting side effects.",
       "added": "2026-09-10",
-      "flag": null
+      "flag": null,
+      "authors": "MacRae DC, van der Hoek L, de Vette SPM, Neh H, Moreno AC, Fuller CD, Langendijk JA, Valdenegro-Toro MA, Sijtsema NM, van Ooijen PMA, van Dijk LV.",
+      "year": 2026,
+      "volume": "219",
+      "issue": null,
+      "pages": "111486"
     },
     {
       "id": "yongxin-chen-n-chen-awarded-ifacs-manfred-thoma-medal",
@@ -289,7 +334,12 @@
       "menteeRole": "last/senior author",
       "summary": "The team built SMMILe, an AI method that reads whole-slide pathology images and not only classifies the slide (e.g., tumor type) but also maps precisely where within the tissue the relevant features are. Tested on 3,850 slides across six cancer types, it matched or beat existing methods at classification while giving far better spatial maps, which could make AI pathology tools more trustworthy and useful to pathologists.",
       "added": "2026-09-10",
-      "flag": null
+      "flag": null,
+      "authors": "Gao Z, Mao A, Dong Y, Clayton H, Wu J, Liu J, Wang C, He K, Gong T, Li C, Crispin-Ortuzar M.",
+      "year": 2025,
+      "volume": "6",
+      "issue": "12",
+      "pages": "2025-2041"
     },
     {
       "id": "caroline-moosm-ller-estigator-award-from-2025-ascina-awards",
@@ -401,7 +451,12 @@
       "menteeRole": "first author",
       "summary": "Proton therapy is highly sensitive to changes in a patient's anatomy, so the dose actually delivered over weeks of treatment can differ from the plan. This study builds a method that adds up the delivered dose across repeat CT scans while accounting for setup and proton-range uncertainty, and a quality-assurance check for the image-deformation step. Tested on 40 esophageal and lung cancer patients, it showed why anatomical changes must be tracked and which registration settings work best for each site.",
       "added": "2026-09-10",
-      "flag": null
+      "flag": null,
+      "authors": "Taasti VT, Hattu D, Berbée M, de Ruysscher D, Canters R.",
+      "year": 2025,
+      "volume": "52",
+      "issue": "8",
+      "pages": "e18037"
     },
     {
       "id": "corey-weistuch-es-msk-awards-and-appointments-june-2025",
@@ -433,7 +488,12 @@
       "menteeRole": "last/senior author",
       "summary": "Adaptive proton therapy needs a CT-quality image every day, but the daily cone-beam CT is too noisy for proton dose calculation. The team trained a 3D deep-learning network to convert cone-beam scans of prostate cancer patients into synthetic CTs and checked them across all 39 treatment sessions. The synthetic images matched real CT values, kept proton range errors under about 2 mm, and gave accurate target coverage, making them a practical basis for adapting proton plans day to day.",
       "added": "2026-09-10",
-      "flag": null
+      "flag": null,
+      "authors": "Vestergaard CD, Muren LP, Elstrøm UV, Stolarczyk L, Nørrevang O, Petersen SE, Taasti VT.",
+      "year": 2025,
+      "volume": "209",
+      "issue": null,
+      "pages": "110953"
     },
     {
       "id": "nitin-ohri-astro-org-research-scientific-challenges",
@@ -465,7 +525,12 @@
       "menteeRole": "co-author",
       "summary": "In some kidney cancers the tumor grows into the major veins, making surgery risky; the NAXIVA trial had shown the drug axitinib can shrink this thrombus before surgery in about a third of patients. Using pathology, immune profiling, blood cytokines and RNA sequencing from trial samples, the team found responders have denser tumor blood vessels and a characteristic rise in growth factors during treatment. A machine-learning model combining these features predicted response with high accuracy, pointing toward better selection of patients for this approach.",
       "added": "2026-09-10",
-      "flag": null
+      "flag": null,
+      "authors": "Wray R, Paverd H, Machado I, Barbieri J, Easita F, Edwards AR, Gallagher FA, Mendichovszky IA, Mitchell TJ, de la Roche M, Shields JD, Ursprung S, Wallis L, Warren AY, Welsh SJ, Crispin-Ortuzar M, Stewart GD, Jones JO, NAXIVA Study Group.",
+      "year": 2025,
+      "volume": "16",
+      "issue": "1",
+      "pages": "3870"
     },
     {
       "id": "jung-hun-oh-tumors-linked-worse-lung-cancer-outcomes",
@@ -561,7 +626,12 @@
       "menteeRole": "co-author",
       "summary": "This multicenter phase 3 trial asked whether adding stereotactic body radiotherapy (SBRT) before the drug sorafenib helps patients with advanced liver cancer. Among 177 patients, median survival rose from 12.3 to 15.8 months with SBRT, and progression-free survival improved from 5.5 to 9.2 months. The survival gain was clinically meaningful but did not reach statistical significance on the primary analysis, in part because enrollment stopped early when standard drug therapy changed.",
       "added": "2026-09-10",
-      "flag": null
+      "flag": null,
+      "authors": "Dawson LA, Winter KA, Knox JJ, Zhu AX, Krishnan S, Guha C, Kachnic LA, Gillin MT, Hong TS, Craig TD, Williams TM, Hosni A, Chen E, Noonan AM, Koay EJ, Sinha R, Lock MI, Ohri N, Dorth JA, Delouya G, Swaminath A, Moughan J, Crane CH.",
+      "year": 2025,
+      "volume": "11",
+      "issue": "2",
+      "pages": "136-144"
     },
     {
       "id": "issam-el-naqa-10-1038-s41467-024-55259-x",
@@ -577,7 +647,12 @@
       "menteeRole": "last/senior author",
       "summary": "AI tools can suggest how to adapt radiotherapy as a patient's cancer responds, but they are imperfect, and clinicians may trust them too much or too little. In a study of adaptive radiotherapy decisions for lung and liver cancer, the team found that how clinicians use AI advice depends on many things at once: their prior beliefs, the patient's condition, the disease site, how transparent the model is, and the model's own biases. Some clinicians ignore the AI, others weigh it case by case, and most will change course when they see a recommendation clearly helps the patient.",
       "added": "2026-09-10",
-      "flag": null
+      "flag": null,
+      "authors": "Niraula D, Cuneo KC, Dinov ID, Gonzalez BD, Jamaluddin JB, Jin JJ, Luo Y, Matuszak MM, Ten Haken RK, Bryant AK, Dilling TJ, Dykstra MP, Frakes JM, Liveringhouse CL, Miller SR, Mills MN, Palm RF, Regan SN, Rishi A, Torres-Roca JF, Yu HM, El Naqa I.",
+      "year": 2025,
+      "volume": "16",
+      "issue": "1",
+      "pages": "1138"
     },
     {
       "id": "jung-hun-oh-10-1038-s41523-025-00725-y",
@@ -593,7 +668,12 @@
       "menteeRole": "first author",
       "summary": "Using a computational method that integrates several kinds of molecular data, the team had previously found a group of breast cancers with unusually poor outcomes. Here they characterize what makes that group different: its tumors score high on three separate hypoxia (low-oxygen) signatures and contain fewer tumor-infiltrating immune cells. The result suggests this hidden high-risk subgroup is driven by a distinct biology that could be targeted.",
       "added": "2026-09-10",
-      "flag": null
+      "flag": null,
+      "authors": "Oh JH, Pareja F, Elkin R, Xu K, Norton L, Deasy JO.",
+      "year": 2025,
+      "volume": "11",
+      "issue": "1",
+      "pages": "8"
     },
     {
       "id": "issam-el-naqa-eatment-but-human-touch-remains-crucial",
@@ -625,7 +705,12 @@
       "menteeRole": "last/senior author",
       "summary": "Loss of taste is a common and under-appreciated side effect of radiotherapy for head and neck cancer. In 691 patients, the team tested whether the radiation dose to a new, taste-specific structure (the taste-bud-bearing tongue mucosa) predicts taste loss better than the dose to the whole oral cavity. It did not: the simpler oral-cavity dose worked just as well, a useful negative result for how toxicity models are built.",
       "added": "2026-09-10",
-      "flag": null
+      "flag": null,
+      "authors": "Neh H, de Vette SPM, Stoffers RH, Zhou G, van Ooijen PMA, Sijtsema NM, Brouwer CL, Langendijk JA, van Dijk LV.",
+      "year": 2025,
+      "volume": "205",
+      "issue": null,
+      "pages": "110746"
     },
     {
       "id": "nitin-ohri-10-1016-j-ijrobp-2025-01-005",
@@ -641,7 +726,12 @@
       "menteeRole": "first author",
       "summary": "Standard radiotherapy for locally advanced lung cancer gives every tumor the same dose. This randomized trial tested a personalized, de-intensified approach that uses each tumor's PET-measured metabolic volume to lower the dose to smaller lesions and shorten treatment to 20 sessions. Across 50 patients, survival and tumor control were similar in both arms, while severe lymphocyte depletion was less common with the dose-painted approach, suggesting the strategy is safe to study further.",
       "added": "2026-09-10",
-      "flag": null
+      "flag": null,
+      "authors": "Ohri N, Bodner WR, Kabarriti R, Shankar V, Gucalp R, Cheng H, Halmos B.",
+      "year": 2025,
+      "volume": "122",
+      "issue": "2",
+      "pages": "365-373"
     },
     {
       "id": "rene-winter-10-1016-j-radonc-2024-110702",
@@ -657,7 +747,12 @@
       "menteeRole": "first author",
       "summary": "An imaging biomarker first discovered in animal studies, based on a band of diffusion-MRI values marking radiation-resistant tumor subvolumes, was retrained and tested in 31 patients with head and neck cancer. The size of these high-risk subvolumes before treatment strongly predicted outcome three years later, outperforming tumor volume and average diffusion values. If confirmed in larger cohorts, the marker could guide MRI-guided, response-adapted radiotherapy.",
       "added": "2026-09-10",
-      "flag": null
+      "flag": null,
+      "authors": "Winter RM, Boeke S, Leibfarth S, Habrich J, Clasen K, Nikolaou K, Zips D, Thorwarth D.",
+      "year": 2025,
+      "volume": "204",
+      "issue": null,
+      "pages": "110702"
     },
     {
       "id": "gita-suneja-10-1200-oa-24-00014",
@@ -673,7 +768,12 @@
       "menteeRole": "first author",
       "summary": "After surgery for early endometrial cancer, many women receive internal radiation to the top of the vagina over three to five visits. The SAVE trial, the first US multicenter randomized study of this question, compared a two-visit course with standard schedules. Quality of life one month and one year after treatment was no worse with the shorter course, side effects were similar or fewer, and cancer control in the vagina was 96% in both groups at about two years.",
       "added": "2026-09-10",
-      "flag": "authorsShort abbreviated; full author list on the journal page."
+      "flag": "authorsShort abbreviated; full author list on the journal page.",
+      "authors": "Suneja G, Huang YJ, Boucher KM, Braun E, Burt LM, DeCesaris C, Grant JD, Harkenrider MM, Jhingran A, Kidd EA, Klopp AH, Lin LL, Small W, Gaffney D.",
+      "year": 2024,
+      "volume": null,
+      "issue": "1",
+      "pages": "e2400014"
     },
     {
       "id": "lisanne-v-van-dijk-https-www-hanarthfonds-nl-en-2024-call",
@@ -737,7 +837,12 @@
       "menteeRole": "last/senior author",
       "summary": "This review surveys how artificial intelligence and machine learning are being used across radiation oncology — automating contouring, adapting treatments to anatomical change, calculating dose, quality assurance and predicting outcomes. It examines why clinical deployment still lags behind the technology's promise, covering technical, practical, ethical and legal hurdles, and looks ahead to generative AI and foundation models.",
       "added": "2026-10-12",
-      "flag": null
+      "flag": null,
+      "authors": "Katsoulakis E, El Naqa I.",
+      "year": 2026,
+      "volume": null,
+      "issue": null,
+      "pages": null
     },
     {
       "id": "mireia-crispin-ortuzar-j-xcrm-2026-102966",
@@ -753,7 +858,12 @@
       "menteeRole": "co-author",
       "summary": "A narrative review proposing that oncology AI should 'leave no data behind' — combining medical imaging, electronic health records and molecular profiles in foundation models and large language models. The authors weigh the evidence that such broad data integration produces clinically meaningful results and lay out the main challenges still to be solved.",
       "added": "2026-10-12",
-      "flag": null
+      "flag": null,
+      "authors": "Corso F, Zec A, Favali M, Ligero M, Hilgers L, Invernizzi LM, Mazzeo L, Morales AM, Müller-Franzes GA, Prata Machado I, Busch F, Mišković V, Trovò F, Proto C, Lo Russo G, Occhipinti M, Brambilla M, Beninato T, Halabi S, Garassino MC, Pedrocchi ALG, Pellat A, Adams L, Calderaro J, Truhn D, Delaloge S, Vibert J, Lipkova J, Koopman M, Perez-Lopez R, Crispin-Ortuzar M, Kather JN, Prelaj A.",
+      "year": 2026,
+      "volume": null,
+      "issue": null,
+      "pages": "102966"
     },
     {
       "id": "mireia-crispin-ortuzar-s41591-026-04587-0",
@@ -769,7 +879,12 @@
       "menteeRole": "last/senior author",
       "summary": "A News & Views commentary in Nature Medicine on a study showing that combining many patient-level biomarkers from different data types improves predictions of who will respond to cancer immunotherapy. The authors single out generalizability — whether such multimodal models hold up across patient populations and care settings — as the key remaining challenge.",
       "added": "2026-10-12",
-      "flag": null
+      "flag": null,
+      "authors": "Perez-Lopez R, Crispin-Ortuzar M.",
+      "year": 2026,
+      "volume": "32",
+      "issue": "9",
+      "pages": "3136-3137"
     },
     {
       "id": "mireia-crispin-ortuzar-s41467-026-76372-z",
@@ -785,7 +900,12 @@
       "menteeRole": "last/senior author",
       "summary": "ALPaCA adapts the Llama large language model to answer questions about entire gigapixel pathology whole-slide images rather than small regions of interest. Trained on more than 35,000 slides with curated descriptions and over 340,000 question–answer pairs, it supports slide-level assessment across many cancer types and tissue sites.",
       "added": "2026-10-12",
-      "flag": null
+      "flag": null,
+      "authors": "Gao Z, He K, Su W, Pang X, Machado IP, Jimenez-Linan M, Rous B, Wang C, Li C, McGough W, Gao S, Zhang D, Gong T, Lu MY, Mahmood F, Feng M, Li C, Crispin-Ortuzar M.",
+      "year": 2026,
+      "volume": "17",
+      "issue": "1",
+      "pages": "9943"
     },
     {
       "id": "tafadzwa-chaunzwa-jco-25-01817",
@@ -801,7 +921,12 @@
       "menteeRole": "first author",
       "summary": "A Journal of Clinical Oncology article on how management of the central nervous system in small cell lung cancer is changing, including the place of prophylactic cranial irradiation in the modern treatment era.",
       "added": "2026-10-12",
-      "flag": "Summary based on title only; abstract not reviewed"
+      "flag": "Summary based on title only; abstract not reviewed",
+      "authors": "Chaunzwa TL, Jabbour SK, Pike LRG, Cooper AJ, Shaverdian N, Gomez D.",
+      "year": 2025,
+      "volume": "43",
+      "issue": "32",
+      "pages": "3439-3445"
     },
     {
       "id": "tafadzwa-chaunzwa-s41593-026-02202-6",
@@ -817,7 +942,12 @@
       "menteeRole": "co-author",
       "summary": "Introduces BrainIAC, a foundation model that learns general-purpose representations from unlabeled brain MRI scans and can be adapted to many downstream clinical tasks. Trained and validated on nearly 49,000 brain MRIs, it outperformed task-specific supervised models and other pretrained models.",
       "added": "2026-10-12",
-      "flag": null
+      "flag": null,
+      "authors": "Tak D, Garomsa BA, Zapaishchykova A, Chaunzwa TL, Climent Pardo JC, Ye Z, Zielke J, Ravipati Y, Pai S, Vajapeyam S, Mahootiha M, Parker M, Pike LRG, Smith C, Familiar AM, Liu KX, Prabhu S, Arnaout O, Bandopadhayay P, Nabavizadeh A, Mueller S, Aerts HJ, Huang RY, Poussaint TY, Kann BH.",
+      "year": 2026,
+      "volume": "29",
+      "issue": "4",
+      "pages": "945-956"
     },
     {
       "id": "tafadzwa-chaunzwa-aioa2400703",
@@ -833,7 +963,12 @@
       "menteeRole": "co-author",
       "summary": "A self-supervised temporal deep-learning approach reads a child's serial MRI scans to predict the risk of glioma recurrence over time, trained by learning to put scans in chronological order. The aim is to individualize long-term imaging surveillance, which today is applied uniformly to almost all children regardless of risk.",
       "added": "2026-10-12",
-      "flag": null
+      "flag": null,
+      "authors": "Tak D, Garomsa BA, Zapaishchykova A, Ye Z, Vajapeyam S, Mahootiha M, Pardo JCC, Smith C, Familiar AM, Chaunzwa TL, Liu KX, Prabhu SP, Bandopadhayay P, Nabavizadeh A, Mueller S, Aerts HJWL, Haas-Kogan D, Poussaint TY, Kann BH.",
+      "year": 2025,
+      "volume": "2",
+      "issue": "5",
+      "pages": null
     },
     {
       "id": "tafadzwa-chaunzwa-jamanetworkopen-2026-4845",
@@ -849,7 +984,12 @@
       "menteeRole": "co-author",
       "summary": "A JAMA Network Open article asking whether automated facial analysis could add useful information to clinical decision-making in non-small cell lung cancer.",
       "added": "2026-10-12",
-      "flag": "Summary based on title only; abstract not reviewed"
+      "flag": "Summary based on title only; abstract not reviewed",
+      "authors": "Miller DG, Chaunzwa TL, Shaverdian N.",
+      "year": 2026,
+      "volume": "9",
+      "issue": "4",
+      "pages": "e264845"
     },
     {
       "id": "tafadzwa-chaunzwa-j-jtho-2026-103949",
@@ -865,7 +1005,12 @@
       "menteeRole": "first author",
       "summary": "Using pretreatment CT scans from the RTOG 0617 trial and from MSK patients with locally advanced non-small cell lung cancer, the study shows that percent thymic tissue — an interpretable, automatically segmented measure of residual thymus — is associated with severe radiation pneumonitis after chemoradiotherapy. Thymic health may help explain toxicity risk that lung dose alone does not.",
       "added": "2026-10-12",
-      "flag": "Journal of Thoracic Oncology is not on the feed's journal list — confirm"
+      "flag": "Journal of Thoracic Oncology is not on the feed's journal list — confirm",
+      "authors": "Chaunzwa TL, Krishnan G, Book AJ, Miller DG, Amoako-Boadu K, Garomsa B, Meng YJ, Yang E, Ma J, Chidi A, Gomez DR, Shaverdian N.",
+      "year": 2026,
+      "volume": "21",
+      "issue": "10",
+      "pages": "103949"
     },
     {
       "id": "nitin-ohri-winner-2025-astro-astrazeneca-small-cell",

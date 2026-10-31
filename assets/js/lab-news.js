@@ -107,13 +107,33 @@
     }).join("") + "</div>";
   }
 
+  // Full bibliographic citation for papers (Joseph, 2026-10-31): all authors with initials, title,
+  // journal, year;volume(issue):pages, DOI. Falls back to the short author line when `authors` is absent.
+  function citation(it) {
+    if (it.type !== "paper" || !it.authors) return "";
+    var pre = /preprint/i.test(it.venue || "");
+    var journal = String(it.venue || "").replace(/\s*\(preprint\)\s*$/i, "");
+    var s = esc(it.authors.trim());
+    if (!/\.$/.test(s)) s += ".";
+    s += " " + esc(String(it.title).trim().replace(/\.$/, "")) + ". ";
+    s += "<em>" + esc(journal) + "</em>" + (pre ? " [preprint]" : "") + ". ";
+    var loc = String(it.year || String(it.date || "").slice(0, 4));
+    if (it.volume) { loc += ";" + it.volume + (it.issue ? "(" + it.issue + ")" : ""); if (it.pages) loc += ":" + it.pages; }
+    else if (it.pages) loc += ";" + it.pages;
+    s += esc(loc) + ".";
+    if (it.doi) s += ' doi:<a href="https://doi.org/' + esc(it.doi) + '" target="_blank" rel="noopener">' + esc(it.doi) + "</a>";
+    return '<p class="news__cite">' + s + "</p>";
+  }
+
   function card(it, byId, compact) {
     var type = TYPE_LABEL[it.type] || it.type;
     if (it.type === "paper" && isPreprint(it)) type = "Preprint";
     var title = '<a href="' + esc(it.url) + '" target="_blank" rel="noopener">' + esc(it.title) + "</a>";
     var meta = [];
     if (it.venue) meta.push("<em>" + esc(it.venue) + "</em>");
-    if (it.authorsShort) meta.push(esc(it.authorsShort));
+    var cite = citation(it);
+    if (cite) { meta = meta.filter(function (m) { return m.indexOf("<em>") !== 0; }); }
+    else if (it.authorsShort) meta.push(esc(it.authorsShort));
     var html = '' +
       '<article class="news news--' + esc(it.type) + (compact ? " news--compact" : "") + '" data-people="' + esc((it.people || []).map(function (p) { return p.id; }).join(" ")) + '">' +
         '<div class="news__head">' +
@@ -123,6 +143,7 @@
         peopleLine(it, byId) +
         '<h3 class="news__title">' + title + "</h3>" +
         (meta.length ? '<p class="news__meta">' + meta.join(" · ") + "</p>" : "") +
+        cite +
         '<p class="news__summary">' + esc(it.summary) + "</p>" +
         figures(it, compact) +
         '<div class="news__actions">' +
@@ -225,7 +246,7 @@
     if (state.type && it.type !== state.type) return false;
     if (state.q) {
       var names = (it.people || []).map(function (p) { return (byId[p.id] || {}).name || p.id; }).join(" ");
-      var hay = [it.title, names, it.venue, it.summary, it.authorsShort, TYPE_LABEL[it.type], isPreprint(it) ? "preprint" : ""].join(" ").toLowerCase();
+      var hay = [it.title, names, it.venue, it.summary, it.authorsShort, it.authors, TYPE_LABEL[it.type], isPreprint(it) ? "preprint" : ""].join(" ").toLowerCase();
       var terms = state.q.split(/\s+/);
       for (var i = 0; i < terms.length; i++) if (hay.indexOf(terms[i]) === -1) return false;
     }
