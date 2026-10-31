@@ -208,8 +208,8 @@ canonical source, so a stale mirror shows stale data when opened from disk but n
 - **Disclosure statement** (verbatim, on disclosures.html and team.html#disclosure): "Joseph O.
   Deasy has intellectual property interests in technology licensed to RaySearch, Lumonus, and TCG
   Digital. Last updated: September 11, 2026."
-- **Tools for Cancer Research** cards and their verified links: FocusNexus (featured, "Highlighted
-  · Getting things done") https://cerrver.github.io/focusnexus/ ; CERR https://github.com/cerr/CERR
+- **Tools for Cancer Research** cards and their verified links: FocusNexus (last card, standard size — demoted from featured 2026-10-31; description is generic, no
+  reference to Joseph's own roles) https://cerrver.github.io/focusnexus/ ; CERR https://github.com/cerr/CERR
   and pyCERR https://github.com/cerr/pyCERR ; AI auto-segmentation models
   https://github.com/cerr/model_installer ; ORCO https://github.com/aksimhal/ORC-Omics
   (doi 10.1093/bioinformatics/btaf093) ; NetFlow https://areelkin.github.io/netflow and
@@ -349,6 +349,8 @@ tasks and the approval reminder stay paused (`enabled: false`); the cloud routin
 ## 11. Change log
 
 Newest first. One line per delivered change set; the weekly refresh task appends from `git log`.
+
+- 2026-10-31 · (pending commit) · Tools: FocusNexus demoted from the featured full-width card to a standard card at the bottom of the stack (after ViSPACE); "Highlighted" badge removed; description reworded to be generic — roles given as "(e.g., grants, teaching, mentoring, admin)" instead of Joseph's own work areas; card artwork `assets/img/tools/focusnexus.svg` relabelled to match (GRANTS / TEACHING / MENTORING / ADMIN, generic next-action example); link style matched to the other standard cards. §5 updated.
 
 - 2026-10-21 · (pending commit) · **VALIDATE consortium added.** Home page `#validate` feature band (logo on white, description, button to the consortium site), research.html `#validate` section (lead + three cards), footer link on all nine pages, `assets/img/validate-logo.png`, `.feature__media--validate` style; §1/§2/§5 updated. Links point to https://cerrver.github.io/validate4rt/ until validate4rt.org is live.
 - 2026-10-13 · (pending commit) · Tools: ViSPACE card completed — corrected name (ViSPACE), description from the repository README (Virchow2-based whole-slide pathology segmentation and spatial TME biomarkers), GitHub link https://github.com/himangi2003/ViSPACE, REPLACE-VISPACE note removed; Research page and README spelling updated.
