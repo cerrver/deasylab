@@ -230,7 +230,7 @@ canonical source, so a stale mirror shows stale data when opened from disk but n
   Lopamudra Nayak, Leyla Ebrahimpour (postdocs), Aditya Apte, Jung Hun Oh (faculty). To move a
   label, change its `--x`/`--y`; edit the list identically in both pages. Below 640 px the boxes
   are hidden and a "Left to right: …" caption is shown instead; the alt text carries the same list.
-- **p53 hero video** is adapted from Tran AP et al., Cell Death & Differentiation 30:660–672
+- **p53 hero video** (`assets/video/p53-p21-peaks.mp4` + `-poster.png`, replaced 2026-11-16; source attribution of the new clip to be confirmed) is adapted from Tran AP et al., Cell Death & Differentiation 30:660–672
   (2023), doi 10.1038/s41418-022-01069-x; reuse permission has not been confirmed.
 - Editorial placeholders are marked `REPLACE-…` in the HTML or by dashed "note" boxes; search for
   `REPLACE-` before publishing anything new.
@@ -351,6 +351,7 @@ tasks and the approval reminder stay paused (`enabled: false`); the cloud routin
 
 Newest first. One line per delivered change set; the weekly refresh task appends from `git log`.
 
+- 2026-11-16 · (pending commit) · Home hero: **p53 video replaced** with Joseph's new clip (`peaks2.mp4`: two-panel p53–p21 scatter, colored by division count and by dose). New files `assets/video/p53-p21-peaks.mp4` (H.264, 1040×472, 15 fps, white margins cropped, re-encoded from the 16.8 MB original) and `p53-p21-peaks-poster.png`; old `p53-loop.mp4`/`.webm` and `p53-poster.png` no longer referenced (kept in the repo until deleted by hand). MP4 only — the WebM encode came out larger. Caption extended to explain the two panels; `.videocard video` gets `height: auto`. Attribution to Tran et al. 2023 carried over from the old clip — **to be confirmed by Joseph for this clip**.
 - 2026-10-31 · (pending commit) · Team: **Anish Simhal moved from Postdoctoral Fellows to Key Faculty Collaborators** (appointed Instructor, Service for Predictive Informatics — per Joseph). team.html card, team-photo labels/captions/alt on team.html and index.html ("Faculty"), `lab-members.json` role/position (kept in the Lab News roster), `mentees.json` position/period (2021–2026); mirrors regenerated.
 - 2026-10-31 · `ed5de39` · Tools: **urOMT card added** (above FocusNexus, which stays last) with new artwork `assets/img/tools/uromt.svg`; description from the repository README; links to GitHub, the SPIE Medical Imaging 2024 breast DCE-MRI paper (10.1117/12.3005382) and the Sci Rep 2024 methods paper. research.html tools sentence updated. §5 updated.
 - 2026-10-31 · `5449f78` · **Full citations on paper items in both feeds** (Joseph's rule: every published paper shows a standard citation — full author list with initials, title, journal, year;volume(issue):pages, DOI). New fields `authors`/`year`/`volume`/`issue`/`pages` on all 47 Lab News papers and 29 of 30 Mentee News papers (metadata from Europe PMC, Crossref for 3 items not indexed there); `citation()` added to `lab-news.js` and `mentee-news.js`, `.news__cite` style, hidden on compact home-page cards; search also matches full author lists. The one paper without a DOI (Thor, ESTRO 2025 abstract, Green Journal supplement) keeps its short author line. §4.3/§4.6 updated; `_build/` added to a new `.gitignore`. **Both update tasks must now fill these fields for every new paper.**
