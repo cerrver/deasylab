@@ -1,9 +1,30 @@
 /* AUTO-GENERATED from data/mentee-news.json by gen-mentee-js.py — do not edit by hand. */
 window.MENTEE_NEWS_DATA = {
   "_note": "Deasy Lab 'Mentee News' feed. Items are appended by the weekly scheduled task after verification (each must have a direct URL). Institution shown on the site comes from data/mentees.json at render time.",
-  "updated": "2026-10-31",
+  "updated": "2026-11-22",
   "window": "rolling 24 months on the site; older items kept and shown via 'Show older items'",
   "items": [
+    {
+      "id": "andrew-hope-radonc-2026-111862",
+      "menteeId": "andrew-hope",
+      "mentee": "Andrew Hope",
+      "type": "paper",
+      "title": "Is it tumor burden? A critical analysis of postirradiation lymphopenia in lung cancer patients",
+      "date": "2026-11-17",
+      "venue": "Radiother Oncol",
+      "url": "https://doi.org/10.1016/j.radonc.2026.111862",
+      "doi": "10.1016/j.radonc.2026.111862",
+      "authorsShort": "Kaveckyte V, Bjerrum A, Pøhl M, ... Hope AJ.",
+      "menteeRole": "last/senior author",
+      "summary": "Low lymphocyte counts after chest radiotherapy have been linked to shorter survival in lung cancer, prompting proposals to plan treatments that spare the immune system. Using two cohorts of patients with locally advanced non-small cell lung cancer (165 and 159 patients), this study found that mean dose to the mediastinum predicted end-of-treatment lymphocyte counts about as well as the more elaborate 'estimated dose to immune cells' model. Patients with severe lymphopenia did have worse survival, but they also had larger tumors or more advanced nodal disease, and after matching patients on disease extent the survival difference was no longer statistically significant — so the authors conclude that a benefit from lymphocyte-sparing planning cannot yet be inferred.",
+      "added": "2026-11-22",
+      "flag": null,
+      "authors": "Kaveckyte V, Bjerrum A, Pøhl M, Vogelius IR, Persson GF, Petersen J, Bacon H, Tadic T, Ye XY, Vaabengaard S, Ottosson W, Seuntjens J, Hope AJ.",
+      "year": 2026,
+      "volume": null,
+      "issue": null,
+      "pages": "111862"
+    },
     {
       "id": "lisanne-v-van-dijk-oraloncology-2026-108192",
       "menteeId": "lisanne-v-van-dijk",

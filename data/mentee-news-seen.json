@@ -736,6 +736,97 @@
       "status": "excluded",
       "reason": "Lee SK (Montefiore neuroradiology, MESH registry) is a different person",
       "date": "2026-10-31"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.radonc.2026.111862",
+      "menteeId": "andrew-hope",
+      "status": "added",
+      "reason": "senior author, Radiother Oncol",
+      "date": "2026-11-22"
+    },
+    {
+      "url": "https://doi.org/10.1093/jncics/pkag124",
+      "menteeId": "gita-suneja",
+      "status": "excluded",
+      "reason": "JNCI Cancer Spectr not in venue list (senior author); listed for Joseph's decision 2026-11-22",
+      "date": "2026-11-22"
+    },
+    {
+      "url": "https://doi.org/10.1002/mp.70701",
+      "menteeId": "maria-thor",
+      "status": "excluded",
+      "reason": "middle author (Thor 6/10, Oh 7/10) in a field journal; Deasy senior author - Lab News candidate",
+      "date": "2026-11-22"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ijrobp.2026.10.065",
+      "menteeId": "angel-blanco",
+      "status": "excluded",
+      "reason": "middle author (40/46) in a multicenter field-journal paper",
+      "date": "2026-11-22"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jgo.2026.104691",
+      "menteeId": "andrew-hope",
+      "status": "excluded",
+      "reason": "middle author; J Geriatr Oncol not in venue list",
+      "date": "2026-11-22"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.oraloncology.2026.108206",
+      "menteeId": "andrew-hope",
+      "status": "excluded",
+      "reason": "middle author (12/20) in a field journal",
+      "date": "2026-11-22"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.placenta.2026.11.015",
+      "menteeId": "constantin-zakarian",
+      "status": "excluded",
+      "reason": "Zakarian C (Marseille, placenta research) is a different person",
+      "date": "2026-11-22"
+    },
+    {
+      "url": "https://doi.org/10.1001/jamaoncol.2026.4705",
+      "menteeId": "wei-zhao",
+      "status": "excluded",
+      "reason": "affiliation-only match (MSK co-author); no Zhao W in author list",
+      "date": "2026-11-22"
+    },
+    {
+      "url": "https://doi.org/10.1021/acs.est.5c15241",
+      "menteeId": "yongxin-chen",
+      "status": "excluded",
+      "reason": "Chen Y (Georgia Tech environmental engineering, membranes) is a different person",
+      "date": "2026-11-22"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ajt.2026.11.007",
+      "menteeId": "andrew-fontanella",
+      "status": "excluded",
+      "reason": "Fontanella AM (transplant nephrology) is a different person",
+      "date": "2026-11-22"
+    },
+    {
+      "url": "https://doi.org/10.21203/rs.3.rs-10673444/v1",
+      "menteeId": "zehor-belkatir",
+      "status": "excluded",
+      "reason": "preprint (Research Square), middle author",
+      "date": "2026-11-22"
+    },
+    {
+      "url": "https://doi.org/10.1016/s0140-6736(26)02095-7",
+      "menteeId": "jiening-zhu",
+      "status": "excluded",
+      "reason": "Zhu J on KEYNOTE-C93 is a different person (affiliation-only match)",
+      "date": "2026-11-22"
+    },
+    {
+      "url": "https://www.mskcc.org/news-releases/msk-awards-and-appointments-october-2026",
+      "menteeId": "corey-weistuch",
+      "status": "excluded",
+      "reason": "no mentee named on the page (checked 2026-11-22)",
+      "date": "2026-11-22"
     }
   ]
 }

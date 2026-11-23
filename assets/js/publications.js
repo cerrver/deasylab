@@ -147,7 +147,6 @@
       : esc(p.title);
 
     var badges = '<span class="badge badge--type">' + esc(TYPE_LABEL[p.type] || p.type || "Publication") + "</span>";
-    if (p.flag) badges += '<span class="badge badge--sample" title="' + esc(p.flag) + '">verify</span>';
 
     var actions = [];
     if (p.url) actions.push('<a class="pill pill--download" href="' + esc(p.url) + '" target="_blank" rel="noopener">' + icon("pdf") + "PDF</a>");

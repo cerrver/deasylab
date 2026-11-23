@@ -90,7 +90,6 @@
       var role = ROLE_LABEL[p.role] || p.role;
       return '<span class="news__person' + (m.isPI ? " news__person--pi" : "") + '"><strong>' + esc(name) + "</strong>" +
         (role ? '<span class="news__role">' + esc(role) + "</span>" : "") +
-        (m.verify ? '<span class="badge badge--sample news__verify" title="' + esc(m.notes || "Roster entry still to be confirmed") + '">to confirm</span>' : "") +
         "</span>";
     });
     return '<span class="news__who news__who--lab"><span class="news__wholabel">From the lab:</span>' + parts.join('<span class="news__sep" aria-hidden="true">·</span>') + "</span>";
@@ -150,7 +149,6 @@
           '<a class="pill" href="' + esc(it.url) + '" target="_blank" rel="noopener">' + icon("external") + (it.type === "paper" ? "Read the paper" : "Read the story") + "</a>" +
           (it.doi ? '<a class="pill" href="https://doi.org/' + esc(it.doi) + '" target="_blank" rel="noopener">DOI</a>' : "") +
           '<span class="news__source">' + esc(host(it.url)) + "</span>" +
-          (it.flag ? '<span class="badge badge--sample" title="' + esc(it.flag) + '">verify</span>' : "") +
         "</div>" +
       "</article>";
     return html;
@@ -280,13 +278,11 @@
         return '<button type="button" class="member' + (m.isPI ? " member--pi" : "") + '" data-filter-person="' + esc(m.id) + '" aria-pressed="false" title="Show this person\'s items">' +
           '<span class="member__name">' + label + "</span><span class=\"member__role\">" + sub + "</span>" +
           '<span class="member__count">' + n + (n === 1 ? " item" : " items") + "</span>" +
-          (m.verify ? '<span class="badge badge--sample" title="' + esc(m.notes || "") + '">to confirm</span>' : "") +
           "</button>";
       }
       return '<div class="member member--none' + (m.isPI ? " member--pi" : "") + '">' +
         '<span class="member__name">' + label + "</span><span class=\"member__role\">" + sub + "</span>" +
         '<span class="member__count">no items yet</span>' +
-        (m.verify ? '<span class="badge badge--sample" title="' + esc(m.notes || "") + '">to confirm</span>' : "") +
         "</div>";
     }).join("");
   }

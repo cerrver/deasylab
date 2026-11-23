@@ -82,7 +82,6 @@
     var pos = m && m.position ? m.position : null;
     var s = '<span class="news__who"><strong>' + esc(it.mentee) + "</strong>";
     if (pos || inst) s += '<span class="news__inst">' + esc([pos, inst].filter(Boolean).join(" · ")) + "</span>";
-    if (m && m.verify) s += '<span class="badge badge--sample news__verify" title="Affiliation from the CV or a secondary source; not yet confirmed on an official page">affiliation to confirm</span>';
     s += "</span>";
     return s;
   }
@@ -141,7 +140,6 @@
           '<a class="pill" href="' + esc(it.url) + '" target="_blank" rel="noopener">' + icon("external") + (it.type === "paper" ? "Read the paper" : "Read the story") + "</a>" +
           (it.doi ? '<a class="pill" href="https://doi.org/' + esc(it.doi) + '" target="_blank" rel="noopener">DOI</a>' : "") +
           '<span class="news__source">' + esc(host(it.url)) + "</span>" +
-          (it.flag ? '<span class="badge badge--sample" title="' + esc(it.flag) + '">verify</span>' : "") +
         "</div>" +
       "</article>";
     return html;
@@ -255,7 +253,7 @@
     var people = (roster.mentees || []).filter(function (m) { return m.include !== false; });
     var groups = [
       { key: "current", label: "Current mentees" },
-      { key: "past", label: "Former mentees" }
+      { key: "past", label: "Lab alumni" }
     ];
     el.innerHTML = groups.map(function (g) {
       var rows = people.filter(function (m) { return m.status === g.key; })
@@ -270,7 +268,6 @@
               '<span class="dir__then">' + esc(m.role) + (m.period ? " · " + esc(m.period) : "") + (m.project ? " · " + esc(m.project) : "") + "</span>" +
             "</div>" +
             '<div class="dir__now">' + (where ? esc(where) : '<span class="dir__unknown">Current institution not on record</span>') +
-              (m.verify ? ' <span class="badge badge--sample" title="Affiliation from the CV or a secondary source; not yet confirmed on an official page">to confirm</span>' : "") +
               (m.institutionSource ? ' <a class="dir__src" href="' + esc(m.institutionSource) + '" target="_blank" rel="noopener" aria-label="Source for current affiliation">source</a>' : "") +
             "</div>" +
           "</li>";
