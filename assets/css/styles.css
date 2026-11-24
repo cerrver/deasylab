@@ -234,6 +234,23 @@ h1, h2, h3, h4 { color: var(--ink); line-height: 1.15; font-weight: 700; }
 /* VALIDATE consortium band on the home page: the logo sits on white instead of the gradient */
 .feature__media--validate { background: #fff; border: 1px solid var(--line); }
 .feature__media--validate img { width: 78%; max-width: 420px; height: auto; }
+/* Discovery told as a dated story (home #psg): media panel stays at the top, steps run down the body */
+.feature--story { align-items: start; grid-template-columns: 5fr 7fr; }
+.feature--story .feature__media { position: sticky; top: 96px; }
+.story { list-style: none; padding: 0; margin: 18px 0 0; border-left: 2px solid var(--line); }
+.story__step { position: relative; display: grid; grid-template-columns: 58px 1fr; gap: 6px; padding: 0 0 22px 22px; }
+.story__step:last-child { padding-bottom: 0; }
+.story__step::before { content: ""; position: absolute; left: -7px; top: 5px; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 3px #fff; }
+.story__year { font-weight: 700; font-size: 14px; color: var(--blue-700); padding-top: 2px; }
+.story h4 { font-size: 17px; margin: 0 0 4px; color: var(--ink); }
+.feature .story p { font-size: 15px; margin-bottom: 6px; }
+.feature .story .ref { font-size: 13px; }
+@media (max-width: 940px) {
+  .feature--story { grid-template-columns: 1fr; }
+  .feature--story .feature__media { position: static; }
+  .story__step { grid-template-columns: 1fr; }
+}
+
 
 /* ---------- highlights ---------- */
 .highlight { background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: var(--radius); padding: 26px; box-shadow: var(--shadow-sm); }
